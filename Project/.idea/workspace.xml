@@ -37,12 +37,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+
+    "last_opened_file_path": "D:/LapTrinhWeb_TinTuyenDung/Project/src/main/webapp/assets/js/vendor"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\js\vendor" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\js" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\css" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\js\vendor" />
+    </key>
+  </component>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +65,9 @@
       <workItem from="1667894559743" duration="2050000" />
       <workItem from="1667922826855" duration="330000" />
       <workItem from="1667928189122" duration="1074000" />
-      <workItem from="1668010422039" duration="6258000" />
+      <workItem from="1668008664710" duration="375000" />
+      <workItem from="1668015122328" duration="2104000" />
+
     </task>
     <servers />
   </component>

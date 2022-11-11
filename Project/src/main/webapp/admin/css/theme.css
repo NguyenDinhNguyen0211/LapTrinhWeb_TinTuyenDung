@@ -1262,10 +1262,10 @@ border-top-left-radius: 3px;
 	width: 150px
 }
 .message .table-message tbody td.cell-time {
-	width: 70px
+	width: 40px
 }
 .message .table-message tbody td.cell-status {
-	width: 100px;
+	width: 140px;
 	text-align: center
 }
 .message .table-message tbody td.cell-status b {

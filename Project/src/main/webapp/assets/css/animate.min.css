@@ -24,7 +24,7 @@
     0%, 20%, 53%, 80%, to {
         -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
         animation-timing-function: cubic-bezier(.215, .61, .355, 1);
-        -webkit-transform: translateZ(0);
+        -webkit-transformform-icon: translateZ(0);
         transform: translateZ(0)
     }
     40%, 43% {

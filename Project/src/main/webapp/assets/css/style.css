@@ -484,6 +484,7 @@ hr {
     margin: 0
 }
 
+
 .border-btn::before {
     border: 1px solid transparent;
     content: "";
@@ -6930,6 +6931,7 @@ form.search-box .search-form a {
 }
 
 .footer-area .footer-form form .form-icon button {
+    width: 30px;
     position: absolute;
     top: 0;
     right: 0;

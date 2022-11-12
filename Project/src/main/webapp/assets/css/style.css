@@ -6930,6 +6930,7 @@ form.search-box .search-form a {
 }
 
 .footer-area .footer-form form .form-icon button {
+    width: 20px;
     position: absolute;
     top: 0;
     right: 0;
@@ -6940,6 +6941,7 @@ form.search-box .search-form a {
     background: #fb246a;
     line-height: 1;
     border-radius: 0 3px 3px 0
+
 }
 
 .footer-area .info.error {

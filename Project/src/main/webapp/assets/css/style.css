@@ -6509,7 +6509,7 @@ form.search-box .search-form a {
     transition: .4s
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
     .single-job-items {
         padding: 20px 7px
     }
@@ -7237,7 +7237,9 @@ form.search-box .search-form a {
 
 .job-category-listing {
     border: 1px solid #ededed;
-    padding: 30px 19px 30px 30px
+    padding: 10px 19px 10px 10px;
+    /*padding: 30px 19px 30px 30px*/
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

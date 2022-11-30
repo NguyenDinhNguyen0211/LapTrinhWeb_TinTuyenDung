@@ -21,7 +21,7 @@
 }
 
 .theme-bg {
-    background: #fb246a
+    background:  #4094f5
 }
 
 .brand-bg {
@@ -41,30 +41,30 @@
 }
 
 .theme-color {
-    color: #fb246a
+    color: #4094f5
 }
 
 .boxed-btn {
     background: #fff;
-    color: #fb246a !important;
+    color:  #4094f5;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Muli", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #fb246a;
+    border: 1px solid  #4094f5;
     letter-spacing: 3px;
     text-align: center;
-    color: #fb246a;
+    color:  #4094f5;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #fb246a;
+    background:  #4094f5;
     color: #fff !important;
-    border: 1px solid #fb246a
+    border: 1px solid  #4094f5
 }
 
 .boxed-btn:focus {
@@ -374,7 +374,7 @@ hr {
 }
 
 .btn {
-    background: #fb246a;
+    background:  #4094f5;
     -moz-user-select: none;
     text-transform: capitalize;
     color: #fff;
@@ -404,7 +404,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #da2461;
+    background:  #4094f5;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -423,8 +423,8 @@ hr {
 
 .head-btn2 {
     background: none;
-    border: 1px solid #fb246a;
-    color: #fb246a
+    border: 1px solid  #4094f5;
+    color:  #4094f5
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -462,8 +462,8 @@ hr {
 }
 
 .border-btn {
-    border: 1px solid #fb246a;
-    color: #fb246a;
+    border: 1px solid  #4094f5;
+    color:  #4094f5;
     font: "Muli", sans-serif;
     background: none;
     -moz-user-select: none;
@@ -484,6 +484,7 @@ hr {
     margin: 0
 }
 
+
 .border-btn::before {
     border: 1px solid transparent;
     content: "";
@@ -492,7 +493,7 @@ hr {
     top: 0;
     width: 120%;
     height: 105%;
-    background: #da2461;
+    background:  #4094f5;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -569,7 +570,7 @@ hr {
 }
 
 #scrollUp {
-    background: #fb246a;
+    background:  #4094f5;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -3993,6 +3994,11 @@ hr {
     transition: all 0.3s
 }
 
+
+.offset-lg-1{
+    margin-left: 0;
+}
+
 .contact-info {
     margin-bottom: 25px
 }
@@ -4007,6 +4013,9 @@ hr {
 }
 
 .contact-info .media-body h3 {
+    width: 150px;
+    margin-left: 0;
+    width: 50px;
     font-size: 16px;
     margin-bottom: 0;
     font-size: 16px;
@@ -5547,7 +5556,7 @@ b, sup, sub, u, del {
 }
 
 .header-area .main-menu ul li:hover > a {
-    color: #fb246a
+    color: #4094f5
 }
 
 .header-area .main-menu ul ul.submenu {
@@ -5558,7 +5567,7 @@ b, sup, sub, u, del {
     top: 120%;
     visibility: hidden;
     opacity: 0;
-    border-top: 5px solid #fb246a;
+    border-top: 5px solid #4094f5;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
     padding: 17px 0;
     -webkit-transition: .3s;
@@ -5581,7 +5590,7 @@ b, sup, sub, u, del {
 }
 
 .header-area .main-menu ul ul.submenu > li > a:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .header-area ul > li:hover > ul.submenu {
@@ -5627,7 +5636,7 @@ b, sup, sub, u, del {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-    background-color: #fb246a !important
+    background-color: #4094f5 !important
 }
 
 .header-sticky.sticky-bar.sticky .header-btn .get-btn {
@@ -5640,7 +5649,7 @@ b, sup, sub, u, del {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #fb246a
+    color: #4094f5
 }
 
 .slicknav_menu {
@@ -5941,7 +5950,7 @@ form.search-box .search-form {
 form.search-box .search-form a {
     width: 100%;
     height: 70px;
-    background: #fb246a;
+    background: #4094f5;
     font-size: 20px;
     line-height: 1;
     text-align: center;
@@ -5985,7 +5994,7 @@ form.search-box .search-form a {
 }
 
 .team-profile .single-profile .single-profile-front .profile-img img:hover {
-    border-bottom: 7px solid #fb246a;
+    border-bottom: 7px solid #4094f5;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -6006,11 +6015,11 @@ form.search-box .search-form a {
 }
 
 .team-profile .single-profile .single-profile-front .profile-caption h4 a:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .team-profile .single-profile .single-profile-back {
-    border: 4px solid #fb246a;
+    border: 4px solid #4094f5;
     padding: 31px 32px 48px 52px;
     background: #fff;
     overflow: hidden;
@@ -6056,7 +6065,7 @@ form.search-box .search-form a {
     position: absolute;
     width: 100px;
     height: 4px;
-    background: #fb246a;
+    background: #4094f5;
     left: 0;
     bottom: 0
 }
@@ -6070,7 +6079,7 @@ form.search-box .search-form a {
 }
 
 .team-profile .single-profile .single-profile-back a:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .team-profile .single-profile .single-profile-front-last {
@@ -6097,7 +6106,7 @@ form.search-box .search-form a {
 }
 
 .team-profile .single-profile .single-profile-front-last .profile-img img:hover {
-    border-bottom: 7px solid #fb246a;
+    border-bottom: 7px solid #4094f5;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -6118,11 +6127,11 @@ form.search-box .search-form a {
 }
 
 .team-profile .single-profile .single-profile-front-last .profile-caption h4 a:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .team-profile .single-profile .single-profile-back-last {
-    border: 4px solid #fb246a;
+    border: 4px solid #4094f5;
     padding: 31px 32px 48px 52px;
     background: #fff;
     overflow: hidden;
@@ -6162,7 +6171,7 @@ form.search-box .search-form a {
     position: absolute;
     width: 100px;
     height: 4px;
-    background: #fb246a;
+    background: #4094f5;
     left: 0;
     bottom: 0
 }
@@ -6182,7 +6191,7 @@ form.search-box .search-form a {
 }
 
 .team-profile .single-profile .single-profile-back-last a:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .single-profile:hover .single-profile-front {
@@ -6232,7 +6241,7 @@ form.search-box .search-form a {
 }
 
 .our-services .single-services .services-cap span {
-    color: #fb246a;
+    color: #4094f5;
     font-size: 18px
 }
 
@@ -6241,11 +6250,11 @@ form.search-box .search-form a {
 }
 
 .our-services .single-services:hover .services-ion span {
-    color: #fb246a
+    color: #4094f5
 }
 
 .our-services .single-services:hover .services-cap h5 a {
-    color: #fb246a
+    color: #4094f5
 }
 
 @media (max-width: 767px) {
@@ -6508,7 +6517,7 @@ form.search-box .search-form a {
     transition: .4s
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
     .single-job-items {
         padding: 20px 7px
     }
@@ -6788,7 +6797,7 @@ form.search-box .search-form a {
     color: #fff;
     opacity: 0;
     visibility: hidden;
-    background: #fb246a
+    background: #4094f5
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -6848,7 +6857,7 @@ form.search-box .search-form a {
 }
 
 .footer-area .footer-social2 a:hover {
-    background: #fb246a;
+    background: #4094f5;
     color: #7f7f7f;
     border: 1px solid transparent
 }
@@ -6890,7 +6899,7 @@ form.search-box .search-form a {
 }
 
 .footer-area .footer-tittle ul li a:hover {
-    color: #fb246a;
+    color: #4094f5;
     padding-left: 5px
 }
 
@@ -6930,6 +6939,7 @@ form.search-box .search-form a {
 }
 
 .footer-area .footer-form form .form-icon button {
+    width: 10px;
     position: absolute;
     top: 0;
     right: 0;
@@ -6937,13 +6947,14 @@ form.search-box .search-form a {
     border: 0;
     cursor: pointer;
     padding: 13px 22px;
-    background: #fb246a;
+    background: #4094f5;
     line-height: 1;
     border-radius: 0 3px 3px 0
+
 }
 
 .footer-area .info.error {
-    color: #fb246a
+    color: #4094f5
 }
 
 .footer-bg {
@@ -6976,11 +6987,11 @@ form.search-box .search-form a {
 }
 
 .footer-bottom-area .footer-copy-right p i {
-    color: #fb246a
+    color: #4094f5
 }
 
 .footer-bottom-area .footer-copy-right p a {
-    color: #fb246a
+    color: #4094f5
 }
 
 .footer-bottom-area .footer-copy-right p a:hover {
@@ -7010,7 +7021,7 @@ form.search-box .search-form a {
 }
 
 .footer-bottom-area .footer-social a i:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .footer-wejed {
@@ -7061,7 +7072,7 @@ form.search-box .search-form a {
     content: "";
     width: 75px;
     height: 3px;
-    background: #fb246a;
+    background: #4094f5;
     left: 0;
     top: 52%;
     transform: translateY(-50%)
@@ -7234,7 +7245,9 @@ form.search-box .search-form a {
 
 .job-category-listing {
     border: 1px solid #ededed;
-    padding: 30px 19px 30px 30px
+    padding: 10px 19px 10px 10px;
+    /*padding: 30px 19px 30px 30px*/
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7385,10 +7398,10 @@ form.search-box .search-form a {
 .irs-bar {
     height: 6px;
     top: 33px;
-    border-top: 1px solid #ff3368;
-    border-bottom: 1px solid #ff3368;
-    background: #ff3368;
-    background: linear-gradient(to top, #ff3368 0%, #ff3368 100%)
+    border-top: 1px solid #4094f5;
+    border-bottom: 1px solid #4094f5;
+    background: #4094f5;
+    background: linear-gradient(to top, #4094f5 0%, #4094f5 100%)
 }
 
 .irs-line {
@@ -7403,9 +7416,9 @@ form.search-box .search-form a {
 .irs-slider {
     height: 15px;
     width: 15px;
-    border: 1px solid #ff3368;
-    background-color: #ff3368;
-    background: linear-gradient(to bottom, #ff3368 0%, #ff3368 20%, #ff3368 100%);
+    border: 1px solid #4094f5;
+    background-color: #4094f5;
+    background: linear-gradient(to bottom, #4094f5 0%, #1e96f8 20%, #1e96f8 100%);
     top: 28px;
     box-shadow: none;
     border-radius: 0
@@ -7485,7 +7498,7 @@ form.search-box .search-form a {
 }
 
 .pagination-area .page-link:hover {
-    color: #fb246a
+    color: #4094f5
 }
 
 .pagination-area .page-item.active .page-link {

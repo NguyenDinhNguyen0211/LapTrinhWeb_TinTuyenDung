@@ -231,7 +231,7 @@ h6 {
 }
 
 .bg-red {
-  background: #fa4251;
+  background:  #4094f5;
 }
 
 .bg-dark {
@@ -247,11 +247,11 @@ h6 {
 }
 
 .bg-gra-02 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background: -webkit-gradient(linear, left bottom, right top, from(#4094f5), to(#6c4079));
+  background: -webkit-linear-gradient(bottom left, #4094f5 0%, #6c4079 100%);
+  background: -moz-linear-gradient(bottom left, #4094f5 0%, #6c4079 100%);
+  background: -o-linear-gradient(bottom left, #4094f5 0%, #6c4079 100%);
+  background: linear-gradient(to top right, #4094f5 0%, #6c4079 100%);
 }
 
 .bg-gra-03 {
@@ -347,7 +347,7 @@ h6 {
 /* ==========================================================================
    #BUTTON
    ========================================================================== */
-.btn {
+.button {
   display: inline-block;
   line-height: 50px;
   padding: 0 30px;
@@ -359,57 +359,56 @@ h6 {
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 700;
-  color: #fff;
   font-family: inherit;
 }
 
-.btn--radius {
+.button--radius {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-.btn--radius-2 {
+.button--radius-2 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
-.btn--pill {
+.button--pill {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
 
-.btn--green {
+.button--green {
   background: #57b846;
 }
 
-.btn--green:hover {
+.button--green:hover {
   background: #4dae3c;
 }
 
-.btn--blue {
+.button--blue {
   background: #4272d7;
 }
 
-.btn--blue:hover {
+.button--blue:hover {
   background: #3868cd;
 }
 
-.btn--blue-2 {
+.button--blue-2 {
   background: #2c6ed5;
 }
 
-.btn--blue-2:hover {
+.button--blue-2:hover {
   background: #185ac1;
 }
 
-.btn--red {
+.button--red {
   background: #ff4b5a;
 }
 
-.btn--red:hover {
+.button--red:hover {
   background: #eb3746;
 }
 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="" />
+=======
+    <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LapTrinhWeb_TinTuyenDung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LapTrinhWeb_TinTuyenDung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> d68100223edff4860d732f947d057d60d4edf97f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +33,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;F:/LapTrinhWeb_TinTuyenDung/Project&quot;
+=======
+    &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+>>>>>>> d68100223edff4860d732f947d057d60d4edf97f
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,7 +53,12 @@
       <option name="presentableId" value="Default" />
       <updated>1669537383429</updated>
       <workItem from="1669537385184" duration="25000" />
+<<<<<<< HEAD
       <workItem from="1669869792036" duration="7087000" />
+=======
+      <workItem from="1669770553417" duration="9965000" />
+      <workItem from="1669862952087" duration="6067000" />
+>>>>>>> d68100223edff4860d732f947d057d60d4edf97f
     </task>
     <servers />
   </component>

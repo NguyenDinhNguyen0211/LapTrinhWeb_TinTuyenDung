@@ -18,6 +18,15 @@
 a{
     text-decoration: none;
 }
+.left{
+    float: left;
+    text-align: center;
+}
+.right{
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+}
 .div_left{
 
     width: 300px;

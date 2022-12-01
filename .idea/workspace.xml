@@ -7,11 +7,15 @@
 <<<<<<< HEAD
     <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="" />
 =======
+<<<<<<< HEAD
+    <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="" />
+=======
     <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/LapTrinhWeb_TinTuyenDung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LapTrinhWeb_TinTuyenDung.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
 >>>>>>> d68100223edff4860d732f947d057d60d4edf97f
+>>>>>>> 90958f425175e768ac96b4f5a84ffeb5b6436156
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +38,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
 <<<<<<< HEAD
+    &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung/Project/src/main/webapp/user&quot;,
+=======
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;F:/LapTrinhWeb_TinTuyenDung/Project&quot;
 =======
     &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung&quot;,
+>>>>>>> 90958f425175e768ac96b4f5a84ffeb5b6436156
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -44,6 +52,11 @@
 >>>>>>> d68100223edff4860d732f947d057d60d4edf97f
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\user" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,8 +70,12 @@
       <workItem from="1669869792036" duration="7087000" />
 =======
       <workItem from="1669770553417" duration="9965000" />
+<<<<<<< HEAD
+      <workItem from="1669862952087" duration="17008000" />
+=======
       <workItem from="1669862952087" duration="6067000" />
 >>>>>>> d68100223edff4860d732f947d057d60d4edf97f
+>>>>>>> 90958f425175e768ac96b4f5a84ffeb5b6436156
     </task>
     <servers />
   </component>

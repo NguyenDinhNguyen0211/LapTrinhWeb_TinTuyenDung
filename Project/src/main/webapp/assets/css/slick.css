@@ -117,3 +117,100 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+
+.company .company-header {
+    padding: 50px 0;
+
+}
+.company .company-header .title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.company.container{
+    max-width: 1140px;
+}
+.company .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-top: calc(var(--bs-gutter-y)*-1);
+}
+.company .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.company .box-company {
+    background: #fff 0 0 no-repeat padding-box;
+    border-radius: 5px;
+    box-shadow: -1px 1px 4px rgb(0 0 0 / 5%);
+    height: 500px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.company .box-company .company-banner {
+    height: 180px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.company a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.company .box-company .company-banner .cover-wraper {
+    height: 150px;
+}
+.company .box-company .company-banner .cover-wraper img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+.company .box-company .company-banner .company-logo {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    bottom: 0;
+    height: 64px;
+    left: 16px;
+    position: absolute;
+    width: 64px;
+}
+.company .box-company .company-banner .company-logo a {
+    height: 100%;
+}
+.company .img-fluid, .company .img-thumbnail {
+    height: auto;
+    max-width: 100%;
+}
+.company .box-company .company-info {
+    padding: 0 16px;
+}
+.company .box-company .company-info h3 {
+    line-height: 10px;
+    margin-bottom: 0;
+}
+.company .box-company .company-info .company-name {
+    color: #333;
+    font: normal normal 700 14px/20px Roboto;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.company .box-company .company-info .company-description {
+    color: #555;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding-top: 16px;
+}
+.company p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}

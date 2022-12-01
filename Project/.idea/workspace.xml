@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c76f960e-8fac-4dd6-a254-1b16cea44c03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user/Đăng ký.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/fonts/flaticon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/flaticon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Danh sách việc làm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Liên hệ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Quên mật khẩu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Thông tin việc làm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Tin tức chi tiết.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Tin tức.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Trang chủ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Về chúng tôi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Đăng nhập .html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user/Đăng nhập .html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Đăng tuyển.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/Ứng tuyển.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user/Đăng nhập.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HDGWsWSvUK2jODKXfUbZcZhREe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung/Project/src/main/webapp/assets/js/vendor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\js\vendor" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\js" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\css" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\user" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\assets\js\vendor" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c76f960e-8fac-4dd6-a254-1b16cea44c03" name="Changes" comment="" />
+      <created>1667812277832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667812277832</updated>
+      <workItem from="1667812279479" duration="11533000" />
+      <workItem from="1667894559743" duration="2050000" />
+      <workItem from="1667922826855" duration="330000" />
+      <workItem from="1667928189122" duration="1074000" />
+      <workItem from="1668008664710" duration="375000" />
+      <workItem from="1668015122328" duration="2104000" />
+      <workItem from="1668069854247" duration="287000" />
+      <workItem from="1668070197527" duration="447000" />
+      <workItem from="1668081218429" duration="86000" />
+      <workItem from="1668090293577" duration="547000" />
+      <workItem from="1668171898625" duration="2548000" />
+      <workItem from="1668188927125" duration="784000" />
+      <workItem from="1668224108699" duration="625000" />
+      <workItem from="1668227852158" duration="5825000" />
+      <workItem from="1668233866267" duration="11803000" />
+      <workItem from="1668271941988" duration="425000" />
+      <workItem from="1668272440067" duration="476000" />
+      <workItem from="1668273017583" duration="121000" />
+      <workItem from="1668308466390" duration="3659000" />
+      <workItem from="1668350320062" duration="3630000" />
+      <workItem from="1668355416385" duration="701000" />
+      <workItem from="1669468523599" duration="7296000" />
+      <workItem from="1669517999474" duration="1112000" />
+      <workItem from="1669773462438" duration="8044000" />
+      <workItem from="1669867166622" duration="10998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

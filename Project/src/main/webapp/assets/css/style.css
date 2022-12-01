@@ -2439,6 +2439,7 @@ hr {
     color: #28395a;
     font-size: 18px;
     font-weight: 600;
+    font-weight: bold;
     line-height: 1.2;
     margin-bottom: 20px
 }
@@ -7525,7 +7526,7 @@ form.search-box .search-form a {
 
 }
 .text-highlight{
-    color: green;
+    color: #001e80;
 }
 .fa-angle-right:before{
     content: ">";
@@ -7566,6 +7567,7 @@ form.search-box .search-form a {
 }
 #tab-company .active a {
     color: #333;
+    font-weight: bold;
 
 }
 

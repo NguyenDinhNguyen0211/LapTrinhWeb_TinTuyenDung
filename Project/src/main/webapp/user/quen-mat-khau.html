@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Yinka Enoch Adedokun">
-    <meta name="description" content="Simple Forgot Password Page Using HTML and CSS">
-    <meta name="keywords" content="forgot password page, basic html and css">
-
     <title>Quên mật khẩu</title>
-    <link rel="stylesheet" href="../assets/css/forgot.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
 </head>
 <body>
-<div class="row">
-    <h1>Quên mật khẩu</h1>
-    <h6 class="information-text">Nhập email đã đăng ký để đặt lại mật khẩu của bạn.</h6>
-    <div class="form-group">
-        <input type="email" name="user_email" id="user_email" placeholder="example@gmail.com">
-        <p><label for="username">Email</label></p>
-        <button onclick="showSpinner()">Lấy mật khẩu</button>
+
+<section>
+    <div class="img-bg">
+        <img src="../assets/img/logn%20in/img.png" alt="">
     </div>
-    <div class="footer">
-        <h5><a href="dang-nhap.html">Đăng nhập</a></h5>
+
+    <div class="noi-dung">
+        <!-- Logo -->
+        <div class="logo-log">
+            <a href="../html/Trang%20chủ.html"><img src="../assets/img/logo/logo.png" alt=""></a>
+        </div>
+        <div class="form">
+            <h2>Quên mật khẩu </h2>
+            <form action="">
+                <div class="input-form">
+                    <span>Email</span>
+                    <input id="pass" type="password" class="input" data-type="password" placeholder="Nhập email của bạn">
+                </div>
+                <div class="input-form">
+                    <p>Bằng việc thực hiện đổi mật khẩu, bạn đã đồng ý với <a>Điều khoản dịch vụ</a> và <a>Chính sách bảo mật</a> của chúng tôi</p
+                </div>
+                <div class="mt-3 d-flex justify-content-between option-auth">
+                    <div>
+                        <a class="text-success font-weight-bold" >Quay lại đăng nhập</a>
+                    </div>
+                    <a class="text-success font-weight-bold" >Đăng ký tài khoản mới</a>
+                </div>
+
+            </form>
+        </div>
     </div>
-</div>
+</section>
 </body>
 </html>

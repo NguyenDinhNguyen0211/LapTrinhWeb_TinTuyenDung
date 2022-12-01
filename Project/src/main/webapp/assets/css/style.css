@@ -7514,3 +7514,31 @@ form.search-box .search-form a {
 .tittle {
     color: yellow;
 }
+
+
+
+
+.ctn-breadcrumb-detail{
+    margin-top: 70px;
+    margin-left: 70px;
+    padding: 16px;
+}
+.text-highlight{
+    color: brown;
+}
+.fa-angle-right:before{
+    content: ">";
+}
+:before{
+    box-sizing: border-box;
+}
+.fa-angle-right{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.text-dark-blue{
+    margin: 0;
+    padding: 0;
+}
+
+

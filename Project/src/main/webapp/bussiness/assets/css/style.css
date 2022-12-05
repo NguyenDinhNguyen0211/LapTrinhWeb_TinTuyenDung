@@ -1,0 +1,19 @@
+.col-blue{
+    color: #0dcaf0;
+}
+.bg-none{
+    background: none;
+}
+.col-white{
+    color: white;
+}
+.bg-blue{
+    background: #0dcaf0;
+}
+.bold{
+    font-weight: bold;
+}
+.btn{
+    margin: 5px 5px;
+    cursor: pointer;
+}

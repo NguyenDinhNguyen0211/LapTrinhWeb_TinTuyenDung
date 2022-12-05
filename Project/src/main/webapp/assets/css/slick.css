@@ -353,6 +353,8 @@ p {
     margin-right: 16px;
     object-fit: contain;
     width: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #history-apply .suggestion-jobs .company-info {
     width: 60%;
@@ -438,11 +440,16 @@ img {
     content: "\f1f8";
 }
 #history-apply .action-job {
-    margin-left: auto;
     text-align: right;
 }
 #history-apply .suggestion-jobs .item-job.bg-highlight {
     background-color: #f2fbf6;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+#history-apply .suggestion-jobs .action-job p{
+    margin-top: 20px;
+    padding-left: 30px;
 }
 
 

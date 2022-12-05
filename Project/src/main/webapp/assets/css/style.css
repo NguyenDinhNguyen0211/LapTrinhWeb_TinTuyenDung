@@ -392,10 +392,6 @@ hr {
     overflow: hidden;
     margin: 0
 }
-.btn--1 {
-    background:  #0c5460;
-    color: #fff;
-}
 
 .btn::before {
     content: "";
@@ -414,23 +410,7 @@ hr {
     transform: scaleX(0);
     border-radius: 0
 }
-.btn--1::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 101%;
-    height: 101%;
-    background:  #4cd3e3 !important;
-    z-index: 1;
-    border-radius: 5px;
-    transition: transform 0.5s;
-    transition-timing-function: ease;
-    transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-    transform: scaleX(0);
-    border-radius: 0
-}
+
 .btn:hover::before {
     transform: scaleX(1);
     color: #fff !important;
@@ -458,12 +438,18 @@ hr {
 }
 
 .head-btn1 {
+    background: #0b2e13;
     margin-right: 5px
 }
-
+.head-btn1::before {
+    background: none;
+}
+.head-btn1:hover {
+    color: #08f1e9;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .head-btn1 {
-        padding: 27px 27px
+        padding: 10px 10px
     }
 }
 
@@ -5539,7 +5525,8 @@ b, sup, sub, u, del {
 .header-area .menu-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    width: 1100px
 }
 
 .header-area .main-menu ul li {

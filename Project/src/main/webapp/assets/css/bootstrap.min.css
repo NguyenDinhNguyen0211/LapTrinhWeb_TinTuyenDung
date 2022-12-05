@@ -521,25 +521,25 @@ pre code {
     margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1500px) {
     .container {
-        max-width: 540px
+        max-width: 1480px
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1500px) {
     .container {
-        max-width: 720px
+        max-width: 1480px
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1500px) {
     .container {
-        max-width: 960px
+        max-width: 1480px
     }
 }
 
-@media (min-width: 1480px) {
+@media (min-width: 1500px) {
     .container {
         max-width: 1480px
     }
@@ -1238,7 +1238,7 @@ pre code {
         max-width: 16.666667%
     }
     .padding-left{
-        padding-left: 10%;
+        padding-left: 5%;
     }
     .col-lg-3 {
         -ms-flex: 0 0 25%;

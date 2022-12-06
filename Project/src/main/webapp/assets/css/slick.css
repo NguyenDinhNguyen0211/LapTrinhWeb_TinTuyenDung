@@ -452,7 +452,10 @@ img {
     padding-left: 30px;
 }
 
-
+.flex{
+    display: flex;
+    text-align: left;
+}
 
 
 #history-apply .box-white {
@@ -764,3 +767,90 @@ strong {
     flex: 0 0 auto;
     width: 66.66666667%;
 }
+
+
+
+/*Việc làm đã lưu*/
+#box-save-job {
+    margin-top: 24px;
+}
+.col-md-9 {
+    float: left;
+}
+.box-white {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 6px rgb(0 0 0 / 5%);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#box-save-job .banner {
+    background: #00b14f;
+    border-radius: 5px 5px 0 0;
+    box-shadow: -1px 1px 6px rgb(0 0 0 / 5%);
+    padding: 32px 16px;
+}
+#box-save-job .banner .title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 0 8px;
+}
+#box-save-job .banner .description {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: 85%;
+}
+#box-save-job .empty {
+    padding: 26px 0 32px;
+    text-align: center;
+}
+#box-save-job .empty p {
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+#box-save-job .empty .btn-seatch-job {
+    background: #00b14f;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 9px 20px;
+}
+#box-save-job .right-box {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    overflow: visible;
+}
+#box-save-job .right-box .interested {
+    display: block;
+    position: sticky;
+    top: 85px;
+    width: 100%;
+}
+#box-save-job #company-spotlight {
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+#box-save-job #company-spotlight .title-spotlight {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    padding: 10px 16px 0;
+    text-align: left;
+    text-transform: inherit;
+}
+#box-save-job #company-spotlight .spotlight-company {
+    background: #fff 0 0 no-repeat padding-box;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+
+

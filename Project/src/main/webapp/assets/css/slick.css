@@ -852,5 +852,20 @@ strong {
     padding-bottom: 20px;
 }
 
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+.box-white1{
+    width: 850px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.flex1{
 
+}
 

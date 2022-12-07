@@ -25,7 +25,7 @@ body {
 }
 .register-header-box .overlay[data-v-9281c350] {
     position: absolute;
-    background: #b3d4fc;
+    background: #2b84f6;
     width: 100%;
     height: 100%;
     left: 0;
@@ -96,6 +96,7 @@ h2 {
 }
 .content-container .policy-box .register-policy[data-v-9281c350] {
     padding: 0 3.42rem;
+
 }
 .text-danger {
     color: #de4637!important;
@@ -142,6 +143,13 @@ h2 {
     margin: 5px 0 10px;
     font-size: 16px;
 }
+.flex{
+    display: flex;
+}
+.w20{
+    width: 20%;
+}
+
 .content-container .register-form .form-group[data-v-9281c350] {
     flex-direction: column;
 }
@@ -196,9 +204,7 @@ input[data-v-8c64d55c] {
 .content-container .register-form .form-group[data-v-9281c350] {
     flex-direction: column;
 }
-.form-group {
-    margin-bottom: 1rem;
-}
+
 .content-container .register-form .form-group[data-v-9281c350] {
     display: flex;
 }
@@ -230,13 +236,11 @@ label {
 }
 .mt-4 {
     margin-top: 1.6188rem!important;
+
 }
 
 .mb-0 {
     margin-bottom: 0!important;
-}
-.btn:not(:disabled):not(.disabled) {
-     cursor: pointer;
 }
 
 
@@ -252,8 +256,7 @@ label {
 .min-width.btn {
     min-width: 100px;
     font-size: 16px;
-    margin-right: 200px;
-    margin-left: 200px;
+
 
 
 }
@@ -268,7 +271,7 @@ label {
 .multiselect__tags {
     min-height: 33.5px;
     height: auto;
-    display: block;
+    display: flex;
     padding: 0.425rem 40px 0 0.375rem;
     border-radius: 5px;
     border: 1px solid #f1f3f4;
@@ -310,4 +313,141 @@ label {
     border: 1px solid #f1f3f4;
     background: #fff;
     font-size: 13px;
+}
+.content-container .policy-box .register-policy[data-v-9281c350] {
+    padding: 0 3.42rem;
+}
+.content-container .policy-box .show[data-v-9281c350] {
+    display: block!important;
+}
+.multiselect__select {
+    z-index: 11;
+
+}
+
+
+/* t*/
+.content-container .register-form .form-group[data-v-9281c350] {
+    display: flex;
+}
+ .form-group {
+     margin-bottom: 1rem;
+ }
+.content-container .register-form .col-form-label[data-v-9281c350] {
+    width: 25%;
+    float: left;
+}
+
+ .text-dark {
+     color: #343a40!important;
+ }
+
+ .col-form-label {
+     padding-top: calc(0.375rem + 1px);
+     padding-bottom: calc(0.375rem + 1px);
+     margin-bottom: 0;
+     font-size: inherit;
+     line-height: 1.5;
+ }
+.multiselect, .multiselect__input, .multiselect__single {
+    font-family: inherit;
+    font-size: 1rem;
+    touch-action: manipulation;
+}
+
+ .multiselect {
+     box-sizing: content-box;
+     display: block;
+     position: relative;
+     width: 100%;
+     min-height: auto;
+     text-align: left;
+     color: #35495e;
+ }
+
+ .multiselect {
+     min-height: 40px;
+ }
+
+ .multiselect, .multiselect__input, .multiselect__single {
+     font-size: 16px;
+ }
+.position-relative {
+    position: relative!important;
+}
+ label {
+     display: inline-block;
+     margin-bottom: 0.5rem;
+ }
+.content-container .register-form .col-form-input[data-v-9281c350] {
+    width: 75%;
+    float: left;
+}
+.multiselect__select {
+    height: 34px!important;
+    top: 0;
+}
+
+ .multiselect__select {
+     z-index: 11;
+     height: 100%;
+ }
+
+ .multiselect * {
+     box-sizing: border-box;
+ }
+
+ .combobox {
+     position: absolute;
+     width: 150px;
+     height: 38px;
+     right: 1px;
+     top: 1px;
+     padding: 4px 8px;
+     text-align: center;
+     transition: transform .2s ease;
+ }
+
+ .multiselect__current, .multiselect__select {
+     line-height: 16px;
+     box-sizing: border-box;
+     display: block;
+     margin: 0;
+     text-decoration: none;
+     cursor: pointer;
+ }
+.multiselect__tags {
+    min-height: 33.5px;
+    height: auto;
+    display: block;
+    padding: 0.425rem 40px 0 0.375rem;
+    border-radius: 5px;
+    border: 1px solid #f1f3f4;
+    background: #fff;
+    font-size: 13px;
+}
+
+ .multiselect * {
+     box-sizing: border-box;
+ }
+
+ .multiselect__tags {
+     min-height: 40px;
+     padding: 8px 40px 0 8px;
+     border: 1px solid #e8e8e8;
+     font-size: 16px;
+ }
+.combobox{
+    height: 40px;
+
+}
+.row{
+    line-height: 10px;
+}
+p{
+    line-height: 10px;
+}
+.btn-secondary{
+    background: #ecbeb6;
+
 }

@@ -962,10 +962,12 @@
     content: "\f0f4"
 }
 
+.fa-envelope-o:before {
+    content: "\f003"
+}
 .fa-cog:before {
     content: "\f013"
 }
-
 .fa-cogs:before {
     content: "\f085"
 }

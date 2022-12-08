@@ -5007,7 +5007,6 @@ fieldset:disabled .btn {
   .navbar-expand-xl .navbar-nav-scroll {
     overflow: visible;
   }
-
   .navbar-expand-xl .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
@@ -9625,6 +9624,23 @@ fieldset:disabled .btn {
 .ms-auto {
   margin-left: auto !important;
 }
+.ms-auto1{
+  width: 300px;
+  margin-left: 200px;
+  position: absolute;
+  top: 175px;
+  color: #344767;
+}
+/*.ms-auto1 .fa-trash-alt {*/
+/* colo: #344767;*/
+/*}*/
+
+.fa-pencil-alt1:before {
+  content: "\f023";
+}
+
+
+
 
 .m-n1 {
   margin: -0.25rem !important;
@@ -22466,6 +22482,7 @@ hr.horizontal.gray-light {
 
   .navbar-collapse .navbar-nav {
     width: 100%;
+    margin-left: 00px;
   }
 
   .navbar-collapse .navbar-nav .nav-item.dropdown {

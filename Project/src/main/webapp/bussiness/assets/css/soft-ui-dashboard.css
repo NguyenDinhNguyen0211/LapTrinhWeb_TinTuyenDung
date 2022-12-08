@@ -21168,7 +21168,7 @@ fieldset:disabled .btn {
   }
 
   .dropdown:not(.dropdown-hover) .dropdown-menu {
-    margin-top: 8px !important;
+    margin-top: 0px !important;
   }
 
   .dropdown .dropdown-menu:before {

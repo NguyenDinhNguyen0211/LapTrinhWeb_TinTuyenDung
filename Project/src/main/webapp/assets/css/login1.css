@@ -76,7 +76,9 @@ h2 {
     margin-top: 25px;
 }
 .content-container .policy-box .policy-expand-btn[data-v-9281c350] {
-    padding: 1.14rem 3.42rem;
+    /*padding: 1rem 3.42rem;*/
+    padding-top: 1rem;
+    padding-left: 3.42rem;
 }
 .text-dark {
     color: #343a40!important;
@@ -228,7 +230,7 @@ label {
 }
 .action-container[data-v-9281c350] {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .text-center {
@@ -250,7 +252,8 @@ label {
 .btn-lg {
     padding: 0.6rem 1rem;
     border-radius: 0.214rem;
-
+    border: none;
+    margin: 5px;
 }
 
 .min-width.btn {

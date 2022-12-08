@@ -3,6 +3,7 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/dashboard.html" value="file://$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages" />
         <entry key="file://$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/tables.html" value="file://$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages" />
         <entry key="file://$PROJECT_DIR$/Project/src/main/webapp/user/tin-tuc.html" value="file://$PROJECT_DIR$/Project/src/main/webapp/user" />
       </map>

@@ -5599,6 +5599,7 @@ button.close {
 
     .form-horizontal .controls {
         margin-left: 0;
+        width: 760px;
     }
 
     .form-horizontal .control-list {

@@ -3,8 +3,8 @@
     padding: 20px 20px 80px;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
+.container, .container-fluid1, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 95%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -60,7 +60,7 @@
      border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
  }
 
- .font-weight-bold {
+ .font-weight-bold1 {
      font-weight: 500!important;
  }
 
@@ -148,7 +148,7 @@ element.style {
      margin-top: 0.57rem!important;
  }
 
- .d-none {
+ .d-none1 {
      display: none!important;
  }
 

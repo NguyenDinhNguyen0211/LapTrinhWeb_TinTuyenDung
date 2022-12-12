@@ -2,9 +2,26 @@
     border-radius: 20px;
 }
 
- .border-0 {
-     border: 0!important;
- }
+.border-0 {
+    border: 0!important;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
 
  .modal-content {
      position: relative;
@@ -109,10 +126,7 @@
  .w-100 {
      width: 100%!important;
  }
-.col-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
+
 .justify-content-center {
     justify-content: center!important;
 }
@@ -125,15 +139,17 @@
 }
 img {
     vertical-align: middle;
+
 }
 
  img {
      border-style: none;
  }
 .col-6 {
-    flex: 0 0 50%;
+    flex:  0 0 50%;
     max-width: 50%;
     height: 100%;
+    margin-top: 20px;
 }
 div {
     display: block;

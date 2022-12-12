@@ -24569,6 +24569,9 @@ hr.horizontal.gray-light {
 .table tbody tr:last-child td {
   border-width: 0;
 }
+.bg-gray {
+  background: lightgrey
+}
 
 .table> :not(:last-child)> :last-child>* {
   border-bottom-color: #e9ecef;

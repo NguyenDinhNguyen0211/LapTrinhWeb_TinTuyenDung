@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="" />
-=======
-<<<<<<< HEAD
-    <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="" />
-=======
-    <list default="true" id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LapTrinhWeb_TinTuyenDung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LapTrinhWeb_TinTuyenDung.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="64920bfe-5c4e-4025-ae96-7bbd809000ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/chinh-sua-tin-tuyen-dung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/chinh-sua-tin-tuyen-dung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/dang-tin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/dang-tin.html" afterDir="false" />
     </list>
->>>>>>> d68100223edff4860d732f947d057d60d4edf97f
->>>>>>> 90958f425175e768ac96b4f5a84ffeb5b6436156
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +21,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2I7f8ZwqTYwF57RYu0c6jBzrdqH" />
+  <component name="ProjectId" id="2Iqb9etnOyt0Q6KwlelfcDBEmIB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,60 +32,31 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-<<<<<<< HEAD
-    &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung/Project/src/main/webapp/user&quot;,
-=======
-<<<<<<< HEAD
-    &quot;last_opened_file_path&quot;: &quot;F:/LapTrinhWeb_TinTuyenDung/Project&quot;
-=======
-    &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung&quot;,
->>>>>>> 90958f425175e768ac96b4f5a84ffeb5b6436156
+    &quot;last_opened_file_path&quot;: &quot;D:/LapTrinhWeb_TinTuyenDung/Project/src/main/webapp/bussiness/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
->>>>>>> d68100223edff4860d732f947d057d60d4edf97f
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\user" />
+      <recent name="D:\LapTrinhWeb_TinTuyenDung\Project\src\main\webapp\bussiness\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c81271b3-ba49-44fa-99a6-5f1bafc0f2a2" name="Changes" comment="" />
-      <created>1669537383429</created>
+      <changelist id="64920bfe-5c4e-4025-ae96-7bbd809000ba" name="Changes" comment="" />
+      <created>1670911927942</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669537383429</updated>
-      <workItem from="1669537385184" duration="25000" />
-<<<<<<< HEAD
-      <workItem from="1669869792036" duration="7087000" />
-=======
-      <workItem from="1669770553417" duration="9965000" />
-<<<<<<< HEAD
-      <workItem from="1669862952087" duration="17008000" />
-=======
-      <workItem from="1669862952087" duration="6067000" />
->>>>>>> d68100223edff4860d732f947d057d60d4edf97f
->>>>>>> 90958f425175e768ac96b4f5a84ffeb5b6436156
+      <updated>1670911927942</updated>
+      <workItem from="1670911940291" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

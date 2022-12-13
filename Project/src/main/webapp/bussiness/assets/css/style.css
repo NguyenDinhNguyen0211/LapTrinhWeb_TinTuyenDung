@@ -398,7 +398,7 @@ body {
     margin-left: -20px;
 }
 .checkbox.inline + .checkbox.inline {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .form-horizontal textarea{
     display: inline-block;

@@ -5415,6 +5415,7 @@ button.close {
     transition: height 0.35s ease;
 }
 
+
 .collapse.in {
     height: auto;
 }

@@ -1113,6 +1113,9 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .widget-menu > li > a .icon-chevron-down {
     display: none
 }
+.widget-menu > li > a .icon-chevron-down {
+    display: none
+}
 
 .widget-menu > li > a.collapsed .icon-chevron-up {
     display: none

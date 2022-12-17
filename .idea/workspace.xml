@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64920bfe-5c4e-4025-ae96-7bbd809000ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/chinh-sua-tin-tuyen-dung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/chinh-sua-tin-tuyen-dung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/dang-tin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/dang-tin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/baocao-thongke.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/chinh-sua-lien-he.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/scripts/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/css/gio-hang.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/img/theme/friend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/gio-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/css/thanh-toan.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/assets/css/thanh-toan.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/dang-tuyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/dang-tuyen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/danh-sach-nguoi-dung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/quan-ly-nguoi-dung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/danh-sach-viec-lam-ngung-ung-tuyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/danh-sach-viec-lam-ngung-ung-tuyen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/quan-ly-bai-dang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/quan-ly-bai-dang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/scripts/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/scripts/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/thanh-toan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/thanh-toan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/tin-nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/tin-nhan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/trang-ca-nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/trang-ca-nhan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/trang-chu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/trang-chu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/ung-tuyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/admin/quan-ly-don-ung-tuyen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/admin/viec-lam-moi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/doi-mat-khau.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/bussiness/pages/doi-mat-khau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/user/doi-mat-khau.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/user/doi-mat-khau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/user/tai-khoan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/user/tai-khoan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main/webapp/user/thong-tin-viec-lam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main/webapp/user/thong-tin-viec-lam.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

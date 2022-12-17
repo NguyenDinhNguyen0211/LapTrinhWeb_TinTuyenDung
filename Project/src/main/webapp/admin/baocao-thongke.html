@@ -1,17 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Admin | Bảng điều khiển</title>
+        <title>Admin | Báo cáo - Thống kê</title>
         <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link type="text/css" href="css/theme.css" rel="stylesheet">
         <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
         <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
               rel='stylesheet'>
-
+        <link rel="stylesheet" href="css/chart.css">
+        <script src="scripts/chart.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     </head>
 <body>
 <div class="navbar navbar-fixed-top">
@@ -73,11 +75,9 @@
 
                 <div class="sidebar">
                     <ul class="widget widget-menu unstyled">
-                        <li>
-                            <a href="trang-chu.html">
-                                <i class="menu-icon icon-dashboard"></i> Bảng điều khiển
-                            </a>
-                        </li>
+                        <li class="active"><a href="trang-chu.html"><i class="menu-icon icon-dashboard"></i> Bảng điều
+                            khiển
+                        </a></li>
                         <li><a class="collapsed" data-toggle="collapse" href="#togglePages"><i
                                 class="menu-icon icon-cogs">
                         </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
@@ -89,12 +89,18 @@
                             </ul>
                         </li>
 
-                        <li>
-                            <a href="baocao-thongke.html">
-                                <i class="menu-icon icon-tasks"></i> Báo cáo - thống kê
-                            </a>
-                        </li>
 
+                        <li><a class="collapsed" data-toggle="collapse" href="#togglePages1"><i
+                                class="menu-icon icon-tasks">
+                        </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
+                        </i> Báo cáo </a>
+                            <ul id="togglePages1" class="collapse unstyled">
+                                <li><a href=""><i class="icon-inbox"></i> Thống kê bài đăng </a></li>
+                                <li><a href=""><i class="icon-inbox"></i> Thống kê ứng tuyển </a></li>
+                                <li><a href=""><i class="icon-inbox"></i> Thống kê doanh thu </a></li>
+                            </ul>
+
+                        </li>
 
 
                         <li><a class="collapsed" data-toggle="collapse" href="#togglePages2"><i
@@ -146,32 +152,61 @@
             <!--/.span3-->
             <div class="span9">
                 <div class="content">
-                    <div class="btn-controls">
-                        <div class="btn-box-row row-fluid">
-                            <a href="#" class="btn-box big span4"><i class=" menu-icon icon-bullhorn"></i><b>10</b>
-                                <p class="text-muted"> Bài đăng mới</p>
-                            </a><a href="#" class="btn-box big span4"><i class="icon-group"></i><b>76</b>
-                            <p class="text-muted">
-                                Đơn ứng tuyển mới </p>
-                        </a><a href="#" class="btn-box big span4"><i class="menu-icon icon-paste"></i><b>100</b>
-                            <p class="text-muted">
-                                Doanh thu </p>
-                        </a>
-                        </div>
+                    <h3>Báo cáo - Thống kê</h3>
+                    <div>
+                         Năm
+                            <select>
+                                <option>2022</option>
+                            </select>
                     </div>
-                    <div class="module">
-                        <div class="module-head">
-                            <h3>
-                                Chart - flot</h3>
-                        </div>
-                        <div class="module-body">
-                            <div class="chart">
-                                <div id="placeholder" class="graph" href="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <table class="table table-bordered bg">
+                        <thead>
+                        <tr>
+                            <th>Tháng</th>
+                            <th>Bài đăng tuyển</th>
+                            <th>Người ứng tuyển</th>
+                            <th>Doanh thu</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>30</td>
+                            <td>300</td>
+                            <td>15.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>20</td>
+                            <td>100</td>
+                            <td>5.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>70</td>
+                            <td>800</td>
+                            <td>50.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>30</td>
+                            <td>300</td>
+                            <td>15.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>100</td>
+                            <td>5.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>70</td>
+                            <td>800</td>
+                            <td>50.000.000 VND</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
 
             </div>

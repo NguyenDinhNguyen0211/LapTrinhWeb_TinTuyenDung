@@ -1701,11 +1701,47 @@ button.btn.btn-smalls{
     background: #e6e7e8;
     outline: none;
 }
-.icon-pencil{
+.btn-smalls .icon-trash{
+    margin-left: 5px;
+}
+.icon-lock{
     position: absolute;
     left: 5px;
 }
 .icon-trash{
     position: absolute;
     left: 5px;
+}
+.col-blue{
+    color: #4545ef;
+ }
+.col-red{
+    color: #ef3232;
+}
+.col-yel{
+    color: #c0c04c;
+}
+.icon-lockl{
+    color: blue;
+}
+.icon-trash{
+    color: red;
+}
+.icon-plus{
+    color: #ca07f5;
+}
+.table .stt{
+   padding-bottom: 20px;
+}
+.table .tcv{
+    padding-bottom: 20px;
+}
+.table .cv{
+    padding-bottom: 20px;
+}
+.table .dc{
+    padding-bottom: 20px;
+}
+.table .tt{
+    padding-bottom: 20px;
 }

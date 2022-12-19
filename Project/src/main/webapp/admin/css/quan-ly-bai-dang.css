@@ -1758,5 +1758,10 @@ select{
     position: absolute;
     right: 530px;
     top: 100px;
-
+}
+.mt{
+    width: 300px;
+}
+.cv{
+    width: 100px;
 }

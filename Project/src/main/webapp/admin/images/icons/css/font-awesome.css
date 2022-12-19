@@ -286,7 +286,7 @@ ul.icons li [class*=" icon-"] {
 .icon-ok:before                   { content: "\f00c"; }
 .icon-remove:before               { content: "\f00d"; }
 .icon-zoom-in:before              { content: "\f00e"; }
-
+.icon-trash:before                { content: "\f014"; }
 .icon-zoom-out:before             { content: "\f010"; }
 .icon-off:before                  { content: "\f011"; }
 .icon-signal:before               { content: "\f012"; }
@@ -373,6 +373,8 @@ ul.icons li [class*=" icon-"] {
 .icon-arrow-up:before             { content: "\f062"; }
 .icon-arrow-down:before           { content: "\f063"; }
 .icon-share-alt:before            { content: "\f064"; }
+.icon-plus:before                 { content: "\f067";}
+.icon-filter:before               { content: "\f0b0";}
 .icon-resize-full:before          { content: "\f065"; }
 .icon-resize-small:before         { content: "\f066"; }
 .icon-plus:before                 { content: "\f067"; }

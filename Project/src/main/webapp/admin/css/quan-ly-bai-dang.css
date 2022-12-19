@@ -1665,6 +1665,7 @@ Vertical Timeline - by CodyHouse.co
 .navbar-search {
     margin: 15px 0 0 0;
 }
+
 .input-append .btn:last-child, .input-append .btn-group:last-child > .dropdown-toggle {
     width: 30px;
     height: 30px;
@@ -1712,6 +1713,10 @@ button.btn.btn-smalls{
     position: absolute;
     left: 5px;
 }
+.icon-pencil{
+    position: absolute;
+    left: 5px;
+}
 .col-blue{
     color: #4545ef;
  }
@@ -1721,8 +1726,11 @@ button.btn.btn-smalls{
 .col-yel{
     color: #c0c04c;
 }
-.icon-lockl{
-    color: blue;
+.icon-lock{
+    color: #4040f1;
+}
+.icon-pencil{
+    color: #4040f1;
 }
 .icon-trash{
     color: red;
@@ -1744,4 +1752,11 @@ button.btn.btn-smalls{
 }
 .table .tt{
     padding-bottom: 20px;
+}
+select{
+    width: 120px;
+    position: absolute;
+    right: 530px;
+    top: 100px;
+
 }

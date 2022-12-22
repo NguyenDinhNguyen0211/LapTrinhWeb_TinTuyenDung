@@ -1,9 +1,9 @@
 
 
 body {
-    /*font-family: Arial, sans-serif;*/
+    font-family: 'Open Sans', Arial, sans-serif;
     font-style: normal;
-    /*font-weight: normal;*/
+    /*font-weight: bold;*/
     /*font-size: 14px;*/
     color: #71748d;
     background-color: #efeff6;
@@ -1718,13 +1718,13 @@ button.btn.btn-smalls{
     left: 5px;
 }
 .col-blue{
-    color: #4545ef;
+    color: #03c003;
  }
 .col-red{
-    color: #ef3232;
+    color: red;
 }
 .col-yel{
-    color: #c0c04c;
+    color: #9b9b0b;
 }
 .icon-lock{
     color: #4040f1;

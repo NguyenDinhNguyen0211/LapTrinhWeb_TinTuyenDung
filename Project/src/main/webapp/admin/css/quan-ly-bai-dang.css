@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-    color: #ff407b;
+    color: #29b7d3;
     text-decoration: none;
 }
 
@@ -236,11 +236,11 @@ Fontawesome size
     border-color: #2ec551;
 }
 
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #2ec551;
-    border-color: #2ec551;
-}
+/*.btn-outline-success:hover {*/
+/*    color: #fff;*/
+/*    background-color: #2ec551;*/
+/*    border-color: #2ec551;*/
+/*}*/
 
 .btn-outline-success.focus,
 .btn-outline-success:focus {
@@ -253,25 +253,25 @@ Fontawesome size
 
 /*--- btn outline danger --*/
 
-.btn-outline-danger {
-    color: #ef172c;
-    background-color: transparent;
-    border-color: #ef172c;
-}
+/*.btn-outline-danger {*/
+/*    color: #ef172c;*/
+/*    background-color: transparent;*/
+/*    border-color: #ef172c;*/
+/*}*/
 
-.btn-outline-danger:hover {
-    color: #fff;
-    background-color: #ef172c;
-    border-color: #ef172c;
-}
+/*.btn-outline-danger:hover {*/
+/*    color: #fff;*/
+/*    background-color: #ef172c;*/
+/*    border-color: #ef172c;*/
+/*}*/
 
-.btn-outline-danger.focus,
-.btn-outline-danger:focus {
-    color: #fff;
-    background-color: #ef172c;
-    border-color: #ef172c;
-    box-shadow: 0 0 0 1px rgb(239, 23, 44);
-}
+/*.btn-outline-danger.focus,*/
+/*.btn-outline-danger:focus {*/
+/*    color: #fff;*/
+/*    background-color: #ef172c;*/
+/*    border-color: #ef172c;*/
+/*    box-shadow: 0 0 0 1px rgb(239, 23, 44);*/
+/*}*/
 
 
 /*--- btn outline warning --*/
@@ -394,54 +394,6 @@ fa-trash-o:before{
     height: 30px;
 }
 
-.btn-facebook {
-    color: #fff;
-    background-color: #3c73df;
-    border-color: #3c73df;
-}
-
-.btn-google-plus {
-    color: #fff;
-    background-color: #eb5e4c;
-    border-color: #eb5e4c;
-}
-
-.btn-twitter {
-    color: #fff;
-    background-color: #2caeff;
-    border-color: #2caeff;
-}
-
-.btn-instagram {
-    color: #fff;
-    background-color: #9361fa;
-    border-color: #9361fa;
-}
-
-.btn-pinterest {
-    color: #fff;
-    background-color: #c8232c;
-    border-color: #c8232c;
-}
-
-
-
-
-/*--- cropper document btn --*/
-
-.btn-rounded {
-    border-radius: 100px;
-}
-
-
-/*--- cropper document btn --*/
-
-.docs-buttons .btn,
-.docs-data .input-group {
-    margin-bottom: 5px;
-}
-
-
 /*-----------------------
 btn-link
 -------------------------*/
@@ -462,9 +414,9 @@ btn-link
     color: #ffc750 !important;
 }
 
-.btn-secondary-link {
-    color: #ff407b !important;
-}
+/*.btn-secondary-link {*/
+/*    color: #ff407b !important;*/
+/*}*/
 
 
 /* -----------------------
@@ -971,9 +923,9 @@ Vertical Timeline - by CodyHouse.co
     background: #2ec551;
 }
 
-.cd-timeline__img.cd-timeline__img--movie {
-    background: #ef172c;
-}
+/*.cd-timeline__img.cd-timeline__img--movie {*/
+/*    background: #ef172c;*/
+/*}*/
 
 .cd-timeline__img.cd-timeline__img--location {
     background: #ffc108;
@@ -1330,11 +1282,11 @@ Vertical Timeline - by CodyHouse.co
     margin-bottom: 0;
 }
 
-.metric-value>sub,
-.metric-value>sup {
-    color: #ffa76a;
-    font-size: .5em;
-}
+/*.metric-value>sub,*/
+/*.metric-value>sup {*/
+/*    color: #ffa76a;*/
+/*    font-size: .5em;*/
+/*}*/
 
 .card-metric {
     text-align: center;
@@ -1449,13 +1401,13 @@ Vertical Timeline - by CodyHouse.co
     background-color: #00a28a;
 }
 
-.avatar-badge.idle {
-    background-color: #ec935e;
-}
+/*.avatar-badge.idle {*/
+/*    background-color: #ec935e;*/
+/*}*/
 
-.avatar-badge.busy {
-    background-color: #ea6759;
-}
+/*.avatar-badge.busy {*/
+/*    background-color: #ea6759;*/
+/*}*/
 
 .avatar-badge.offline {
     color: #a9acb0;
@@ -1680,12 +1632,16 @@ Vertical Timeline - by CodyHouse.co
 }
 
 /*Thêm bài đăng*/
+.input-append .btn{
+    width: 30px;
+    height: 29px;
+}
+
 button.btn.btn-small{
     width: 40px;
     height: 30px;
     position: absolute;
-    right: 130px;
-    top: 100px;
+    margin-left: 20px;
     background: #e6e7e8;
 }
 .btn [class^="icon-"]{
@@ -1697,8 +1653,7 @@ button.btn.btn-smalls{
     width: 40px;
     height: 30px;
     position: absolute;
-    right: 80px;
-    top: 100px;
+    margin-left: 70px;
     background: #e6e7e8;
     outline: none;
 }
@@ -1711,7 +1666,7 @@ button.btn.btn-smalls{
 }
 .icon-trash{
     position: absolute;
-    left: 5px;
+    left: 3px;
 }
 .icon-pencil{
     position: absolute;

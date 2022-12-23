@@ -1131,7 +1131,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .widget-menu > li > a:hover {
     background-color: #28262c;
     color: #29b7d3;
-
 }
 
 .widget-menu > li > a:hover .menu-icon {

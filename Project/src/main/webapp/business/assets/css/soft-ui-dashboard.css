@@ -714,8 +714,10 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 1);
-  padding-left: calc(var(--bs-gutter-x) * 1);
+  padding-top:calc(var(--bs-gutter-x) * 1) ;
+  padding-bottom: calc(var(--bs-gutter-x) * 1);;
+  /*padding-right: calc(var(--bs-gutter-x) * 1);*/
+  /*padding-left: calc(var(--bs-gutter-x) * 1);*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -773,11 +775,10 @@ progress {
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  display : flex;
-  flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
+
+  width: 100%;
 }
 
 .row>* {
@@ -1996,7 +1997,7 @@ progress {
 
   .col-xl-7 {
     flex: 0 0 auto;
-    width: 58.333333%;
+    width: 100%;
   }
 
   .col-xl-8 {
@@ -8424,7 +8425,9 @@ fieldset:disabled .btn {
 .d-flex {
   display: flex !important;
 }
-
+.magin-top {
+  margin-top: 15px;
+}
 .d-inline-flex {
   display: inline-flex !important;
 }
@@ -9527,6 +9530,7 @@ fieldset:disabled .btn {
 
 .mb-3 {
   margin-bottom: 1rem !important;
+
 }
 
 .mb-4 {
@@ -24976,6 +24980,12 @@ p {
 
 .text-gradient.text-danger {
   background-image: linear-gradient(310deg, #D60808, #FF6690);
+
+}
+
+.text-gradient.text-danger1 {
+  background-image: linear-gradient(310deg, #D60808, #FF6690);
+
 }
 
 .text-gradient.text-dark {

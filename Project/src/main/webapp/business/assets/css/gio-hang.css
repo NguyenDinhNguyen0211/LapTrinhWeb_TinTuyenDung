@@ -1929,28 +1929,12 @@ input.num-product::-webkit-inner-spin-button {
     width: 100%;
     border-left: 1px solid #e6e6e6;
     border-right: 1px solid #e6e6e6
-
-
-
 }
 
-.table-shopping-cart {
-    border-collapse: collapse;
-    width: 100%;
-    height: 100px;
-    min-width: 680px;
-
-}
 .shadow1{
     /*box-shadow: 0px 1px  1px 1px rgba(0, 255, 144  ) !important;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 
-}
-
-
-.table-shopping-cart tr {
-    border-top: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
 }
 .checkbox{
     cursor: pointer;
@@ -1959,8 +1943,26 @@ input.num-product::-webkit-inner-spin-button {
 
 }
 
+
+.table-shopping-cart {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100px;
+    min-width: 680px;
+
+}
+.table-shopping-cart tr {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
 .table-shopping-cart .column-1 {
     width:  200px;
+    padding-left: 50px;
+    text-align: left;
+}
+.table-shopping-cart.column-15 {
+    width:  50px !important;
     padding-left: 50px;
     text-align: left;
 }
@@ -1980,36 +1982,26 @@ input.num-product::-webkit-inner-spin-button {
     font-size: 15px;
     text-align: right;
 }
+.table-shopping-cart .column-25 {
+    width: 50px;
+    font-size: 15px;
+    text-align: right;
+}
+
 .table-shopping-cart .column-22 {
     width: 300px;
     font-size: 15px;
     text-align: right;
    padding-top: 10px;
 }
-.scrollbar {
-    background-color: #F5F5F5;
-    float: left;
-    height: 400px;
-    /*margin-bottom: 25px;*/
-    /*margin-left: 22px;*/
-    /*margin-top: 40px;*/
-    width: 100%;
-    overflow-y: scroll;
-}
 
-/*.force-overflow {*/
-/*    min-height: 100%;*/
-/*}*/
 
 
 .table-shopping-cart .column-3 {
     width: 120px;
     font-size: 16px;
 }
-.check{
-    display: flex;
-    margin-top: 15px;
-}
+
 
 .table-shopping-cart .column-4 {
     width: 145px;
@@ -2049,6 +2041,14 @@ input.num-product::-webkit-inner-spin-button {
     line-height: 1.6;
 }
 
+.check{
+    display: flex;
+    margin-top: 15px;
+}
+.check1{
+    display: flex;
+    margin-top: 15px;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -2127,7 +2127,20 @@ input.num-product::-webkit-inner-spin-button {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 400px;
+    /*margin-bottom: 25px;*/
+    /*margin-left: 22px;*/
+    /*margin-top: 40px;*/
+    width: 100%;
+    overflow-y: scroll;
+}
 
+/*.force-overflow {*/
+/*    min-height: 100%;*/
+/*}*/
 .block2-pic:hover .block2-btn {
     bottom: 20px;
 }

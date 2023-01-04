@@ -5,7 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Admin | Tin tức</title>
+        <title>Admin | Tin tức | Thêm tin tức</title>
         <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -132,126 +132,88 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="mb-0">Tin tức</h5>
+                        <h5 class="mb-0">Thêm tin tức</h5>
                     </div>
-                    <form class="navbar-search pull-left input-append" action="#">
-                        <input type="text" class="span3" placeholder="Tìm kiếm theo tên, chức vụ">
-                        <button class="btn" type="button">
-                            <i class="icon-search"></i>
-                        </button>
+<!--                    <form class="navbar-search pull-left input-append" action="#">-->
+<!--                        <input type="text" class="span3" placeholder="Tìm kiếm theo tên, chức vụ">-->
+<!--                        <button class="btn" type="button">-->
+<!--                            <i class="icon-search"></i>-->
+<!--                        </button>-->
 
-                        <button class="btn btn-small" style="outline: none">
-                            <i class="icon-plus"></i>
-                        </button>
+<!--                        <button class="btn btn-small" style="outline: none">-->
+<!--                            <i class="icon-plus"></i>-->
+<!--                        </button>-->
 
-                        <button class="btn btn-smalls" style="outline: none">
-                            <i class="icon-trash"></i>
-                        </button>
+<!--                        <button class="btn btn-smalls" style="outline: none">-->
+<!--                            <i class="icon-trash"></i>-->
+<!--                        </button>-->
+
+<!--                    </form>-->
+<!--                    <div class="card-body">-->
+<!--                        <div class="table-responsive">-->
+<!--                            <table id="example" class="table table-striped table-bordered second"-->
+<!--                                   style="width:100%">-->
+<!--                                <thead>-->
+<!--                                <tr>-->
+<!--                                    <th class="stt">STT</th>-->
+<!--                                    <th class="ha" >Hình ảnh</th>-->
+<!--                                    <th class="td">Tiêu đề</th>-->
+<!--                                    <th class="nd">Nội dung</th>-->
+<!--                                    <th>Chức năng</th>-->
+<!--                                </tr>-->
+<!--                                </thead>-->
+<!--                                <tbody>-->
+<!--                                <tr>-->
+<!--                                    <td>1</td>-->
+<!--                                    <td><img src="images/img1.png" class="img"></td>-->
+<!--                                    <td><input class="form-control" type="text"></td>-->
+<!--                                    <td>Nhằm tạo cơ hội nghề nghiệp cho sinh viên sau khi tốt nghiệp, tăng khả năng tìm kiếm việc làm của sinh viên..</td>-->
+<!--                                    <td>-->
+<!--                                        <div class="btn-group ml-auto">-->
+<!--                                            <button class="btn btn-sm btn-outline-light" style="outline: none">-->
+<!--                                                <i class="icon-pencil"></i>-->
+<!--                                            </button>-->
+<!--                                            <button class="btn btn-sm btn-outline-light" style="outline: none">-->
+<!--                                                <i class="icon-trash"></i>-->
+<!--                                            </button>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                </tbody>-->
+<!--                            </table>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+                    <form class="row1">
+                        <div class="form-group col-md-4">
+                            <label class="control-label">Tiêu đề</label>
+                            <input class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label class="control-label">Nội dung</label>
+                            <input class="form-control" type="text" required="">
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <label class="control-label">Hình ảnh</label>
+                            <div id="myfileupload">
+                                <input type="file" id="uploadfile" name="ImageUpload" onchange="readURL(this);">
+                            </div>
+                            <div id="thumbbox">
+                                <img height="300" width="300" alt="Thumb image" id="thumbimage" style="display: none">
+                                <a class="removeimg" href="javascript:"></a>
+                            </div>
+                            <div id="boxchoice">
+                                <a href="javascript:" class="Choicefile"><i class="bx bx-upload"></i></a>
+                                <p style="clear:both"></p>
+                            </div>
+
+                        </div>
+
+
 
                     </form>
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table id="example" class="table table-striped table-bordered second"
-                                   style="width:100%">
-                                <thead>
-                                <tr>
-                                    <th class="stt">STT</th>
-                                    <th class="ha" >Hình ảnh</th>
-                                    <th class="td">Tiêu đề</th>
-                                    <th class="nd">Nội dung</th>
-                                    <th>Chức năng</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td><img src="images/img1.png" class="img"></td>
-                                    <td>Rộn ràng ngày hội việc làm công nghệ thông tin</td>
-                                    <td>Nhằm tạo cơ hội nghề nghiệp cho sinh viên sau khi tốt nghiệp, tăng khả năng tìm kiếm việc làm của sinh viên..</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-pencil"></i>
-                                            </button>
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-trash"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>2</td>
-                                    <td><img src="images/img3.png" class="img"></td>
-                                    <td>Thị trường hoạt động kinh doanh</td>
-                                    <td>Thị trường là nơi chuyển giao quyền sở hữu sản phẩm, dịch vụ hoặc tiền tệ, nhằm thỏa mãn nhu cầu của hai bên cung và cầu về một loại sản phẩm..</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-pencil"></i>
-                                            </button>
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-trash"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td><img src="images/img4.png" class="img"></td>
-                                    <td>Đào tạo nguồn nhân lực ngành cơ khí chế tạo máy chất lượng cao </td>
-                                    <td>Nhân lực luôn là yếu tố quan trọng và là điều kiện tiên quyết nhằm phát triển bền vững nhất cho bất kỳ một ngành công nghiệp nào, ngành cơ khí chế tạo máy cũng vậy..
-
-                                    </td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-pencil"></i>
-                                            </button>
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-trash"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>4</td>
-                                    <td><img src="images/img2.png" class="img"></td>
-                                    <td>Đẩy mạnh quá trình xây dựng</td>
-                                    <td>Sở Xây dựng đẩy nhanh thời gian thực hiện các dự án nhà ở xã hội này xuống dưới 6 tháng để các chủ đầu tư triển khai thực hiện...</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-pencil"></i>
-                                            </button>
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-trash"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td><img src="images/img5.png" class="img"></td>
-                                    <td>Có thật công nghệ thông tin là vua của mọi loại nghề</td>
-                                    <td>Ngành IT Việt Nam hiện nay ở đầu của sự phát triển. Có thể nói IT là vua của các nghề. Vừa có tiền, có quyền..</td>
-                                    <td>
-                                        <div class="btn-group ml-auto">
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-pencil"></i>
-                                            </button>
-                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-trash"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- ============================================================== -->

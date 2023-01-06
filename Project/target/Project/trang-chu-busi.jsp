@@ -22,7 +22,7 @@
     <!-- CSS Files -->
     <link type="text/css" href="business/assets/css/soft-ui-dashboard.css?v=1.0.6" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="business/assets/css/style.css">
-    <link rel="icon" type="image/png" href="business/assets/img/logo/logo.png">
+    <link rel="icon" type="image/png" href="assets/img/logo/logo.png">
     <link type="text/css" href="business/assets/css/theme.css" rel="stylesheet">
 </head>
 <body class="g-sidenav-show  bg-gray-100">
@@ -33,7 +33,7 @@
     <div class="sidenav-header">
         <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
            aria-hidden="true" id="iconSidenav"></i>
-        <a class="navbar-brand m-0" href="bang-tin.html">
+        <a class="navbar-brand m-0" href="trang-chu-busi.jsp">
             <img src="assets/img/logo/logo.png">
             <span class="ms-1 font-weight-bold">for Business</span>
         </a>
@@ -43,7 +43,7 @@
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" href="bang-tin.html">
+                <a class="nav-link active" href="trang-chu-busi.jsp">
                     <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                         <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -67,7 +67,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="quan-li-cv.html">
+                <a class="nav-link" href="quan-li-cv-busi.jsp">
                     <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                         <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -90,7 +90,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tin-tuyen-dung.html">
+                <a class="nav-link" href="tin-tuyen-dung-busi.jsp">
                     <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                         <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -113,7 +113,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " href="thong-bao-he-thong.html">
+                <a class="nav-link  " href="thong-bao-he-thong-busi.jsp">
                     <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 
                         <i class=" fa fa-bell cursor-pointer text-dark"></i>
@@ -127,7 +127,7 @@
                 <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Trang tài khoản</h6>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " href="tai-khoan.html">
+                <a class="nav-link  " href="tai-khoan-busi.jsp">
                     <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                         <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -166,12 +166,12 @@
                 <div class="docs-info">
                     <h6 class="text-white up mb-0">Hộp thư hỗ trợ</h6>
                     <p class="text-xs font-weight-bold">Hãy liên hệ với chúng tôi</p>
-                    <a href="tro-giup.html" class="btn btn-white btn-sm w-100 mb-0">Tư vấn viên</a>
+                    <a href="tro-giup-busi.jsp" class="btn btn-white btn-sm w-100 mb-0">Tư vấn viên</a>
                 </div>
             </div>
         </div>
         <a class="btn bg-gradient-primary mt-3 w-100"
-           href="cap-nhat-thong-tin-xac-thuc.html">Nâng cấp tài khoản</a>
+           href="cap-nhat-thong-tin-xac-thuc-busi.jsp">Nâng cấp tài khoản</a>
     </div>
 </aside>
 <!--  end nav left -->

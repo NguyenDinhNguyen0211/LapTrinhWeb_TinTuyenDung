@@ -1,15 +1,5 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
-<<<<<<< HEAD
-Built-By: DELL
-Build-Jdk: Oracle OpenJDK version 19.0.1
-=======
-<<<<<<< HEAD
 Built-By: Dell
 Build-Jdk: 17.0.5
-=======
-Built-By: Admin
-Build-Jdk: 19.0.1
->>>>>>> de992b523dc46b0a7c4dc9d36a8121eb7409d7dc
->>>>>>> ab96b2c1d38754d578593943e2143266e1526db2
 

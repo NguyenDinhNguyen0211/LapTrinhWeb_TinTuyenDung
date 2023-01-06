@@ -632,7 +632,6 @@
     </div>
 </div>
 <!--================Blog Area =================-->
-<jsp:include page="footter-candi.jsp"></jsp:include>
 </body>
 <!-- JS here -->
 

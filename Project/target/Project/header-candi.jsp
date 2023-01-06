@@ -34,7 +34,7 @@
                                         <li><a href="danh-sach-viec-lam.html">Việc làm </a>
                                             <ul class="submenu">
                                                 <li><a href="danh-sach-viec-lam.html">Tìm việc làm </a></li>
-                                                <li><a href="viec-lam-da-ung-tuyen.html">Việc làm đã ứng tuyển</a></li>
+                                                <li><a href="Post">Việc làm đã ứng tuyển</a></li>
                                                 <li><a href="viec-lam-da-luu.html">Việc làm đã lưu</a></li>
                                             </ul>
                                         </li>

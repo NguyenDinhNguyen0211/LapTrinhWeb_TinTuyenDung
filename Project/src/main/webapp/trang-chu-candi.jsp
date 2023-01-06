@@ -40,6 +40,7 @@
   </div>
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
+
 <main>
   <!-- slider Area Start-->
   <div class="slider-area ">
@@ -57,7 +58,7 @@
           <div class="row">
             <div class="col-xl-8">
               <!-- form -->
-              <form action="#" class="search-box">
+              <form action="Post" method="post" class="search-box">
                 <div class="input-form">
                   <input type="text" placeholder="Tìm kiếm việc làm, công ty">
                 </div>

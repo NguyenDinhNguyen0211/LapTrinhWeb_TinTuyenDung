@@ -1,6 +1,7 @@
 package vn.edu.hcmuaf.fit.control;
 
 import vn.edu.hcmuaf.fit.service.DAOAccount;
+import vn.edu.hcmuaf.fit.service.MailService;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -16,15 +17,22 @@ public class ResetPassword extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int role = UtilControl.setRole("btnquenmatkhau-candi", "btnquenmatkhau-busi", request);
-//        UtilControl.send(role,"dang-nhap-Admin.jsp","dang-nhap-candi.jsp","dang-nhap-busi.jsp",response);
         response.setContentType("text/html");
         DAOAccount d = new DAOAccount();
+        String username = request.getParameter("username");
         String email = request.getParameter("email");
-        String maxacnhan = request.getParameter("");
-        if(d.checkEmail(email)){
-        response.sendRedirect("ma-xac-nhan.jsp");
+        boolean emailExist = d.checkEmail(username,email);
+        String name = d.getAccount().getName();
+        String password = d.getPassword(username,email);
+        int role = d.getAccount().getRole();
+        String subject = " Nhận mật khẩu ";
+        String content = "Chào " + name + ",  chúng tôi cung cấp lại mật khẩu của bạn: " + password;
+        if (!emailExist) {
+            request.setAttribute("message", "Email không tồn tại! Vui lòng nhập lại email!");
+            UtilControl.forward("forgot-password.jsp", request, response);
+        } else {
+            MailService.sendMail(email, subject, content);
+            UtilControl.send(role, "dang-nhap-Admmin.jsp", "dang-nhap-candi.jsp", "dang-nhap-busi.jsp", response);
         }
-        String pass = request.getParameter("password");
     }
 }

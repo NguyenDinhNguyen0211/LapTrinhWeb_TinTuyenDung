@@ -12,7 +12,7 @@
     <title>Quên mật khẩu</title>
     <link rel="stylesheet" type="text/css" href="assets/css/login.css">
 </head>
-</head>
+
 <body>
 <section>
     <div class="img-bg">

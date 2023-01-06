@@ -31,11 +31,11 @@
         <li class="nav-item d-flex align-items-center">
           <!--button-->
           <a class="btn btn-outline-primary btn-sm mb-0 me-3"
-             href="dang-tin.html">Đăng tin</a>
+             href="dang-tin-busi.jsp">Đăng tin</a>
           <a class="btn btn-outline-primary btn-sm mb-0 me-3"
-             href="quan-li-cv.html">Xem CV</a>
+             href="quan-li-cv-busi.jsp">Xem CV</a>
           <a class="btn btn-outline-primary btn-sm mb-0 me-3"
-             href="tro-giup.html">Trợ giúp</a>
+             href="tro-giup-busi.jsp">Trợ giúp</a>
         </li>
 
         </li>
@@ -96,7 +96,7 @@
               <a class="dropdown-item border-radius-md" href="javascript:;">
                 <div class="d-flex py-1">
                   <div class="my-auto">
-                    <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                    <img src="business/assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
                   </div>
                   <div class="d-flex flex-column justify-content-center">
                     <h6 class="text-sm font-weight-normal mb-1">
@@ -114,7 +114,7 @@
               <a class="dropdown-item border-radius-md" href="javascript:;">
                 <div class="d-flex py-1">
                   <div class="my-auto">
-                    <img src="../assets/img/small-logos/logo-spotify.svg"
+                    <img src="business/assets/img/small-logos/logo-spotify.svg"
                          class="avatar avatar-sm bg-gradient-dark  me-3 ">
                   </div>
                   <div class="d-flex flex-column justify-content-center">

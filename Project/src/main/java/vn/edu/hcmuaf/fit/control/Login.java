@@ -25,7 +25,6 @@ public class Login extends HttpServlet {
             HttpSession session = request.getSession(true);
 
             session.setAttribute("account", (Account) d.getAccount());
-            Account a = d.getAcco
 
             UtilControl.send(d.getAccount().getRole(), "trang-chu-Admin.jsp", "trang-chu-candi.jsp", "trang-chu-busi.jsp", response);
         } else {

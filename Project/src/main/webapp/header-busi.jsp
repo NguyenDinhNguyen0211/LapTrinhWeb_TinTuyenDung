@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title></title>
@@ -59,7 +60,7 @@
               <a class="dropdown-item border-radius-md" href="javascript:;">
                 <div class="d-flex py-1">
                   <div class="my-auto">
-                    <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                    <img src="assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
                   </div>
                   <div class="d-flex flex-column justify-content-center">
                     <h6 class="text-sm font-weight-normal mb-1">

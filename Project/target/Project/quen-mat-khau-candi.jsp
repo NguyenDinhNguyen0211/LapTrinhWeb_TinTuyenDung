@@ -33,13 +33,16 @@
                     <div id="modal1">
                         <div class="input-form">
                             <span>Email</span>
+                            <input id="username" name="username" class="input"
+                                   placeholder="Nhập tài khoản của bạn">
+                        </div>
+                        <div class="input-form">
+                            <span>Email</span>
                             <input id="email" name="email" type="email" class="input"
                                    placeholder="Nhập email của bạn">
                         </div>
                         <div class="input-form">
                             <input id="btnnhanma" name="btnnhanma-candi" type="submit" value="Nhận mã xác nhận">
-                            <%--                            <button id="btnnhanma" name="btnnhanma-candi" type="button" value="">Nhận mã xác nhận--%>
-                            <%--                            </button>--%>
                         </div>
                         <div class="input-form">
                             <p>Bằng việc thực hiện đổi mật khẩu, bạn đã đồng ý với <a href="#">Điều khoản dịch vụ</a> và

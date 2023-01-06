@@ -61,9 +61,9 @@
                                     <a href="dang-ky-candi.jsp" class="btn head-btn2">Đăng kí</a>
                                     <a href="dang-nhap-candi.jsp" class="btn head-btn2">Đăng nhập</a>
                                 </c:if>
-                                <a href="dang-nhap.html" class="btn head-btn1">Nhà tuyển dụng</a>
+                                <a href="dang-nhap-busi.jsp" class="btn head-btn1">Nhà tuyển dụng</a>
                                 <c:if test="${sessionScope.account != null}">
-                                    <a href="#">
+                                    <a href="tai-khoan-candi.jsp">
                                         <i class="fa fa-user"></i>
                                         <span> Xin chào ${sessionScope.account.name}</span>
                                     </a>

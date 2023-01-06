@@ -193,7 +193,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="browse-btn2 text-center mt-50">
-            <a href="danh-sach-viec-lam.html" class="border-btn2">Xem thêm</a>
+            <a href="danh-sach-viec-lam-candi.jsp" class="border-btn2">Xem thêm</a>
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@
           <div class="cv-caption text-center">
             <span><b class="tittle"> NỔI BẬT</b></span>
             <p class="pera2">Nộp CV để chớp lấy cơ hội việc làm mơ ước</p>
-            <a href="ung-tuyen.html" class="border-btn2 border-btn4">Tải CV của bạn</a>
+            <a href="ung-tuyen-candi.jsp" class="border-btn2 border-btn4">Tải CV của bạn</a>
           </div>
         </div>
       </div>
@@ -494,7 +494,7 @@
           <div class="home-blog-single mb-30">
             <div class="blog-img-cap">
               <div class="blog-img">
-                <a href="tin-tuc-chi-tiet.html"> <img src="assets/img/blog/home-blog1.jpg"> </a>
+                <a href="tin-tuc-chi-tiet-candi.jsp"> <img src="assets/img/blog/home-blog1.jpg"> </a>
                 <!-- Blog date -->
                 <div class="blog-date text-center">
                   <span>24</span>
@@ -503,8 +503,8 @@
               </div>
               <div class="blog-cap">
                 <p>| Tin nóng</p>
-                <h3><a href="tin-tuc-chi-tiet.html">Hệ thống thông tin phát triển vượt bậc...</a></h3>
-                <a href="tin-tuc-chi-tiet.html" class="more-btn">Xem thêm »</a>
+                <h3><a href="tin-tuc-chi-tiet-candi.jsp">Hệ thống thông tin phát triển vượt bậc...</a></h3>
+                <a href="tin-tuc-candi.jsp" class="more-btn">Xem thêm »</a>
               </div>
             </div>
           </div>
@@ -513,7 +513,7 @@
           <div class="home-blog-single mb-30">
             <div class="blog-img-cap">
               <div class="blog-img">
-                <a href="tin-tuc-chi-tiet.html"> <img src="assets/img/blog/home-blog2.jpg"
+                <a href="tin-tuc-chi-tiet-candi.jsp"> <img src="assets/img/blog/home-blog2.jpg"
                                                       alt=""></a>
                 <!-- Blog date -->
                 <div class="blog-date text-center">
@@ -523,8 +523,8 @@
               </div>
               <div class="blog-cap">
                 <p>| Tin mới</p>
-                <h3><a href="tin-tuc-chi-tiet.html">Trên con đường thành công không có dấu ...</a></h3>
-                <a href="tin-tuc-chi-tiet.html" class="more-btn">Xem thêm »</a>
+                <h3><a href="tin-tuc-chi-tiet-candi.jsp">Trên con đường thành công không có dấu ...</a></h3>
+                <a href="tin-tuc-chi-tiet-candi.jsp" class="more-btn">Xem thêm »</a>
               </div>
             </div>
           </div>

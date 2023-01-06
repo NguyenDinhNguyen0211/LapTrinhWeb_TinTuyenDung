@@ -78,9 +78,9 @@
     min-height: 1px;
     padding: 1.25rem;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.row1 {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
     margin-right: -15px;
     margin-left: -15px;
 }

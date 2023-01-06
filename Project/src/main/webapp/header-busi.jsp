@@ -45,6 +45,16 @@
       <div class="ms-md-auto pe-md-3 d-flex align-items-center"></div>
       <ul class="navbar-nav  justify-content-end">
         <!--           st         -->
+        <i class="nav-item  pe-2 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-body p-0" style="margin-right: 15px;"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-shopping-cart me-sm-1"style="color: red;width: 20px; padding-left: 7px;"></i>
+            <span class=" d-sm-inline d-none font-weight-bold text-sm" style="margin-right: 10px"> (5) </span>
+
+          </a>
+
+        </i>
+
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
           <a href="javascript:;" class="nav-link text-body p-0"
              data-bs-toggle="dropdown" aria-expanded="false">

@@ -1,73 +1,26 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<%--
+  Created by IntelliJ IDEA.
+  User: Admin
+  Date: 06/01/2023
+  Time: 10:36 CH
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <head>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Admin | Việc làm mới</title>
-        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link type="text/css" href="css/theme.css" rel="stylesheet">
-        <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
-        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
-              rel='stylesheet'>
-        <link rel="stylesheet" href="css/quan-ly-bai-dang.css">
-
-    </head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Nguời dùng</title>
+    <link type="text/css" href="admin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="admin/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link type="text/css" href="admin/css/theme.css" rel="stylesheet">
+    <link type="text/css" href="admin/images/icons/css/font-awesome.css" rel="stylesheet">
+    <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
+          rel='stylesheet'>
+    <link rel="stylesheet" href="admin/css/quan-ly-bai-dang.css">
+</head>
 <body>
-
-<div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-
-                <i class="icon-reorder shaded"></i></a><a class="brand" href="trang-chu.html">Admin </a>
-            <div class="nav-collapse collapse navbar-inverse-collapse">
-                <ul class="nav pull-right">
-                    <ul class="nav nav-icons">
-                        <!--                    <li class="active"><a href="#"><i class="icon-envelope"></i></a></li>-->
-                        <li><a href="../user/trang-chu.html"><i class="icon-eye-open"></i></a></li>
-                        <li><a href=""><i class="icon-bell "></i></a>
-                            <ul class="dropdown-menu dropdown-menu-end  px-2 py-3 me-sm-n4">
-                                <li class="mb-2 font-weight-bold" style="text-align: center"><a href="#"> Đăng xuất</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Cài đặt giao diện
-                        <b class="caret"></b></a>
-
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Logo</a></li>
-                            <li><a href="#">Màu sắc</a></li>
-                            <li><a href="#">Ảnh</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="images/user.png" class="nav-avatar"/>
-                        <span>User</span>
-                        <b class="caret"></b></a>
-
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Trang cá nhân</a></li>
-                            <li><a href="#">Chỉnh sửa trang cá nhân</a></li>
-                            <li><a href="#">Cài đặt tài khoản</a></li>
-
-
-
-                            <li class="divider"></li>
-                            <li><a href="#">Đăng xuất</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.nav-collapse -->
-        </div>
-    </div>
-    <!-- /navbar-inner -->
-</div>
-<!-- /navbar -->
+<jsp:include page="header-Admin.jsp"></jsp:include>
 <div class="wrapper">
     <div class="container">
         <div class="row">
@@ -127,10 +80,8 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="mb-0">Quản lý bài đăng</h5>
+                        <h5 class="mb-0">Quản lý người dùng</h5>
                     </div>
-
-
                     <form class="navbar-search pull-left input-append" action="#">
                         <input type="text" class="span3" placeholder="Tìm kiếm theo tên, chức vụ">
                         <button class="btn" type="button">
@@ -152,32 +103,25 @@
                                    style="width:100%">
                                 <thead>
                                 <tr>
-                                    <th class="stt">STT</th>
-                                    <th class="tcv">Tên công việc</th>
-                                    <th class="cv">Chức vụ</th>
-                                    <th>Số lượng</th>
-                                    <th>Ngày hết hạn</th>
-                                    <th class="dc">Địa chỉ</th>
-                                    <th class="tt">Trạng thái</th>
+                                    <th>STT</th>
+                                    <th>Tên người dùng</th>
+                                    <th>Đối tượng</th>
+                                    <th>Số điện thoại</th>
+                                    <th>Email</th>
                                     <th>Chức năng</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Lập trình viên</td>
-                                    <td>Nhân viên</td>
-                                    <td> 3 </td>
-                                    <td>01/11/2022</td>
-                                    <td>Quận 2, Tp.HCM, Việt Nam</td>
-                                    <td class="col-blue">Đã duyệt</td>
+                                    <td>Lê Hữu Phước</td>
+                                    <td>Doanh nghiệp</td>
+                                    <td>0384748409</td>
+                                    <td>lhphuoc602@gmail.com</td>
                                     <td>
-<!--                                        <button class="btn btn-smalls">-->
-<!--                                            <i class="icon-filter"></i>-->
-<!--                                        </button>-->
                                         <div class="btn-group ml-auto">
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -187,16 +131,14 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Quản lý hệ thông nhân sự</td>
-                                    <td>Quản lý</td>
-                                    <td> 1</td>
-                                    <td>07/11/2022</td>
-                                    <td>Quận 12, Tp.HCM, Việt Nam</td>
-                                    <td class="col-red">Ngừng tuyển</td>
+                                    <td>Trương Đoàn Nhất</td>
+                                    <td>Doanh nghiệp</td>
+                                    <td>0346966814</td>
+                                    <td>tdnhat2011@gmail.com</td>
                                     <td>
                                         <div class="btn-group ml-auto" >
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -206,16 +148,14 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Kỹ thuật điện tử viễn thông</td>
-                                    <td>Nhân viên</td>
-                                    <td>2</td>
-                                    <td>09/11/2022</td>
-                                    <td>Tp.Dĩ An, T.Bình Dương, Việt Nam</td>
-                                    <td class="col-yel">Chưa duyệt</td>
+                                    <td>Nguyễn Đình Nguyên</td>
+                                    <td>Người ứng tuyển</td>
+                                    <td>0937087259</td>
+                                    <td>ndn1123@gmail.com</td>
                                     <td>
                                         <div class="btn-group ml-auto">
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -225,16 +165,14 @@
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Thiết kế và chế tạo cơ khí</td>
-                                    <td>Nhân viên</td>
-                                    <td> 5 </td>
-                                    <td>10/11/2022</td>
-                                    <td>Ba Đình, Hà Nội, Việt Nam</td>
-                                    <td class="col-yel">Chưa duyệt</td>
+                                    <td>Hồ Yến Nhi</td>
+                                    <td>Người ứng tuyển</td>
+                                    <td>0249995354</td>
+                                    <td>yennhi241@gmail.com</td>
                                     <td>
                                         <div class="btn-group ml-auto">
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -244,16 +182,14 @@
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Java Developer</td>
-                                    <td>Trưởng nhóm</td>
-                                    <td> 1</td>
-                                    <td>12/11/2022</td>
-                                    <td>Quận1, Tp.HCM, Việt Nam</td>
-                                    <td class="col-blue">Đã duyệt</td>
+                                    <td>Lê Thị Hoa Hồng</td>
+                                    <td>Doanh nghiệp</td>
+                                    <td>0981845655</td>
+                                    <td>lthoahong111@gmail.com</td>
                                     <td>
                                         <div class="btn-group ml-auto">
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -263,16 +199,14 @@
                                 </tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>Thợ hồ</td>
-                                    <td>Công nhân</td>
-                                    <td>7</td>
-                                    <td>8/11/2022</td>
-                                    <td>Quận Tân Bình, Tp.HCM, Việt Nam</td>
-                                    <td class="col-red">Ngừng tuyển</td>
+                                    <td>Hoàng Văn Thụ</td>
+                                    <td>Người ứng tuyển</td>
+                                    <td>0254888737</td>
+                                    <td>hvthu0606@gmail.com</td>
                                     <td>
                                         <div class="btn-group ml-auto">
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -282,16 +216,31 @@
                                 </tr>
                                 <tr>
                                     <td>7</td>
-                                    <td>Lập trình viên PHP</td>
-                                    <td>Trưởng nhóm</td>
-                                    <td> 1</td>
-                                    <td>15/11/2022</td>
-                                    <td>Hai Bà Trưng, Hà Nội, Việt Nam</td>
-                                    <td class="col-blue">Đã duyệt</td>
+                                    <td>Nguyễn Thị Kim Cúc</td>
+                                    <td>Daonh nghiệp</td>
+                                    <td>0562608743</td>
+                                    <td>ntkcuc@gmail.com</td>
                                     <td>
                                         <div class="btn-group ml-auto">
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
-                                                <i class="icon-lock"></i>
+                                                <i class="icon-pencil"></i>
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
+                                                <i class="icon-trash"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Lê Thị Bưởi</td>
+                                    <td>Người ứng tuyển</td>
+                                    <td>0988070515</td>
+                                    <td>ltbuoi0612@gmail.com</td>
+                                    <td>
+                                        <div class="btn-group ml-auto">
+                                            <button class="btn btn-sm btn-outline-light" style="outline: none">
+                                                <i class="icon-pencil"></i>
                                             </button>
                                             <button class="btn btn-sm btn-outline-light" style="outline: none">
                                                 <i class="icon-trash"></i>
@@ -320,16 +269,13 @@
 <!--/.container-->
 </div>
 <!--/.wrapper-->
-
-
-<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
-<script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
-<script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-<script src="scripts/common.js" type="text/javascript"></script>
-
-
 </body>
+<script src="admin/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="admin/scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+<script src="admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="admin/scripts/flot/jquery.flot.js" type="text/javascript"></script>
+<script src="admin/scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+<script src="admin/scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+<script src="admin/scripts/common.js" type="text/javascript"></script>
 
+</html>

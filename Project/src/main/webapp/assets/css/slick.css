@@ -228,7 +228,7 @@
     display: inline-flex;
 }
 .company-info{
-    display: inline-block;
+    /*display: inline-block;*/
     /* margin-top: 50px; */
 
 }
@@ -261,7 +261,7 @@
 }
 #history-apply .col-md-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 100%
 }
 #history-apply .box-group {
     background: #fff;
@@ -422,7 +422,7 @@ img {
     transition: .4s;
 }
 .fa-heart:before {
-    content: "♥";
+    content: "\f004";
 }
 #history-apply .suggestion-jobs .action-job .action>div.to-trash {
     background: #f4f4f4;
@@ -765,7 +765,7 @@ strong {
 }
 #history-apply .col-md-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 100%
 }
 
 
@@ -957,9 +957,7 @@ img {
     color: #000;
     font-size: 15px;
 }
-.fa-globe:before {
-    content: "🌐";
-}
+
 :before{
     box-sizing: border-box;
 }

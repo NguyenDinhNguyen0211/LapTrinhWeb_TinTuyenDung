@@ -2,6 +2,7 @@ package vn.edu.hcmuaf.fit.control;
 
 import vn.edu.hcmuaf.fit.service.DAOAccount;
 import vn.edu.hcmuaf.fit.model.Account;
+import vn.edu.hcmuaf.fit.service.DAOPost;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

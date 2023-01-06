@@ -41,7 +41,6 @@
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
 <main>
-
   <!-- slider Area Start-->
   <div class="slider-area ">
     <!-- Mobile Menu -->

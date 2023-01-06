@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" href="business/assets/img/logo/logo.png">
     <link type="text/css" href="business/assets/css/theme.css" rel="stylesheet">
 </head>
-<body>
+<body class="g-sidenav-show  bg-gray-100">
 <!--  start nav left -->
 <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 "
        id="sidenav-main">

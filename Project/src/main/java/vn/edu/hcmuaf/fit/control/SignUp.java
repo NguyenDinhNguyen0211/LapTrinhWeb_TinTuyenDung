@@ -29,11 +29,11 @@ public class SignUp extends HttpServlet {
         Date date = new Date();
         int role = UtilControl.setRole("btndangky_candi", "btndangky_busi", request);
         if (d.register(id, password, name, email, phone, gen, img, role, date)) {
-            UtilControl.send(role, "dang-nhap-admin.jsp", "dang-nhap-candi.jsp", "dang-nhap-busi.jsp", response);
+            UtilControl.send(role, "dang-nhap-Admin.jsp", "dang-nhap-candi.jsp", "dang-nhap-busi.jsp", response);
         } else {
             String message = d.getMessage();
             request.setAttribute("message", message);
-            UtilControl.forward(role, "dang-ky-admin.jsp", "dang-ky-candi.jsp", "dang-ky-busi.jsp", request, response);
+            UtilControl.forward(role, "dang-ky-Admin.jsp", "dang-ky-candi.jsp", "dang-ky-busi.jsp", request, response);
         }
     }
 

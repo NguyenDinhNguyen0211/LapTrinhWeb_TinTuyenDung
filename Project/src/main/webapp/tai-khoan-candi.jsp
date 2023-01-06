@@ -1,3 +1,6 @@
+<%@ page import="vn.edu.hcmuaf.fit.model.Account" %>
+<%@ page import="java.util.List" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: DELL
@@ -6,6 +9,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" pageEncoding="UTF-8" contentType="text/html;charset=UTF-8" %>
+<%  %>
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -41,120 +46,149 @@
     </div>
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
-<div data-v-c4f347a8="" class="container-fluid1 py-4" style="margin-top: 30px">
-    <div data-v-c4f347a8="" class="d-flex shadow-sm">
-        <div data-v-c4f347a8="">
-            <div data-v-61ae721f="" data-v-c4f347a8="" class="list-group1 rounded">
-                <a data-v-61ae721f="" href="doi-mat-khau.html"
-                   class="list-group-item list-group-item-action border-0 bg-none">
-                    <i data-v-61ae721f="" class="fa mr-2 fa-lock"></i> Đổi mật khẩu
-                </a>
-                <a data-v-61ae721f="" href="tai-khoan.html" aria-current="page"
-                   class="list-group-item list-group-item-action border-0 nuxt-link-exact-active nuxt-link-active bg-white">
-                    <i data-v-61ae721f="" class="fa mr-2 fa-user"></i> Thông tin cá nhân
-                </a>
+<main>
+    <div data-v-c4f347a8="" class="container-fluid1 py-4" style="margin-top: 30px">
+        <div data-v-c4f347a8="" class="d-flex shadow-sm">
+            <div data-v-c4f347a8="">
+                <div data-v-61ae721f="" data-v-c4f347a8="" class="list-group1 rounded">
+                    <a data-v-61ae721f="" href="doi-mat-khau.html"
+                       class="list-group-item list-group-item-action border-0 bg-none">
+                        <i data-v-61ae721f="" class="fa mr-2 fa-lock"></i> Đổi mật khẩu
+                    </a>
+                    <a data-v-61ae721f="" href="tai-khoan.html" aria-current="page"
+                       class="list-group-item list-group-item-action border-0 nuxt-link-exact-active nuxt-link-active bg-white">
+                        <i data-v-61ae721f="" class="fa mr-2 fa-user"></i> Thông tin cá nhân
+                    </a>
+                </div>
+            </div>
+            <div data-v-c4f347a8="" class="bg-white w-100 rounded">
+                <!--               form -->
+                <form action="Account" method="post">
+                    <div data-v-c4f347a8="" class="">
+                        <div data-v-c4f347a8="" class="card-header bg-white" style="border: none; box-shadow: none">
+                            <h5> Thông tin cá nhân</h5>
+                        </div>
+                        <div data-v-c4f347a8="" class="card-body setting-form">
+                            <div data-v-c4f347a8="" class="row">
+                                <!--                                avt-->
+                                <div data-v-c4f347a8="" class="form-group col-md-6">
+                                    <div data-v-c4f347a8="" class="d-flex align-items-center">
+                                        <label data-v-c4f347a8="" class="col-form-label mr-2"></label>
+                                        <div data-v-2a31697a="" data-v-c4f347a8="" class="mr-2  avatar">
+                                            <c:if test="${sessionScope.account.img == null}">
+                                                <img src="admin/images/user.png">
+                                            </c:if>
+                                            <c:if test="${sessionScope.account.img != null}">
+                                                <img src="${sessionScope.account.img}">
+                                            </c:if>
+                                        </div>
+                                        <div data-v-c4f347a8="">
+                                            <%--                                            <div data-v-ea13fd1a="" data-v-c4f347a8="" class="file-upload mt-2 d-none1"--%>
+                                            <%--                                                 type="file" name="avatar">--%>
+                                            <%--                                                <div data-v-ea13fd1a="" class="mx-4">--%>
+                                            <%--                                                    <span data-v-ea13fd1a="" class="text-muted">--%>
+                                            <%--                                                        <span data-v-ea13fd1a="">Chọn hoặc kéo file vào đây</span>--%>
+                                            <%--                                                    </span>--%>
+                                            <%--                                                </div>--%>
+                                            <%--                                                <input data-v-ea13fd1a="" id="avatar" type="file" accept="image/*">--%>
+                                            <%--                                                <label data-v-ea13fd1a="" for="audio-file"--%>
+                                            <%--                                                       class="btn btn-secondary text-primary btn-sm mt-2">--%>
+                                            <%--                                                    <i data-v-ea13fd1a="" class="fas fa-upload"></i> Chọn file--%>
+                                            <%--                                                </label>--%>
+                                            <%--                                            </div>--%>
+                                            <input data-v-c4f347a8="" type="text" name="avatar" class="d-none1">
+                                            <%--                                            <button type="file" id="btndoiavartar" name="btndoiavartar"--%>
+                                            <%--                                                    class="btn head-btn1"--%>
+                                            <%--                                                    style="margin: 10px 50px; background: #0e90d2">--%>
+                                            <%--                                               --%>
+                                            <%--                                            </button>--%>
+                                                <form modelAttribute="modelClass" action="save" method="POST" enctype="multipart/form-data">
+                                                    <div class="form-group">
+                                                        <label for="img" class="btn head-btn1"
+                                                               style="margin: 10px 60px; background: #0e90d2"> Đổi avatar</label>
+                                                        <input type="file" id="img" path="productLandscapeImage" class="form-control" name="productLandscapeImage" title="Image"
+                                                               style="margin: 10px 50px; visibility: hidden; cursor: pointer; color: orangered"
+                                                               value=""/>
+                                                    </div>
+                                                </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                                avt end-->
+                                <div data-v-c4f347a8="" class="row " style="width: 49%">
+                                    <div data-v-c4f347a8="" class="form-group col-md-6">
+                                        <div data-v-c4f347a8="" class="d-flex justify-content-between">
+                                            <label data-v-c4f347a8="">Email</label>
+
+                                        </div>
+                                        <div class="">
+                                            <input id="email" name="email" placeholder="Nhập email"
+                                                   class="form-control hidden-spin-button"
+                                                   value="${sessionScope.account.email}">
+<%--                                            --%>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-v-c4f347a8="" class="row">
+                                <div data-v-c4f347a8="" class="form-group col-md-6">
+                                    <label data-v-c4f347a8="">Họ và tên</label>
+                                    <div data-v-8c64d55c="" data-v-c4f347a8="">
+                                        <div data-v-8c64d55c="" class="input-container ml-auto position-relative">
+                                            <input id="name" name="name" type="text"
+                                                   placeholder="Nhập họ và tên" autocomplete="true"
+                                                   class="form-control" value="${sessionScope.account.name}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-v-c4f347a8="" class="form-group col-md-6">
+                                    <label data-v-c4f347a8="">Giới tính</label>
+                                    <div data-v-8c64d55c="" data-v-c4f347a8="">
+                                        <div data-v-8c64d55c="" class="input-container ml-auto position-relative">
+                                            <select class="" id= "gen" name = "gen" >
+                                                <c:if test="${sessionScope.account.gen == 1}">
+                                                    <option> Nam</option>
+                                                    <option> Nữ</option>
+                                                </c:if>
+                                                <c:if test="${sessionScope.account.gen == 2}">
+                                                    <option> Nữ</option>
+                                                    <option> Nam</option>
+                                                </c:if>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div data-v-c4f347a8="" class="row">
+                                <div data-v-c4f347a8="" class="form-group col-md-6">
+                                    <label data-v-c4f347a8="">Số điện thoại</label>
+                                    <div data-v-8c64d55c="" data-v-c4f347a8="">
+                                        <div data-v-8c64d55c="" class="input-container ml-auto position-relative">
+                                            <input id="phone" name="phone" type="text"
+                                                   placeholder="Nhập số điện thoại" autocomplete="true"
+                                                   class="form-control" value="${sessionScope.account.phone}">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-v-c4f347a8="" class="form-group mb-0">
+                                <a data-v-c4f347a8="" href="/app/dashboard" class="btn head-btn1"
+                                   style="background: crimson">Hủy</a>
+                                <button id="btn" name="btn" type="submit" class="btn head-btn1"
+                                        style="background: #0e90d2">
+                                    Lưu
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--                end form-->
             </div>
         </div>
-        <div data-v-c4f347a8="" class="bg-white w-100 rounded">
-            <!--               form -->
-            <form data-v-c4f347a8="">
-                <div data-v-c4f347a8="" class="">
-                    <div data-v-c4f347a8="" class="card-header bg-white" style="border: none; box-shadow: none">
-                        <h5> Thông tin cá nhân</h5>
-                    </div>
-                    <div data-v-c4f347a8="" class="card-body setting-form">
-                        <div data-v-c4f347a8="" class="row">
-                            <!--                                avt-->
-                            <div data-v-c4f347a8="" class="form-group col-md-6">
-                                <div data-v-c4f347a8="" class="d-flex align-items-center">
-                                    <label data-v-c4f347a8="" class="col-form-label mr-2"></label>
-                                    <div data-v-2a31697a="" data-v-c4f347a8="" class="mr-2  avatar">
-                                        <img src="admin/images/user.png">
-                                    </div>
-                                    <div data-v-c4f347a8="">
-                                        <div data-v-ea13fd1a="" data-v-c4f347a8="" class="file-upload mt-2 d-none1"
-                                             type="file" name="avatar">
-                                            <div data-v-ea13fd1a="" class="mx-4">
-                                                    <span data-v-ea13fd1a="" class="text-muted">
-                                                        <span data-v-ea13fd1a="">Chọn hoặc kéo file vào đây</span>
-                                                    </span>
-                                            </div>
-                                            <input data-v-ea13fd1a="" id="avatar" type="file" accept="image/*">
-                                            <label data-v-ea13fd1a="" for="audio-file"
-                                                   class="btn btn-secondary text-primary btn-sm mt-2">
-                                                <i data-v-ea13fd1a="" class="fas fa-upload"></i> Chọn file
-                                            </label>
-                                        </div>
-                                        <input data-v-c4f347a8="" type="text" name="avatar" class="d-none1">
-                                        <button data-v-c4f347a8="" type="button" class="btn head-btn1"
-                                                style="margin: 10px 50px; background: #0e90d2">
-                                            Đổi avatar
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--                                avt end-->
-                            <div data-v-c4f347a8="" class="form-group col-md-6">
-                                <label data-v-c4f347a8="" class="col-form-label">
-                                    Email: 20130348@st.hcmuaf.edu.vn
-                                </label>
-                            </div>
-                        </div>
-                        <div data-v-c4f347a8="" class="row">
-                            <div data-v-c4f347a8="" class="form-group col-md-6">
-                                <label data-v-c4f347a8="">Họ và tên</label>
-                                <div data-v-8c64d55c="" data-v-c4f347a8="">
-                                    <div data-v-8c64d55c="" class="input-container ml-auto position-relative">
-                                        <input data-v-8c64d55c="" id="ncSqdCYZxB" type="text"
-                                               placeholder="Nhập họ và tên" autocomplete="true"
-                                               class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-v-c4f347a8="" class="form-group col-md-6">
-                                <label data-v-c4f347a8="">Giới tính</label>
-                                <div data-v-8c64d55c="" data-v-c4f347a8="">
-                                    <div data-v-8c64d55c="" class="input-container ml-auto position-relative">
-                                        <select class="">
-                                            <option> Nam</option>
-                                            <option> Nữ</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div data-v-c4f347a8="" class="row">
-                            <div data-v-c4f347a8="" class="form-group col-md-6">
-                                <div data-v-c4f347a8="" class="d-flex justify-content-between">
-                                    <label data-v-c4f347a8="">Số điện thoại</label>
-                                    <div data-v-c4f347a8="">
-                                        <a data-v-c4f347a8="" href="#" class="text-primary">Cập nhật</a>
-                                    </div>
-                                </div>
-                                <div data-v-55ff225c="" data-v-c4f347a8="" class="mask-input">
-                                    <input data-v-55ff225c="" readonly="readonly" placeholder="Số điện thoại"
-                                           class="form-control hidden-spin-button">
-                                    <span data-v-55ff225c="" class="suffix text-primary">
-                                            <i data-v-c4f347a8="" data-v-55ff225c="" class="fa fa-circle-check"></i> Đã xác thực
-                                       </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-v-c4f347a8="" class="form-group mb-0">
-                            <a data-v-c4f347a8="" href="/app/dashboard" class="btn head-btn1"
-                               style="background: crimson">Hủy</a>
-                            <button data-v-c4f347a8="" type="submit" class="btn head-btn1" style="background: #0e90d2">
-                                Lưu
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <!--                end form-->
-        </div>
     </div>
-</div>
+</main>
 <jsp:include page="footter-candi.jsp"></jsp:include>
 
 </body>

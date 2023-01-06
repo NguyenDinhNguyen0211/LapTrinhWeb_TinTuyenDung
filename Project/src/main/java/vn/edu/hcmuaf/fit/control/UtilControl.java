@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class UtilControl {
+
+
     public static void send(int role, String urlAdmin, String urlCandi, String urlBusi, HttpServletResponse response) throws IOException {
         if (role == 0)
             response.sendRedirect(urlAdmin);
@@ -13,6 +15,10 @@ public class UtilControl {
             response.sendRedirect(urlCandi);
         if (role == 2)
             response.sendRedirect(urlBusi);
+    }
+
+    public static void forward(String url, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("url").forward(request, response);
     }
 
     public static void forward(int role, String urlAdmin, String urlCandi, String urlBusi, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

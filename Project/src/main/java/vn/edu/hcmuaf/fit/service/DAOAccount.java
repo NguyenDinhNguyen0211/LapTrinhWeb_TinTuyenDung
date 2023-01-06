@@ -33,6 +33,10 @@ public class DAOAccount {
 
     public Account getAccount() {
         return account;
+
+    }
+    public void update(String name, String email,String phone){
+        String query = "update account set name = ? , email = ? , phone = ? where username = ?";
     }
 
     public List<Account> getListAccount() {
@@ -71,18 +75,26 @@ public class DAOAccount {
         return false;
     }
 
-    public boolean checkEmail(String email) {
-        String query = "select * from account where email = ?";
+    public boolean checkEmail(String username, String email) {
+        String query = "select * from account where username = ? and email = ?";
         List<Account> listAccount = JDBIConnector.get().withHandle(handle -> handle.createQuery(query)
-                .bind(0, email)
+                .bind(0, username)
+                .bind(1, email)
                 .mapToBean(Account.class).list());
         for (Account account : listAccount) {
-            if (account.getEmail().equals(email)) {
+            if (account.getUsername().equals(username) && account.getEmail().equals(email)) {
                 this.account = account;
                 return true;
             }
         }
         return false;
+    }
+
+    public String getPassword(String username, String email) {
+        if (checkEmail(username, email)) {
+            return account.getPassword();
+        }
+        return null;
     }
 
     public boolean register(String username, String password, String name, String email, String phone, int gen, String img, int role, Date date) {
@@ -105,6 +117,26 @@ public class DAOAccount {
         }
         return false;
     }
+
+    public void uploadAccount(String username,String name, String phone, String email, int gen, String img){
+        String query = "update account set name = ?, email = ?, phone = ? , gen = ?, img = ? where username=?";
+                try {
+                    JDBIConnector.get().withHandle(handle ->
+                            handle.createUpdate(query)
+                                    .bind(0, name)
+                                    .bind(1, email)
+                                    .bind(2, phone)
+                                    .bind(3, gen)
+                                    .bind(4, img)
+                                    .bind(5, username)
+                                    .execute()
+                    );
+                }
+                catch (Exception e){
+                    e.printStackTrace();
+                }
+        }
+
 
     public boolean checkUsernameExists(String username) {
         String query = "select * from account where username = ?";
@@ -133,6 +165,5 @@ public class DAOAccount {
 //        dao.registerBusi("abc2", "1112", null,"abc@gmail.com", null,0,null,1);
 
     }
-
 
 }

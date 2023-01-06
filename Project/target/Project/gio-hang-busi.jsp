@@ -435,7 +435,7 @@
             <div class='credit-info-content'>
               <table class='half-input-table'>
                 <tr>
-                  <td>Chọn card của bạn:</td>
+                  <td style="color: white">Chọn card của bạn:</td>
                   <td>
                     <div class='dropdown' >
 
@@ -455,10 +455,10 @@
                    class='credit-card-image' id='credit-card-image'></img>
               <table class='half-input-table'>
                 <tr>
-                  <td> Số tài khoản
+                  <td style="color: white"> Số tài khoản
                     <input class='input-field 'style="color: #0b0b0b" ></input>
                   </td>
-                  <td> Mật khẩu
+                  <td style="color: white"> Mật khẩu
                     <input class='input-field' style="color: #0b0b0b"></input>
                   </td>
                 </tr>

@@ -277,6 +277,8 @@ body {
 }
 .post-details4{
     margin-top: 200px;
+    padding-right: 50px
+;
 }
 .post-details4 span {
     color: #5b5c6e;
@@ -301,6 +303,8 @@ body {
 
 .job-post-details{
     width: 650px;
+    margin-left: 20px;
+
 }
 
 

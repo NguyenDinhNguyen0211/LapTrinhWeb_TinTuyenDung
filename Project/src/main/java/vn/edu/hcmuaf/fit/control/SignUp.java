@@ -19,7 +19,7 @@ public class SignUp extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DAOAccount d = new DAOAccount();
         String name = request.getParameter("hoten");
-        String id = request.getParameter("username");
+        String user_name = request.getParameter("user_name");
         String password = request.getParameter("password");
         String email = request.getParameter("email");
         String phone = request.getParameter("phone");
@@ -28,7 +28,7 @@ public class SignUp extends HttpServlet {
         String img = null;
         Date date = new Date();
         int role = UtilControl.setRole("btndangky_candi", "btndangky_busi", request);
-        if (d.register(id, password, name, email, phone, gen, img, role, date)) {
+        if (d.registerCandi(user_name, password, role,name, email, date)) {
             UtilControl.send(role, "dang-nhap-Admin.jsp", "dang-nhap-candi.jsp", "dang-nhap-busi.jsp", response);
         } else {
             String message = d.getMessage();

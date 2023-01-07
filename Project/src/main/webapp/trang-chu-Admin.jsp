@@ -18,7 +18,6 @@
         <link type="text/css" href="admin/images/icons/css/font-awesome.css" rel="stylesheet">
         <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
               rel='stylesheet'>
-
     </head>
 </head>
 <body>

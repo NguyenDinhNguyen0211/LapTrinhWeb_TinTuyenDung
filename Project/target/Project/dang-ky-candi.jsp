@@ -50,7 +50,7 @@
                 </div>
                 <div class="input-form">
                     <span>Tên tài khoản</span>
-                    <input id="id" name="username" onkeyup="daoNutDN()" type="text" class="input" data-type="text"
+                    <input id="id" name="user_name" onkeyup="daoNutDN()" type="text" class="input" data-type="text"
                            placeholder="Nhập tên tài khoản">
                 </div>
                 <div class="input-form">

@@ -1,11 +1,21 @@
+<%-- Created by IntelliJ IDEA. --%>
+<%@ page import="java.util.Date" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="vn.edu.hcmuaf.fit.model.Post" %>
+<%@ page import="java.util.List" %>
+<%@ page import="vn.edu.hcmuaf.fit.service.DAOPost" %><%--
 <%--
-  Created by IntelliJ IDEA.
   User: Admin
   Date: 05/01/2023
   Time: 6:53 CH
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    Date date = new Date();
+    DAOPost daoPost = new DAOPost();
+
+%>
 <html>
 <head>
     <meta charset="utf-8">

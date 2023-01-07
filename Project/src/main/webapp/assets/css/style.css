@@ -5718,7 +5718,7 @@ b, sup, sub, u, del {
 }
 
 .slider-area .hero__caption {
-    padding-right: 29px
+    padding-right: 29px;
 }
 
 @media (max-width: 767px) {

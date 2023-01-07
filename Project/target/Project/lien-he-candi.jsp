@@ -44,6 +44,7 @@
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
 <!-- Hero Area Start-->
+
 <div class="slider-area ">
   <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
     <div class="container">
@@ -59,6 +60,7 @@
 </div>
 <!-- Hero Area End -->
 <!-- ================ contact section start ================= -->
+<%--<form action="Page" method="post">--%>
 <section class="contact-section">
   <div class="container">
     <div class="row">
@@ -120,6 +122,7 @@
     </div>
   </div>
 </section>
+<%--</form>--%>
 <jsp:include page="footter-candi.jsp"></jsp:include>
 </body>
 <!-- JS here -->

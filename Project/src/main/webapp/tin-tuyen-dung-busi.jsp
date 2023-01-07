@@ -200,8 +200,12 @@
                                     <span class="mb-2 text-xs">Mức lương: <span class="text-dark font-weight-bold ms-sm-2">20.000.000 VND</span></span>
                                     <span class="text-xs"><b>Ngày đăng tuyển:</b> <span class="text-dark font-weight-bold ms-sm-2">03/01/2023</span></span>
                                 </div>
+<%--                                <div class="ms-auto text-end">--%>
+<%--                                    <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i class="far fa-trash-alt me-2"></i>Delete</a>--%>
+<%--                                    <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit</a>--%>
+<%--                                </div>--%>
                                 <div class="ms-auto text-end">
-                                    <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i class="far fa-trash-alt me-2"></i>Delete</a>
+                                    <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i class="fas fa-pencil-alt1 text-dark me-2" aria-hidden="true"></i>Ngừng tuyển dụng</a>
                                     <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit</a>
                                 </div>
                             </li>

@@ -940,9 +940,9 @@ img {
     font-variant: normal;
     line-height: 1;
 }
-.color-premium {
-    color: #f60002 !important;
-}
+/*.color-premium {*/
+/*    color: #f60002 !important;*/
+/*}*/
 .contact-section .section-body .content-contact .info-line {
     margin-bottom: 16px;
 }

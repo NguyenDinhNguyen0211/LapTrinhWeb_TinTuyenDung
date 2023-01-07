@@ -119,21 +119,16 @@
                 <hr>
                 <div class="content-contact">
                   <div class="info-line">
-                    <i class="fa-solid fa-phone color-premium"></i>
+                    <i class="fa-solid ">Liên hệ: </i>
                     <a href="tel:0977619598">0977619598</a>
                   </div>
                   <div class="info-line">
-                    <i class="fa-solid fa-globe color-premium"></i>
-                    <span><a class="color-premium" href="http://pasal.edu.vn" target="_blank">http://pasal.edu.vn</a></span>
+                    <i class="fa-solid">Website: </i>
+                    <span><a class="" href="http://pasal.edu.vn" target="_blank">http://pasal.edu.vn</a></span>
                   </div>
                   <div class="info-line">
-                    <i class="fa-solid fa-location-dot color-premium "></i>
+                    <i class="fa-solid ">Địa chỉ: </i>
                     <span>Head Office Số 2, Ngõ 54 Phỗ Vũ Trọng Phụng, Thanh Xuân, Hà Nội.</span>
-                  </div>
-                  <div class="company-map">
-                    <p>Địa chỉ trụ sở chính</p>
-                    <iframe width="100%" height="275px" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVgO8KzHQ8iKcfqXgrMnUIGlD-piWiPpo&amp;q=Head+Office+Só+2,Ngõ+54+Phõ+Vũ+Trọng+Phụng,Thanh+Xuan,Ha+Nọi.&amp;zoom=15&amp;language=vi" allowfullscreen="">
-                    </iframe>
                   </div>
                 </div>
               </div>
@@ -144,23 +139,7 @@
       </div>
       <div class="col-lg-4">
         <div class="blog_right_sidebar">
-          <aside class="single_sidebar_widget search_widget">
-            <form action="#">
-              <div class="form-group">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder='Tìm kiếm từ khóa'
-                         onfocus="this.placeholder = ''"
-                         onblur="this.placeholder = 'Tìm kiếm từ khóa'">
-                  <div class="input-group-append">
-                    <button class="btns" type="button"><i class="ti-search"></i></button>
-                  </div>
-                </div>
-              </div>
-              <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                      type="submit">Tìm kiếm
-              </button>
-            </form>
-          </aside>
+
           <aside class="single_sidebar_widget post_category_widget">
             <h4 class="widget_title">Việc làm</h4>
             <ul class="list cat-list">
@@ -241,37 +220,7 @@
               </div>
             </div>
           </aside>
-          <aside class="single_sidebar_widget tag_cloud_widget">
-            <h4 class="widget_title">Tìm kiếm gần đây</h4>
-            <ul class="list">
-              <li>
-                <a href="#">PHP</a>
-              </li>
-              <li>
-                <a href="#">Java</a>
-              </li>
-              <li>
-                <a href="#">C++</a>
-              </li>
-              <li>
-                <a href="#">C#</a>
-              </li>
-              <li>
-                <a href="#">Lập trình viên</a>
-              </li>
-              <li>
-                <a href="#">Hệ thống thông tin</a>
-              </li>
-              <li>
-                <a href="#">An toàn mạng</a>
-              </li>
-              <li>
-                <a href="#">Trí tuệ nhân tạo</a>
-              </li>
-            </ul>
 
-            <!--                  -->
-        </div>
       </div>
     </div>
   </div>

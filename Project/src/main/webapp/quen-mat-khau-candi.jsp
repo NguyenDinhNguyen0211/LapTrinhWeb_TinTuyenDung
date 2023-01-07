@@ -16,7 +16,7 @@
 <body>
 <section>
     <div class="img-bg">
-        <img src="assets/img/log_in/img.png" alt="">
+        <img src="assets/img/log_in/img3.jpg" alt="">
     </div>
 
     <div class="noi-dung">
@@ -32,7 +32,7 @@
                     <!--Nhập email-->
                     <div id="modal1">
                         <div class="input-form">
-                            <span>Email</span>
+                            <span>Tài khoản</span>
                             <input id="username" name="username" class="input"
                                    placeholder="Nhập tài khoản của bạn">
                         </div>

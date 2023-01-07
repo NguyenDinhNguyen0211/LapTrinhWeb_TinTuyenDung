@@ -40,24 +40,25 @@
   </div>
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
+
 <main>
   <!-- slider Area Start-->
   <div class="slider-area ">
     <!-- Mobile Menu -->
     <div class="slider-active">
       <div class="single-slider slider-height d-flex align-items-center"
-           data-background="assets/img/hero/h1_hero.jpg">
+           data-background="assets/img/hero/h3_hero.jpg">
         <div class="container">
           <div class="row">
-            <div class="hero__caption">
-              <h1>Tìm kiếm việc làm</h1>
+            <div class="hero__caption" style="padding-left: 270px; ">
+              <h1 style="margin-bottom: 100px">Topvieclam.com</h1>
             </div>
           </div>
           <!-- Search Box -->
-          <div class="row">
+          <div class="row" style=" padding-bottom: 200px; padding-left: 140px;">
             <div class="col-xl-8">
               <!-- form -->
-              <form action="#" class="search-box">
+              <form action="Post" method="post" class="search-box">
                 <div class="input-form">
                   <input type="text" placeholder="Tìm kiếm việc làm, công ty">
                 </div>

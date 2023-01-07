@@ -19,7 +19,7 @@
 <body>
 <section>
     <div class="img-bg">
-        <img src="assets/img/logn%20in/img.png" alt="">
+        <img src="assets/img/log_in/img2.jpg" alt="">
     </div>
     <div class="noi-dung">
         <!-- Logo -->

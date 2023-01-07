@@ -79,33 +79,10 @@
   <div class="wrapper wrapper--w900">
     <div class="card card-6">
       <div class="card-heading">
-        <h2 class="title">Đơn ứng tuyển</h2>
+        <h2 class="title">Upload CV</h2>
       </div>
       <div class="card-body">
         <form method="POST">
-          <div class="form-row">
-            <div class="name">Họ và tên</div>
-            <div class="value">
-              <input class="input--style-6" type="text" name="full_name" placeholder="Nguyễn Văn A">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="name">Địa chỉ email</div>
-            <div class="value">
-              <div class="input-group">
-                <input class="input--style-6" type="email" name="email" placeholder="example@email.com">
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="name">Tin nhắn</div>
-            <div class="value">
-              <div class="input-group">
-                                <textarea class="textarea--style-6" name="message"
-                                          placeholder="Tin nhắn gửi đến nhà tuyển dụng"></textarea>
-              </div>
-            </div>
-          </div>
 
           <div class="form-row">
             <div class="name">Upload CV</div>

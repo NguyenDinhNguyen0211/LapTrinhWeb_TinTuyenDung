@@ -17,7 +17,7 @@
 <body>
 <section>
     <div class="img-bg">
-        <img src="business/assets/img/home-decor-1.jpg" alt="">
+        <img src="business/assets/img/home-decor.jpg" alt="">
     </div>
 
     <div class="noi-dung">

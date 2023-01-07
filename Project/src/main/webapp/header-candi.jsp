@@ -21,7 +21,7 @@
                     <div class="col-lg-3 col-md-2 padding-left">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="trang-chu.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="trang-chu-candi.jsp"><img src="assets/img/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9">
@@ -30,28 +30,24 @@
                             <div class="main-menu">
                                 <nav class="d-none d-lg-block">
                                     <ul id="navigation">
-                                        <li><a href="trang-chu.html">Trang chủ</a></li>
-                                        <li><a href="danh-sach-viec-lam.html">Việc làm </a>
+                                        <li><a href="trang-chu-candi.jsp">Trang chủ</a></li>
+                                        <li><a href="danh-sach-viec-lam-candi.jsp">Việc làm </a>
                                             <ul class="submenu">
-                                                <li><a href="danh-sach-viec-lam.html">Tìm việc làm </a></li>
-                                                <li><a href="Post">Việc làm đã ứng tuyển</a></li>
-                                                <li><a href="viec-lam-da-luu.html">Việc làm đã lưu</a></li>
+                                                <li><a href="danh-sach-viec-lam-candi.jsp">Tìm việc làm </a></li>
+                                                <li><a href="viec-lam-da-ung-tuyen-candi.jsp">Việc làm đã ứng tuyển</a></li>
+                                                <li><a href="viec-lam-da-luu-candi.jsp">Việc làm đã lưu</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="ung-tuyen.html">Ứng tuyển</a></li>
-                                        <li><a href="danh-sach-cong-ty.html">Công ty</a>
-                                            <ul class="submenu">
-                                                <li><a href="danh-sach-cong-ty.html">Danh sách công ty</a></li>
-                                                <li><a href="danh-sach-top-cong-ty.html">Top công ty</a></li>
-                                            </ul>
+                                        <li><a href="Recruitment">Ứng tuyển</a></li>
+                                        <li><a href="Company">Công ty</a>
                                         </li>
-                                        <li><a href="tin-tuc.html">Trang</a>
-                                            <ul class="submenu">
-                                                <li><a href="tin-tuc.html">Tin tức</a></li>
-                                                <li><a href="lien-he.html">Liên hệ</a></li>
-                                                <li><a href="ve-chung-toi.html">Về Chúng tôi</a></li>
-                                            </ul>
-                                        </li>
+                                            <li><a>Trang</a>
+                                                <ul class="submenu" id="action" >
+                                                    <li><a href="PageBlog" target="action">Tin tức</a></li>
+                                                    <li><a href="PageContact" target="action">Liên hệ</a></li>
+                                                    <li><a href="PageAbout" target="action">Về Chúng tôi</a></li>
+                                                </ul>
+                                            </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -61,9 +57,9 @@
                                     <a href="dang-ky-candi.jsp" class="btn head-btn2">Đăng kí</a>
                                     <a href="dang-nhap-candi.jsp" class="btn head-btn2">Đăng nhập</a>
                                 </c:if>
-                                <a href="dang-nhap.html" class="btn head-btn1">Nhà tuyển dụng</a>
+                                <a href="dang-nhap-busi.jsp" class="btn head-btn1">Nhà tuyển dụng</a>
                                 <c:if test="${sessionScope.account != null}">
-                                    <a href="#">
+                                    <a href="tai-khoan-candi.jsp">
                                         <i class="fa fa-user"></i>
                                         <span> Xin chào ${sessionScope.account.name}</span>
                                     </a>
@@ -85,4 +81,7 @@
     <!-- Header End -->
 </header>
 </body>
+<script>
+    document.getElementById("action").setAttribute("action","action");
+</script>
 </html>

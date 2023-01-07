@@ -75,18 +75,7 @@
                                 <%
                                     if (message != null) {
                                 %>
-                                <div style="width: 95%;
-                                            height: calc(1.5em + 0.75rem + 2px);
-                                            padding: 0.375rem 0.75rem;
-                                            background: #E05E74; border-radius: 5px;
-                                            border: 2px solid black">
-                                    <label style="color: #4d0203;
-                                                  font-size: 1rem;
-                                                  font-weight: 400;
-                                                  line-height: 1.5;">
-                                        <b> ERROR! </b> Đăng ký không thành công.Tài khoản đã tồn tại
-                                    </label>
-                                </div>
+                                <jsp:include page="error.jsp"></jsp:include>
                                 <%
                                     }
                                 %>
@@ -208,21 +197,14 @@
                                                                    class="form-control"> <!----></div> <!----></div>
                                 </div>
                             </div>
-                            <!--                                starrt-->
-                            <div data-v-9281c350="" class="form-group"><label data-v-9281c350=""
 
-                                                                              class="col-form-label text-dark">
-                                Vị trí công tác:
-                            </label>
-                                <div class="">
-                                    <select name="select1" id="select1" class="multiselect__tags" style="width: 30%">
-                                        <option value="1">Nhân viên</option>
-                                        <option value="1">Trưởng nhóm</option>
-                                        <option value="1">Phó phòng</option>
-                                        <option value="1">Trưởng phòng</option>
-
-                                    </select></div>
+                            <div class="control-group">
+                                <label class="control-label" for="basicinput">Thông tin công ty:</label>
+                                <div class="controls">
+                                    <textarea class="span8a" style="width: 1000px; border: 1px solid #f1f3f4;" rows="5"></textarea>
+                                </div>
                             </div>
+
                             <!--                   énd             -->
                             <div data-v-9281c350="" class="form-group"><label data-v-9281c350=""
                                                                               class="col-form-label text-dark">Địa

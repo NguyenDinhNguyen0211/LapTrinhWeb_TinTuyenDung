@@ -16,8 +16,8 @@ public class PostServlet extends HttpServlet {
         DAOPost p = new DAOPost();
         request.setAttribute("list", p.getListPost());
         request.getRequestDispatcher("viec-lam-da-ung-tuyen-candi.jsp").forward(request, response);
+//        request.getRequestDispatcher("viec-lam-da-luu-candi.jsp").forward(request, response);
     }
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);

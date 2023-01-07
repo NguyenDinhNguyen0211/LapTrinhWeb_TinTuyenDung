@@ -147,12 +147,12 @@
                             <h4>Tổng quan về công việc</h4>
                         </div>
                         <ul>
-                            <li>Ngày đăng : <span>12/8/2020</span></li>
+                            <li>Chức vụ : <span>Nhân viên</span></li>
+                            <li>Hình thức làm việc : <span>Toàn thời gian</span></li>
+                            <li>Kinh nghiệm : <span>2 năm</span></li>
                             <li>Địa điểm : <span>Hồ Chí Minh</span></li>
-                            <li>Vị trí còn trống : <span>02</span></li>
-                            <li>Tính chất công việc : <span>Toàn thời gian</span></li>
-                            <li>Mức lương : <span>10,000,000 VNĐ</span></li>
-                            <li>Ngày nộp hồ sơ : <span>12/9/2020</span></li>
+                            <li>Mức lương : <span>15,000,000 VNĐ</span></li>
+                            <li>Hạn nộp hồ sơ : <span>12/01/2023</span></li>
                         </ul>
                         <div class="apply-btn2">
                             <a href="viec-lam-da-ung-tuyen.html" class="btn">Nộp đơn</a>

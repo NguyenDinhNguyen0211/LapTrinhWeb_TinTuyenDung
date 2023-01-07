@@ -40,24 +40,25 @@
   </div>
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
+
 <main>
   <!-- slider Area Start-->
   <div class="slider-area ">
     <!-- Mobile Menu -->
     <div class="slider-active">
       <div class="single-slider slider-height d-flex align-items-center"
-           data-background="assets/img/hero/h1_hero.jpg">
+           data-background="assets/img/hero/h3_hero.jpg">
         <div class="container">
           <div class="row">
-            <div class="hero__caption">
-              <h1>Tìm kiếm việc làm</h1>
+            <div class="hero__caption" style="padding-left: 270px; ">
+              <h1 style="margin-bottom: 100px">Topvieclam.com</h1>
             </div>
           </div>
           <!-- Search Box -->
-          <div class="row">
+          <div class="row" style=" padding-bottom: 200px; padding-left: 140px;">
             <div class="col-xl-8">
               <!-- form -->
-              <form action="#" class="search-box">
+              <form action="Post" method="post" class="search-box">
                 <div class="input-form">
                   <input type="text" placeholder="Tìm kiếm việc làm, công ty">
                 </div>
@@ -193,7 +194,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="browse-btn2 text-center mt-50">
-            <a href="danh-sach-viec-lam.html" class="border-btn2">Xem thêm</a>
+            <a href="danh-sach-viec-lam-candi.jsp" class="border-btn2">Xem thêm</a>
           </div>
         </div>
       </div>
@@ -208,7 +209,7 @@
           <div class="cv-caption text-center">
             <span><b class="tittle"> NỔI BẬT</b></span>
             <p class="pera2">Nộp CV để chớp lấy cơ hội việc làm mơ ước</p>
-            <a href="ung-tuyen.html" class="border-btn2 border-btn4">Tải CV của bạn</a>
+            <a href="ung-tuyen-candi.jsp" class="border-btn2 border-btn4">Tải CV của bạn</a>
           </div>
         </div>
       </div>
@@ -494,7 +495,7 @@
           <div class="home-blog-single mb-30">
             <div class="blog-img-cap">
               <div class="blog-img">
-                <a href="tin-tuc-chi-tiet.html"> <img src="assets/img/blog/home-blog1.jpg"> </a>
+                <a href="tin-tuc-chi-tiet-candi.jsp"> <img src="assets/img/blog/home-blog1.jpg"> </a>
                 <!-- Blog date -->
                 <div class="blog-date text-center">
                   <span>24</span>
@@ -503,8 +504,8 @@
               </div>
               <div class="blog-cap">
                 <p>| Tin nóng</p>
-                <h3><a href="tin-tuc-chi-tiet.html">Hệ thống thông tin phát triển vượt bậc...</a></h3>
-                <a href="tin-tuc-chi-tiet.html" class="more-btn">Xem thêm »</a>
+                <h3><a href="tin-tuc-chi-tiet-candi.jsp">Hệ thống thông tin phát triển vượt bậc...</a></h3>
+                <a href="tin-tuc-candi.jsp" class="more-btn">Xem thêm »</a>
               </div>
             </div>
           </div>
@@ -513,7 +514,7 @@
           <div class="home-blog-single mb-30">
             <div class="blog-img-cap">
               <div class="blog-img">
-                <a href="tin-tuc-chi-tiet.html"> <img src="assets/img/blog/home-blog2.jpg"
+                <a href="tin-tuc-chi-tiet-candi.jsp"> <img src="assets/img/blog/home-blog2.jpg"
                                                       alt=""></a>
                 <!-- Blog date -->
                 <div class="blog-date text-center">
@@ -523,8 +524,8 @@
               </div>
               <div class="blog-cap">
                 <p>| Tin mới</p>
-                <h3><a href="tin-tuc-chi-tiet.html">Trên con đường thành công không có dấu ...</a></h3>
-                <a href="tin-tuc-chi-tiet.html" class="more-btn">Xem thêm »</a>
+                <h3><a href="tin-tuc-chi-tiet-candi.jsp">Trên con đường thành công không có dấu ...</a></h3>
+                <a href="tin-tuc-chi-tiet-candi.jsp" class="more-btn">Xem thêm »</a>
               </div>
             </div>
           </div>

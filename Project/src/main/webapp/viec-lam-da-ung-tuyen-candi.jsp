@@ -44,6 +44,7 @@
 
 <!--================Blog Area =================-->
 <jsp:include page="header-candi.jsp"></jsp:include>
+
 <div id="main">
     <div id="history-apply">
         <div class="container">

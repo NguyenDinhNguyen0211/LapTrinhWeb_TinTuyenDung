@@ -43,7 +43,7 @@
             </ul>
           </li>
           <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <img src="images/user.png" class="nav-avatar"/>
+            <img src="admin/images/user.png" class="nav-avatar"/>
             <span>User</span>
             <b class="caret"></b></a>
             <ul class="dropdown-menu">

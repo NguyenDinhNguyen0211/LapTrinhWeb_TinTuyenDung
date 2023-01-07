@@ -19,7 +19,7 @@
 <body>
 <section>
     <div class="img-bg">
-        <img src="assets/img/logn%20in/img.png" alt="">
+        <img src="assets/img/log_in/img2.jpg" alt="">
     </div>
     <div class="noi-dung">
         <!-- Logo -->
@@ -32,18 +32,7 @@
                 <%
                     if (message != null) {
                 %>
-                <div style="width: 95%;
-                                            height: calc(1.5em + 0.75rem + 2px);
-                                            padding: 0.375rem 0.75rem;
-                                            background: #E05E74; border-radius: 5px;
-                                            border: 2px solid black">
-                    <label style="color: #4d0203;
-                                                  font-size: 1rem;
-                                                  font-weight: 400;
-                                                  line-height: 1.5;">
-                        <b> ERROR! </b> Đăng ký không thành công.Tài khoản đã tồn tại
-                    </label>
-                </div>
+                <jsp:include page="error.jsp"></jsp:include>
                 <%
                     }
                 %>

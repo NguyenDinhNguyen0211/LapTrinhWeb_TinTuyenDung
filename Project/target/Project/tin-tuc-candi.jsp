@@ -1,3 +1,8 @@
+<%@ page import="java.util.Date" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="vn.edu.hcmuaf.fit.model.Post" %>
+<%@ page import="java.util.List" %>
+<%@ page import="vn.edu.hcmuaf.fit.service.DAOPost" %><%--
 <%--
   Created by IntelliJ IDEA.
   User: Admin
@@ -6,6 +11,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+  Date date = new Date();
+  DAOPost daoPost = new DAOPost();
+
+%>
 <html>
 <head>
   <meta charset="utf-8">
@@ -42,7 +52,9 @@
 </div>
 <jsp:include page="header-candi.jsp"></jsp:include>
 <!-- Hero Area Start-->
-<div class="slider-area ">
+
+
+ <div class="slider-area ">
   <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
     <div class="container">
       <div class="row">
@@ -57,6 +69,7 @@
 </div>
 <!-- Hero Area End -->
 <!--================Blog Area =================-->
+<%--<form action="Page" method="post">--%>
 <section class="blog_area section-padding">
   <div class="container">
     <div class="row">
@@ -313,6 +326,7 @@
     </div>
   </div>
 </section>
+<%--</form>--%>
 <jsp:include page="footter-candi.jsp"></jsp:include>
 </body>
 <!-- JS here -->

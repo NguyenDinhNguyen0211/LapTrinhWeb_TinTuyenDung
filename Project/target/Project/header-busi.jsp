@@ -31,11 +31,11 @@
         <li class="nav-item d-flex align-items-center">
           <!--button-->
           <a class="btn btn-outline-primary btn-sm mb-0 me-3"
-             href="dang-tin.html">Đăng tin</a>
+             href="dang-tin-busi.jsp">Đăng tin</a>
           <a class="btn btn-outline-primary btn-sm mb-0 me-3"
-             href="quan-li-cv.html">Xem CV</a>
+             href="quan-li-cv-busi.jsp">Xem CV</a>
           <a class="btn btn-outline-primary btn-sm mb-0 me-3"
-             href="tro-giup.html">Trợ giúp</a>
+             href="tro-giup-busi.jsp">Trợ giúp</a>
         </li>
 
         </li>
@@ -45,6 +45,16 @@
       <div class="ms-md-auto pe-md-3 d-flex align-items-center"></div>
       <ul class="navbar-nav  justify-content-end">
         <!--           st         -->
+        <i class="nav-item  pe-2 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-body p-0" style="margin-right: 15px;"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-shopping-cart me-sm-1"style="color: red;width: 20px; padding-left: 7px;"></i>
+            <span class=" d-sm-inline d-none font-weight-bold text-sm" style="margin-right: 10px"> (5) </span>
+
+          </a>
+
+        </i>
+
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
           <a href="javascript:;" class="nav-link text-body p-0"
              data-bs-toggle="dropdown" aria-expanded="false">
@@ -96,7 +106,7 @@
               <a class="dropdown-item border-radius-md" href="javascript:;">
                 <div class="d-flex py-1">
                   <div class="my-auto">
-                    <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                    <img src="business/assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
                   </div>
                   <div class="d-flex flex-column justify-content-center">
                     <h6 class="text-sm font-weight-normal mb-1">
@@ -114,7 +124,7 @@
               <a class="dropdown-item border-radius-md" href="javascript:;">
                 <div class="d-flex py-1">
                   <div class="my-auto">
-                    <img src="../assets/img/small-logos/logo-spotify.svg"
+                    <img src="business/assets/img/small-logos/logo-spotify.svg"
                          class="avatar avatar-sm bg-gradient-dark  me-3 ">
                   </div>
                   <div class="d-flex flex-column justify-content-center">

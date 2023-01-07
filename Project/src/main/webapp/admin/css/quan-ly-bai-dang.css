@@ -1734,10 +1734,16 @@ select{
     width: 400px;
 }
 
-
+input[type="text"], input {
+    width: 500px;
+    height: 30px;
+}
+.form-group textarea{
+    width: 500px;
+    height: 100px;
+}
 
 .row1 {
-    display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: 15px;
@@ -1745,6 +1751,7 @@ select{
 .form-group {
     margin-bottom: 1rem;
 }
+
 .col-md-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.3333333333%;

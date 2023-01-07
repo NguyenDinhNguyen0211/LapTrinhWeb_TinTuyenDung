@@ -44,6 +44,7 @@
 <!-- Preloader Start -->
 <jsp:include page="header-candi.jsp"></jsp:include>
 <!-- Hero Area Start-->
+<%--<form action="Company" method="post">--%>
 <div class="slider-area ">
     <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
         <div class="container">
@@ -631,8 +632,8 @@
         </div>
     </div>
 </div>
+<%--</form>--%>z
 <!--================Blog Area =================-->
-<jsp:include page="footter-candi.jsp"></jsp:include>
 </body>
 <!-- JS here -->
 

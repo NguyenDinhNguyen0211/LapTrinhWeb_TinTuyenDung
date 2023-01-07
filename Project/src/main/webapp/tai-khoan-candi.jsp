@@ -75,12 +75,12 @@
                                     <div data-v-c4f347a8="" class="d-flex align-items-center">
                                         <label data-v-c4f347a8="" class="col-form-label mr-2"></label>
                                         <div data-v-2a31697a="" data-v-c4f347a8="" class="mr-2  avatar">
-                                            <c:if test="${sessionScope.account.img == null}">
+<%--                                            <c:if test="${sessionScope.account.img == null}">--%>
                                                 <img src="admin/images/user.png">
-                                            </c:if>
-                                            <c:if test="${sessionScope.account.img != null}">
-                                                <img src="${sessionScope.account.img}">
-                                            </c:if>
+<%--                                            </c:if>--%>
+<%--                                            <c:if test="${sessionScope.account.img != null}">--%>
+<%--                                                <img src="${sessionScope.account.img}">--%>
+<%--                                            </c:if>--%>
                                         </div>
                                         <div data-v-c4f347a8="">
                                             <%--                                            <div data-v-ea13fd1a="" data-v-c4f347a8="" class="file-upload mt-2 d-none1"--%>
@@ -102,15 +102,15 @@
                                             <%--                                                    style="margin: 10px 50px; background: #0e90d2">--%>
                                             <%--                                               --%>
                                             <%--                                            </button>--%>
-                                                <form modelAttribute="modelClass" action="save" method="POST" enctype="multipart/form-data">
-                                                    <div class="form-group">
-                                                        <label for="img" class="btn head-btn1"
-                                                               style="margin: 10px 60px; background: #0e90d2"> Đổi avatar</label>
-                                                        <input type="file" id="img" path="productLandscapeImage" class="form-control" name="productLandscapeImage" title="Image"
-                                                               style="margin: 10px 50px; visibility: hidden; cursor: pointer; color: orangered"
-                                                               value=""/>
-                                                    </div>
-                                                </form>
+<%--                                                <form modelAttribute="modelClass" action="save" method="POST" enctype="multipart/form-data">--%>
+<%--                                                    <div class="form-group">--%>
+<%--                                                        <label for="img" class="btn head-btn1"--%>
+<%--                                                               style="margin: 10px 60px; background: #0e90d2"> Đổi avatar</label>--%>
+<%--                                                        <input type="file" id="img" path="productLandscapeImage" class="form-control" name="productLandscapeImage" title="Image"--%>
+<%--                                                               style="margin: 10px 50px; visibility: hidden; cursor: pointer; color: orangered"--%>
+<%--                                                               value=""/>--%>
+<%--                                                    </div>--%>
+<%--                                                </form>--%>
 
                                         </div>
                                     </div>

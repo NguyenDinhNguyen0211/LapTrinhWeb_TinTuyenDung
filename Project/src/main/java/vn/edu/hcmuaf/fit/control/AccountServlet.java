@@ -23,13 +23,18 @@ public class AccountServlet extends HttpServlet {
         int gen = (s != null) ? (s.equals("Nam") ? 1 : 2) : 0;
 
         Account account = (Account) request.getSession().getAttribute("account");
-        account.setName(name);
-        account.setPhone(phone);
-        account.setEmail(email);
-        account.setGen(gen);
-        request.getRequestDispatcher("tai-khoan-candi.jsp").forward(request, response);
-        DAOAccount d = new DAOAccount();
-        d.uploadAccount(account.getUsername(), account.getName(),account.getPhone(),account.getEmail(),account.getGen(),account.getImg());
+        if (account != null) {
+            account.setName(name);
+            account.setPhone(phone);
+            account.setEmail(email);
+            account.setGen(gen);
+            request.getRequestDispatcher("tai-khoan-candi.jsp").forward(request, response);
+            DAOAccount d = new DAOAccount();
+            d.updateAccountCandi(account.getUsername(), account.getName(), account.getPhone(), account.getEmail(), account.getGen());
+        }else{
+            request.getRequestDispatcher("dang-nhap-candi.jsp").forward(request, response);
+        }
+
     }
 
 

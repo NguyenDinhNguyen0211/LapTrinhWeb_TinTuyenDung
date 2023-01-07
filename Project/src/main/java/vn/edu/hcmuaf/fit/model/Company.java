@@ -1,21 +1,24 @@
 package vn.edu.hcmuaf.fit.model;
 
-public class Company {
-    private String companyID   ;
+import java.io.Serializable;
+
+public class Company implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private String companyID;
     private String name;
-    private String img;
-    private String location;
     private String description;
+    private String addressID;
+    private String img;
 
     public Company() {
 
     }
 
-    public Company(String companyID, String name, String img, String location, String description) {
+    public Company(String companyID, String name, String img, String addressID, String description) {
         this.companyID = companyID;
         this.name = name;
         this.img = img;
-        this.location = location;
+        this.addressID = addressID;
         this.description = description;
     }
 
@@ -43,12 +46,12 @@ public class Company {
         this.img = img;
     }
 
-    public String getLocation() {
-        return location;
+    public String getAddressID() {
+        return addressID;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setLocation(String addressID) {
+        this.addressID = addressID;
     }
 
     public String getDescription() {
@@ -65,7 +68,7 @@ public class Company {
                 "companyID='" + companyID + '\'' +
                 ", name='" + name + '\'' +
                 ", img='" + img + '\'' +
-                ", location='" + location + '\'' +
+                ", location='" + addressID + '\'' +
                 ", description='" + description + '\'' +
                 '}';
     }

@@ -51,7 +51,7 @@
 
 
                         <li>
-                            <a href="baocao-thongke.html">
+                            <a href="baocao-thongke-Admin.jsp">
                                 <i class="menu-icon icon-tasks"></i> Báo cáo - thống kê
                             </a>
                         </li>

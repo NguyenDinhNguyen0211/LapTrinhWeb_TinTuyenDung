@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Account implements Serializable {
     private static final long serialVersionUID = 1L;
-    private String username;
+    private String user_name;
     private String password;
     private String name;
     private String email;
@@ -15,19 +15,19 @@ public class Account implements Serializable {
     private int role;
     private Date dateCreate;
 
-    public Account() {
+    public Account(String name, String email, String phone) {
 
     }
 
     public Account(String username, String password, String email, int role) {
-        this.username = username;
+        this.user_name = user_name;
         this.password = password;
         this.email = email;
         this.role = role;
     }
 
     public Account(String username, String password, String name, String email, String phone, int gen, int role) {
-        this.username = username;
+        this.user_name = user_name;
         this.password = password;
         this.role = role;
         this.name = name;
@@ -45,11 +45,11 @@ public class Account implements Serializable {
     }
 
     public String getUsername() {
-        return username;
+        return user_name;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.user_name = user_name;
     }
 
     public String getPassword() {
@@ -111,7 +111,7 @@ public class Account implements Serializable {
     @Override
     public String toString() {
         return "Account{" +
-                "username='" + username + '\'' +
+                "username='" + user_name + '\'' +
                 ", password='" + password + '\'' +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +

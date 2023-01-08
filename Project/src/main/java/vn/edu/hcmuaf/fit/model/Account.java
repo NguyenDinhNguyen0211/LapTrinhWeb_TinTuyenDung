@@ -17,20 +17,28 @@ public class Account implements Serializable {
     private Date create_date;
     private Date update_date;
 
-    public Account() {
+    public Account(String name, String email, String phone) {
 
     }
 
+<<<<<<< HEAD
+    public Account(String username, String password, String email, int role) {
+=======
     public Account(String user_name, String password, String email, int role) {
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
         this.user_name = user_name;
         this.password = password;
         this.email = email;
         this.role = role;
     }
 
+<<<<<<< HEAD
+    public Account(String username, String password, String name, String email, String phone, int gen, int role) {
+=======
     public Account(String user_name, String password, int role,
                    String email, String name, String phone, int gen, String fileCV, String companyID,
                    Date create_date, Date update_date) {
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
         this.user_name = user_name;
         this.password = password;
         this.role = role;
@@ -49,7 +57,11 @@ public class Account implements Serializable {
     }
 
     public void setUsername(String username) {
+<<<<<<< HEAD
+        this.user_name = user_name;
+=======
         this.user_name = username;
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
     }
 
     public String getPassword() {
@@ -135,7 +147,11 @@ public class Account implements Serializable {
     @Override
     public String toString() {
         return "Account{" +
+<<<<<<< HEAD
+                "username='" + user_name + '\'' +
+=======
                 "user_name='" + user_name + '\'' +
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
                 ", password='" + password + '\'' +
                 ", role=" + role +
                 ", email='" + email + '\'' +

@@ -46,8 +46,14 @@
                             </ul>
                         </li>
 
+<<<<<<< HEAD:Project/src/main/webapp/Admin-trang-chu.jsp
                         <li>
                             <a href="baocao-thongke.html">
+=======
+
+                        <li>
+                            <a href="baocao-thongke-Admin.jsp">
+>>>>>>> 3d49aa955b0db932df9383c973da5ba80faa2f4f:Project/target/Project/chinh-sua-lien-he-Admin.jsp
                                 <i class="menu-icon icon-tasks"></i> Báo cáo - thống kê
                             </a>
                         </li>

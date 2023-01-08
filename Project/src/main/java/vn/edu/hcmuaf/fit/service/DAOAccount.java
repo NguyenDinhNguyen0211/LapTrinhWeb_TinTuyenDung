@@ -51,7 +51,11 @@ public class DAOAccount {
     public boolean checkAccount(String user_name, String password, int role) {
         String query = "select * from account where  user_name = ? and password = ? and role = ?";
         List<Account> listAccount = JDBIConnector.get().withHandle(handle -> handle.createQuery(query)
+<<<<<<< HEAD
+                .bind(0, user  name)
+=======
                 .bind(0, user_name)
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
                 .bind(1, password)
                 .bind(2, role)
                 .mapToBean(Account.class).list());

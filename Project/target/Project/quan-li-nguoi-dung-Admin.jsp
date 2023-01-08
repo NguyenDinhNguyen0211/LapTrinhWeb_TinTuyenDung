@@ -45,15 +45,10 @@
                         </li>
 
 
-                        <li><a class="collapsed" data-toggle="collapse" href="#togglePages1"><i
-                                class="menu-icon icon-tasks">
-                        </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
-                        </i> Báo cáo </a>
-                            <ul id="togglePages1" class="collapse unstyled">
-                                <li><a href=""><i class="icon-inbox"></i> Thống kê bài đăng </a></li>
-                                <li><a href=""><i class="icon-inbox"></i> Thống kê ứng tuyển </a></li>
-                                <li><a href=""><i class="icon-inbox"></i> Thống kê doanh thu </a></li>
-                            </ul>
+                        <li>
+                            <a href="baocao-thongke-Admin.jsp">
+                                <i class="menu-icon icon-tasks"></i> Báo cáo - thống kê
+                            </a>
                         </li>
                         <li><a class="collapsed" data-toggle="collapse" href="#togglePages2"><i
                                 class="menu-icon icon-cog">

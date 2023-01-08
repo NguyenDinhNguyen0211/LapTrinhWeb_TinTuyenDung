@@ -8,7 +8,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "Login", value = "/Login")
+@WebServlet(name = "Login", value = {"/Login"})
 public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -18,17 +18,32 @@ public class Login extends HttpServlet {
         DAOAccount d = new DAOAccount();
         String user = request.getParameter("username");
         String pass = request.getParameter("password");
+
         int role = UtilControl.setRole("btndangnhap_candi", "btndangnhap_busi", request);
         boolean checkAccount = d.checkAccount(user, pass, role);
         String message = d.getMessage();
-
-        if (checkAccount) {
-            HttpSession session = request.getSession(true);
-            session.setAttribute("account", (Account) d.getAccount());
-            UtilControl.send(d.getAccount().getRole(), "trang-chu-Admin.jsp", "trang-chu-candi.jsp", "trang-chu-busi.jsp", response);
+        String action = request.getParameter("action");
+        if (action != null) {
+            switch (action) {
+                case "login-candi":
+                    request.getRequestDispatcher("dang-nhap-candi.jsp").forward(request, response);
+                    break;
+                case "login-busi":
+                    request.getRequestDispatcher("busi-dang-nhap.jsp").forward(request, response);
+                    break;
+                case "login-admin":
+                    request.getRequestDispatcher("Admin-dang-nhap.jsp").forward(request, response);
+                    break;
+            }
         } else {
-            request.setAttribute("message", message);
-            UtilControl.forward(role, "dang-nhap-Admin.jsp", "dang-nhap-candi.jsp", "dang-nhap-busi.jsp", request, response);
+            if (checkAccount) {
+                HttpSession session = request.getSession(true);
+                session.setAttribute("account", (Account) d.getAccount());
+                UtilControl.send(d.getAccount().getRole(), "Admin-trang-chu.jsp", "trang-chu-candi.jsp", "busi-trang-chu.jsp", response);
+            } else {
+                request.setAttribute("message", message);
+                UtilControl.forward(role, "Admin-dang-nhap.jsp", "dang-nhap-candi.jsp", "busi-dang-nhap.jsp", request, response);
+            }
         }
     }
 

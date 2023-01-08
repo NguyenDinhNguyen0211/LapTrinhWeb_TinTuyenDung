@@ -32,7 +32,7 @@ public class ResetPassword extends HttpServlet {
             UtilControl.forward("forgot-password.jsp", request, response);
         } else {
             MailService.sendMail(email, subject, content);
-            UtilControl.send(role, "dang-nhap-Admmin.jsp", "dang-nhap-candi.jsp", "dang-nhap-busi.jsp", response);
+            UtilControl.send(role, "dang-nhap-Admmin.jsp", "dang-nhap-candi.jsp", "busi-dang-nhap.jsp", response);
         }
     }
 }

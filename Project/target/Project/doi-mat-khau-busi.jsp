@@ -174,7 +174,7 @@
       </div>
     </div>
     <a class="btn bg-gradient-primary mt-3 w-100"
-       href="cap-nhat-thong-tin-xac-thuc-busi.jsp">Nâng cấp tài khoản</a>
+       href="busi-cap-nhat-thong-tin-xac-thuc.jsp">Nâng cấp tài khoản</a>
   </div>
 </aside>
 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -191,11 +191,11 @@
              class="list-group-item list-group-item-action border-0 nuxt-link-exact-active nuxt-link-active bg-white">
             <i data-v-61ae721f="" class="fa mr-2 fa-lock"></i> Đổi mật khẩu
           </a>
-          <a data-v-61ae721f="" href="cap-nhat-thong-tin-xac-thuc-busi.jsp" aria-current="page"
+          <a data-v-61ae721f="" href="busi-cap-nhat-thong-tin-xac-thuc.jsp" aria-current="page"
              class="list-group-item list-group-item-action border-0  bg-none">
             <i data-v-61ae721f="" class="fa mr-2 fa-user"></i> Thông tin cá nhân
           </a>
-          <a data-v-61ae721f="" href="cap-nhat-thong-tin-xac-thuc-cong-ty-busi.jsp"
+          <a data-v-61ae721f="" href="busi-cap-nhat-thong-tin-xac-thuc-cong-ty.jsp"
              class="list-group-item list-group-item-action border-0 bg-none">
             <i data-v-61ae721f="" class="fa mr-2 fa-building"></i> Thông tin công ty
           </a>

@@ -37,4 +37,15 @@ public class UtilControl {
             return 2;
         return 0;
     }
+
+    public static int setRole(String action, HttpServletRequest request) throws IOException {
+        if (action != null) {
+            if (action.equals("login-candi"))
+                return 1;
+            if (action.equals("login-busi"))
+                return 2;
+        }
+        return 0;
+    }
+
 }

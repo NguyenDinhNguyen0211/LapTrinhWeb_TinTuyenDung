@@ -1,8 +1,7 @@
 package vn.edu.hcmuaf.fit.control;
 
-import vn.edu.hcmuaf.fit.service.DAOAccount;
 import vn.edu.hcmuaf.fit.model.Account;
-import vn.edu.hcmuaf.fit.service.DAOPost;
+import vn.edu.hcmuaf.fit.service.DAOAccount;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -22,11 +21,10 @@ public class Login extends HttpServlet {
         int role = UtilControl.setRole("btndangnhap_candi", "btndangnhap_busi", request);
         boolean checkAccount = d.checkAccount(user, pass, role);
         String message = d.getMessage();
+
         if (checkAccount) {
             HttpSession session = request.getSession(true);
-
             session.setAttribute("account", (Account) d.getAccount());
-
             UtilControl.send(d.getAccount().getRole(), "trang-chu-Admin.jsp", "trang-chu-candi.jsp", "trang-chu-busi.jsp", response);
         } else {
             request.setAttribute("message", message);

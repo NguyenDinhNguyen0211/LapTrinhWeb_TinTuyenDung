@@ -1,6 +1,7 @@
 package vn.edu.hcmuaf.fit.service;
 
 import vn.edu.hcmuaf.fit.db.JDBIConnector;
+import vn.edu.hcmuaf.fit.model.Category;
 import vn.edu.hcmuaf.fit.model.Company;
 import vn.edu.hcmuaf.fit.model.Post;
 
@@ -18,7 +19,7 @@ public class DAOPost {
        return getListPost_applied();
    }    
 
-    public List<Post> getListPost() {
+    public List<Post> getPostAll() {
         String query = "select * from post";
         List<Post> listPost = null;
         try {
@@ -31,6 +32,20 @@ public class DAOPost {
             e.printStackTrace();
         }
         return listPost;
+    }
+    public List<Category> getCategoryAll() {
+        String query = "select * from category";
+        List<Category> listCategory = null;
+        try {
+            listCategory = JDBIConnector.get().withHandle(handle -> {
+                return handle.createQuery(query)
+                        .mapToBean(Category.class)
+                        .stream().collect(Collectors.toList());
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return listCategory;
     }
 
     public String getCompanyName(String companyID) {

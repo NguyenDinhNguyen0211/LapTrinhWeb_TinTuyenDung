@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
 
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+=======
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
@@ -12,6 +15,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK" />
 =======
@@ -25,4 +29,7 @@
 >>>>>>> de992b523dc46b0a7c4dc9d36a8121eb7409d7dc
 >>>>>>> ab96b2c1d38754d578593943e2143266e1526db2
 >>>>>>> 3ac1f5ba81f46d7a982299781d9e733a3b80a59c
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+>>>>>>> d4176d0424fc20b63931feb1fdcf4da6d0a609ed
 </project>

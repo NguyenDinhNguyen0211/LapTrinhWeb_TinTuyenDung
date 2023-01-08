@@ -32,10 +32,10 @@
             </a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
                 <ul class="nav pull-right">
-                    <li><a href="dang-nhap-Admin.jsp">
+                    <li><a href="Admin-dang-nhap.jsp">
                         Đăng nhập
                     </a></li>
-                    <li><a href="quen-mat-khau-Admin.jsp">
+                    <li><a href="Admin-quen-mat-khau.jsp">
                         Quên mật khẩu?
                     </a></li>
                 </ul>
@@ -62,7 +62,7 @@
                     <div class="module-body">
                         <div class="control-group">
                             <div class="controls row-fluid">
-                                <input class="span12" type="text" id="username" name="username" placeholder="Tên đăng nhập">
+                                <input class="span12" type="text" id="username" name="user_name" placeholder="Tên đăng nhập">
                             </div>
                         </div>
                         <div class="control-group">

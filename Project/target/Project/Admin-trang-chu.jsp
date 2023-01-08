@@ -21,7 +21,7 @@
     </head>
 </head>
 <body>
-<jsp:include page="header-Admin.jsp"></jsp:include>
+<jsp:include page="Admin-header.jsp"></jsp:include>
 <!-- /navbar -->
 <div class="wrapper">
     <div class="container">
@@ -47,7 +47,7 @@
                         </li>
 
                         <li>
-                            <a href="baocao-thongke.html">
+                            <a href="Admin-baocao-thongke.jsp">
                                 <i class="menu-icon icon-tasks"></i> Báo cáo - thống kê
                             </a>
                         </li>

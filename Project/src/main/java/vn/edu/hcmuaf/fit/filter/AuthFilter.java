@@ -48,6 +48,14 @@ public class AuthFilter implements Filter {
             } else {
                 response.sendRedirect(request.getContextPath() + "/Login?action=login-busi");
             }
+        } else if (url.startsWith("/candi")) {
+            if (account != null) {
+                if (account.getRole() == 1) {
+                    chain.doFilter(servletRequest, servletResponse);
+                }
+            } else {
+                response.sendRedirect(request.getContextPath() + "/Login?action=login-candi");
+            }
         } else {
             chain.doFilter(servletRequest, servletResponse);
 

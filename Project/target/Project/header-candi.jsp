@@ -34,9 +34,9 @@
                                         <li><a href="danh-sach-viec-lam-candi.jsp">Việc làm </a>
                                             <ul class="submenu">
                                                 <li><a href="danh-sach-viec-lam-candi.jsp">Tìm việc làm </a></li>
-                                                <li><a href="viec-lam-da-ung-tuyen-candi.jsp">Việc làm đã ứng tuyển</a>
+                                                <li><a href="candi-viec-lam-da-ung-tuyen.jsp">Việc làm đã ứng tuyển</a>
                                                 </li>
-                                                <li><a href="viec-lam-da-luu-candi.jsp">Việc làm đã lưu</a></li>
+                                                <li><a href="candi-viec-lam-da-luu.jsp">Việc làm đã lưu</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="Recruitment">Ứng tuyển</a></li>
@@ -59,7 +59,7 @@
                                     <a href='<c:url value="/Login?action=login-candi"/>' class="btn head-btn2">Đăng
                                         nhập</a>
                                 </c:if>
-                                <a href="dang-nhap-busi.jsp" class="btn head-btn1">Nhà tuyển dụng</a>
+                                <a href="busi-dang-nhap.jsp" class="btn head-btn1">Nhà tuyển dụng</a>
                                 <li class="nav-item dropdown pe-2 d-flex align-items-center">
 
                                     <c:if test="${sessionScope.account != null}">

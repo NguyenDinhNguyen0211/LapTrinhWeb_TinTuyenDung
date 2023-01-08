@@ -5,17 +5,16 @@ import java.io.Serializable;
 public class Address implements Serializable {
     private static final long serialVersionUID = 1L;
     private String addressID;
-    private String district;
-    private String city;
+    private String location;
 
-    public Address(String addressID, String district, String city) {
+    public Address() {
+    }
+
+    public Address(String addressID, String location) {
         this.addressID = addressID;
-        this.district = district;
-        this.city = city;
+        this.location = location;
     }
-    public Address(){
 
-    }
     public String getAddressID() {
         return addressID;
     }
@@ -24,28 +23,19 @@ public class Address implements Serializable {
         this.addressID = addressID;
     }
 
-    public String getDistrict() {
-        return district;
+    public String getLocation() {
+        return location;
     }
 
-    public void setDistrict(String district) {
-        this.district = district;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     @Override
     public String toString() {
         return "Address{" +
                 "addressID='" + addressID + '\'' +
-                ", district='" + district + '\'' +
-                ", price='" + city + '\'' +
+                ", location='" + location + '\'' +
                 '}';
     }
 }

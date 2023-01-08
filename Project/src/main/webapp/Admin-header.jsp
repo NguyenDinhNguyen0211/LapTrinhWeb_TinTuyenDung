@@ -16,7 +16,7 @@
     <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                <i class="icon-reorder shaded"></i></a><a class="brand" href="trang-chu.html">Admin </a>
+                <i class="icon-reorder shaded"></i></a><a class="brand" href="Admin-trang-chu.jsp">Admin </a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
                 <!--                <form class="navbar-search pull-left input-append" action="#">-->
                 <!--                    <input type="text" class="span3">-->
@@ -27,7 +27,7 @@
                 <ul class="nav pull-right">
                     <ul class="nav nav-icons">
                         <!--                    <li class="active"><a href="#"><i class="icon-envelope"></i></a></li>-->
-                        <li><a href="../user/trang-chu.html"><i class="icon-eye-open"></i></a></li>
+                        <li><a href="trang-chu-candi.jsp"><i class="icon-eye-open"></i></a></li>
                         <li><a href=""><i class="icon-bell "></i></a>
                             <ul class="dropdown-menu dropdown-menu-end  px-2 py-3 me-sm-n4">
                                 <li class="mb-2 font-weight-bold" style="text-align: center"><a href="#"> Đăng xuất</a>
@@ -49,7 +49,7 @@
                             <span>User</span>
                         </c:if>
                         <c:if test="${sessionScope.account != null}">
-                            <span> Xin chào ${sessionScope.account.name}</span>
+                            <span> Xin chào ${sessionScope.account.username}</span>
                         </c:if>
 
                         <b class="caret"></b></a>
@@ -59,7 +59,7 @@
                             <li><a href="#">Cài đặt tài khoản</a></li>
 
                             <li class="divider"></li>
-                            <li><a href="#">Đăng xuất</a></li>
+                            <li><a href='<c:url value="/Home?action=logout"/>'>Đăng xuất</a></li>
                         </ul>
                     </li>
                 </ul>

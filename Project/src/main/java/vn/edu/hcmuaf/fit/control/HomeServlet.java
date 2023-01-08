@@ -27,7 +27,6 @@ public class HomeServlet extends HttpServlet {
 //        boolean checkAccount = d.checkAccount(user, pass, role);
 
         DAOPost p = new DAOPost();
-
         String action = request.getParameter("action");
         if (action != null) {
             switch (action) {
@@ -40,8 +39,7 @@ public class HomeServlet extends HttpServlet {
                     break;
             }
         } else {
-            request.setAttribute("categoryList", p.getPostAll());
-//            request.setAttribute("postList", p.getPostAll());
+            request.setAttribute("categoryList", p.getCategoryAll());
 //            UtilControl.forward(r, "Admin-dang-nhap.jsp", "dang-nhap-candi.jsp", "busi-dang-nhap.jsp", request, response);
             UtilControl.send(r, "Admin-trang-chu.jsp", "trang-chu-candi.jsp", "busi-trang-chu.jsp", response);
 

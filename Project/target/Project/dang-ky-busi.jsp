@@ -5,7 +5,7 @@
   Time: 2:28 CH
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" pageEncoding="UTF-8" contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String message = (String) request.getAttribute("message");
 %>
@@ -86,7 +86,7 @@
                                     <div data-v-9281c350="" class="col-form-input">
                                         <div data-v-8c64d55c="" data-v-9281c350="">
                                             <div data-v-8c64d55c="" class="ml-auto position-relative">
-                                                <input data-v-8c64d55c="" id="id" name="username" type="text"
+                                                <input data-v-8c64d55c="" id="id" name="user_name" type="text"
                                                        placeholder="Tên đăng nhập"
                                                        onkeyup="daoNutDN()" autofocus
                                                        class="form-control">
@@ -192,16 +192,17 @@
                                 <div data-v-9281c350="" class="col-form-input">
                                     <div data-v-8c64d55c="" data-v-9281c350="">
                                         <div data-v-8c64d55c="" class="input-container ml-auto position-relative">
-                                            <!----> <!----> <input data-v-8c64d55c="" type="text"
+                                            <!----> <!----> <input data-v-8c64d55c="" type="text" name="companyName"
                                                                    placeholder="Tên công ty"
                                                                    class="form-control"> <!----></div> <!----></div>
                                 </div>
                             </div>
 
                             <div class="control-group">
-                                <label class="control-label" for="basicinput">Thông tin công ty:</label>
+                                <label class="control-label">Thông tin công ty:</label>
                                 <div class="controls">
-                                    <textarea class="span8a" style="width: 1000px; border: 1px solid #f1f3f4;" rows="5"></textarea>
+                                    <textarea class="span8a" name="description"" style="width: 1000px; border: 1px solid #f1f3f4;"
+                                              rows="5"></textarea>
                                 </div>
                             </div>
 
@@ -233,7 +234,7 @@
 
                                                                     <div class="multiselect__tags-wrap"
                                                                          style="display: none;"></div> <!---->
-                                                                    <input data-v-8c64d55c="" id="tplKGYDpAS"
+                                                                    <input id="location" name="location"
                                                                            type="text"
                                                                            placeholder="Nhập địa chỉ"
 

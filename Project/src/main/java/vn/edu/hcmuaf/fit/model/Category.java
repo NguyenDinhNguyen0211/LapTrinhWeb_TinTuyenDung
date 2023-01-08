@@ -19,7 +19,6 @@ public class Category implements Serializable {
     public Category() {
 
     }
-
     public String getCategoryID() {
         return categoryID;
     }

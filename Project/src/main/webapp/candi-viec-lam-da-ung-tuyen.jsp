@@ -99,7 +99,7 @@
                                 <div style="width: 100%" class="item-job job-ta  bg-highlight ">
                                     <%--  logo --%>
                                     <div class="company-logo ">
-                                        <img src="<%=p.getImg()%>" class="w-100" alt="" title="">
+                                        <img src="" class="w-100" alt="" title="">
                                     </div>
                                     <%--  thong tin job--%>
                                     <div class="company-info">

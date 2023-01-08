@@ -14,11 +14,12 @@ import java.util.stream.Collectors;
 
 public class DAOPost {
     private String message = "error!";
-   public String getListPost_applied(){
-       String query = "select * from post_applied";
-       List<PostAplied>listApplied = null;
-       return getListPost_applied();
-   }    
+
+    public String getListPost_applied() {
+        String query = "select * from post_applied";
+        List<PostAplied> listApplied = null;
+        return getListPost_applied();
+    }
 
     public List<Post> getPostAll() {
         String query = "select * from post";
@@ -34,6 +35,23 @@ public class DAOPost {
         }
         return listPost;
     }
+
+    public int getPostofCategoryByID(String categoryID) {
+        String query = "select * from post where categoryID = ?";
+        List<Post> listPost = null;
+        try {
+            listPost = JDBIConnector.get().withHandle(handle -> {
+                return handle.createQuery(query)
+                        .bind(0, categoryID)
+                        .mapToBean(Post.class)
+                        .stream().collect(Collectors.toList());
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return listPost.size();
+    }
+
     public List<Category> getCategoryAll() {
         String query = "select * from category";
         List<Category> listCategory = null;
@@ -59,6 +77,20 @@ public class DAOPost {
             }
         }
         return rs;
+    }
+
+    public String getCompanyNameByUsername(String username) {
+        String rs = null;
+        String query = "select * from company where companyID = (select companyID from account where user_name = ?)";
+        List<Company> companies = JDBIConnector.get().withHandle(handle -> handle.createQuery(query).bind(0, username).mapToBean(Company.class).list());
+        return companies.get(0).getName();
+    }
+
+    public String getAddressByCompanyID(String companyID) {
+        String rs = null;
+        String query = "select * from address where addressID = (select addressID from company where companyID = ?)";
+        List<Company> companies = JDBIConnector.get().withHandle(handle -> handle.createQuery(query).bind(0, companyID).mapToBean(Company.class).list());
+        return companies.get(0).getName();
     }
 
     //ngày hiện tại - ngày tạo
@@ -91,7 +123,7 @@ public class DAOPost {
     public static void main(String[] args) {
         DAOPost p = new DAOPost();
 //        for (PostServlet post : p.getListPost()) {
-        System.out.printf(p.getCompanyName("1").toString());
+
 //        }
     }
 

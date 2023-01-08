@@ -4,6 +4,49 @@
     background: #ffffff
 }
 
+.hover:hover {
+    color: black;
+    background: lightgrey;
+}
+
+.hover {
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+
+.formatul {
+    padding: 0;
+    list-style: none;
+    background: #f2f2f2;
+}
+
+.formatul.dropdown {
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+
+}
+
+.formatli {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+
+.formatli:hover .formatul.dropdown {
+    display: block; /* Display the dropdown */
+}
+
+.formatul.dropdown formatli {
+    display: block;
+}
+
 .gray-bg {
     background: #f5f5f5
 }
@@ -21,7 +64,7 @@
 }
 
 .theme-bg {
-    background:  #4094f5
+    background: #4094f5
 }
 
 .brand-bg {
@@ -46,25 +89,25 @@
 
 .boxed-btn {
     background: #fff;
-    color:  #4094f5;
+    color: #4094f5;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Muli", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid  #4094f5;
+    border: 1px solid #4094f5;
     letter-spacing: 3px;
     text-align: center;
-    color:  #4094f5;
+    color: #4094f5;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background:  #4094f5;
+    background: #4094f5;
     color: #fff !important;
-    border: 1px solid  #4094f5
+    border: 1px solid #4094f5
 }
 
 .boxed-btn:focus {
@@ -370,7 +413,7 @@ hr {
 }
 
 .btn {
-    background:  #4094f5;
+    background: #4094f5;
     -moz-user-select: none;
     text-transform: capitalize;
     color: #fff;
@@ -400,7 +443,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background:  #4094f5;
+    background: #4094f5;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -419,8 +462,8 @@ hr {
 
 .head-btn2 {
     background: none;
-    border: 1px solid  #4094f5;
-    color:  #4094f5
+    border: 1px solid #4094f5;
+    color: #4094f5
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -441,12 +484,15 @@ hr {
     background: #0b2e13;
     margin-right: 5px
 }
+
 .head-btn1::before {
     background: none;
 }
+
 .head-btn1:hover {
     color: #08f1e9;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .head-btn1 {
         padding: 10px 10px
@@ -464,8 +510,8 @@ hr {
 }
 
 .border-btn {
-    border: 1px solid  #4094f5;
-    color:  #4094f5;
+    border: 1px solid #4094f5;
+    color: #4094f5;
     font: "Muli", sans-serif;
     background: none;
     -moz-user-select: none;
@@ -495,7 +541,7 @@ hr {
     top: 0;
     width: 120%;
     height: 105%;
-    background:  #4094f5;
+    background: #4094f5;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -572,7 +618,7 @@ hr {
 }
 
 #scrollUp {
-    background:  #4094f5;
+    background: #4094f5;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -2324,9 +2370,11 @@ hr {
         padding-bottom: 100px
     }
 }
-.padding{
+
+.padding {
     padding-top: 80px
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .testimonial-padding {
         padding-top: 80px;
@@ -4000,7 +4048,7 @@ hr {
 }
 
 
-.offset-lg-1{
+.offset-lg-1 {
     margin-left: 0;
 }
 
@@ -6511,6 +6559,7 @@ form.search-box .search-form a {
     font-weight: 700;
     color: #0b0b2b
 }
+
 /*oljdsvldkvjjjjjjjj*/
 .single-job-items {
     padding: 36px 30px;
@@ -7522,9 +7571,7 @@ form.search-box .search-form a {
 }
 
 
-
-
-.ctn-breadcrumb-detail{
+.ctn-breadcrumb-detail {
     margin-top: 50px;
     margin-left: 90px;
     position: absolute;
@@ -7532,46 +7579,55 @@ form.search-box .search-form a {
     font-size: 18px;
 
 }
-.text-highlight{
+
+.text-highlight {
     color: #001e80;
 }
-.fa-angle-right:before{
+
+.fa-angle-right:before {
     content: ">";
 }
-:before{
+
+:before {
     box-sizing: border-box;
 }
-.fa-angle-right{
+
+.fa-angle-right {
     margin-left: 16px;
     margin-right: 16px;
 }
-.text-dark-blue{
+
+.text-dark-blue {
     margin: 0;
     padding: 0;
 }
 
 
-
-#tab-company{
+#tab-company {
     padding: 16px;
     position: absolute;
     top: 140px;
     font-size: 20px;
 }
-.nav{
+
+.nav {
     padding-left: 0px;
     margin-bottom: 0px;
     list-style: none;
 }
-#tab-company .active{
+
+#tab-company .active {
     border-bottom: 2px solid #262626;
 }
-#tab-company li{
+
+#tab-company li {
     margin-right: 50px;
 }
+
 #tab-company a:first-child {
-    padding-left: 0!important;
+    padding-left: 0 !important;
 }
+
 #tab-company .active a {
     color: #333;
     font-weight: bold;

@@ -171,7 +171,7 @@
             </div>
         </div>
         <a class="btn bg-gradient-primary mt-3 w-100"
-           href="cap-nhat-thong-tin-xac-thuc-busi.jsp">Nâng cấp tài khoản</a>
+           href="busi-cap-nhat-thong-tin-xac-thuc.jsp">Nâng cấp tài khoản</a>
     </div>
 </aside>
 <!--  end nav left -->

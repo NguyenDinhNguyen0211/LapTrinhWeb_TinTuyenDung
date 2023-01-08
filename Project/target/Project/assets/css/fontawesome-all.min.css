@@ -2680,6 +2680,9 @@
 .fa-shopping-cart:before {
     content: "\f07a"
 }
+.fa-shopping-cart:hover {
+    content: "\f07a"
+}
 
 .fa-shower:before {
     content: "\f2cc"

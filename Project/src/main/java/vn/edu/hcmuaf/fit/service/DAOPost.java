@@ -13,6 +13,11 @@ import java.util.stream.Collectors;
 
 public class DAOPost {
     private String message = "error!";
+   public String getListPost_applied(){
+       String query = "select * from post_applied";
+       List<PostApplied>listApplied = null;
+       return getListPost_applied();
+   }    
 
     public List<Post> getPostAll() {
         String query = "select * from post";

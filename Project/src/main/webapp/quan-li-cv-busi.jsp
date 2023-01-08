@@ -1,4 +1,4 @@
-<%--
+<%@ page import="vn.edu.hcmuaf.fit.model.Account" %><%--
   Created by IntelliJ IDEA.
   User: Admin
   Date: 06/01/2023
@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <meta charset="utf-8"/>
@@ -192,7 +193,7 @@
                         <div class="input-group w-60 format  ">
                             <button type="submit" class="input-group-text text-body"><i class="fas fa-search"
                                                                                         aria-hidden="true"></i></button>
-                            <input type="text" class="form-control" placeholder="Tìm kiếm tên, email, số điện thoại">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm tên, email, số điện thoại" name="actiom">
                         </div>
                         <div class=" input-group w-50">
                             <select required name="cars" id="cars" class="multiselect__tags format boder w-50">
@@ -237,6 +238,8 @@
                                 <tr class="bg-gray">
                                     <td>
                                         <div class="d-flex px-2 py-1">
+                                            <% ArrayList<Post> list = (ArrayList<Post>) request.getAttribute("list");
+                                                for (Post p : list) { %>
                                             <div>
                                                 <img src="business/assets/img/team-2.jpg" class="avatar avatar-sm me-3"
                                                      alt="user1">
@@ -423,6 +426,8 @@
         </div>
 
     </div>
+
+
 </main>
 </body>
 <!--   Core JS Files   -->

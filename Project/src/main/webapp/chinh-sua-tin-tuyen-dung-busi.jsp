@@ -204,10 +204,10 @@
                             <div class="controls">
                                 <select tabindex="1" data-placeholder="Vui lòng chọn.." class="span8">
                                     <option value="">Vui lòng chọn..</option>
-                                    <option value="Category 1">Trí tuệ nhân tạo</option>
-                                    <option value="Category 1">Công nghệ phần mềm</option>
-                                    <option value="Category 3">Mạng</option>
-                                    <option value="Category 4">Hệ thống thông tin</option>
+                                    <option value="Category 1">Nhân sự</option>
+                                    <option value="Category 1">IT phần mềm</option>
+                                    <option value="Category 3">Kiểm toán/ kế toán</option>
+                                    <option value="Category 4">Xây dựng</option>
                                 </select>
                             </div>
                         </div>

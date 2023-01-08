@@ -14,12 +14,12 @@ public class Company implements Serializable {
 
     }
 
-    public Company(String companyID, String name, String img, String addressID, String description) {
+    public Company(String companyID, String name, String addressID, String description, String img) {
         this.companyID = companyID;
         this.name = name;
-        this.img = img;
         this.addressID = addressID;
         this.description = description;
+        this.img = img;
     }
 
     public String getCompanyID() {
@@ -38,28 +38,28 @@ public class Company implements Serializable {
         this.name = name;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-
-    public String getAddressID() {
-        return addressID;
-    }
-
-    public void setLocation(String addressID) {
-        this.addressID = addressID;
-    }
-
     public String getDescription() {
         return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getAddressID() {
+        return addressID;
+    }
+
+    public void setAddressID(String addressID) {
+        this.addressID = addressID;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 
     @Override

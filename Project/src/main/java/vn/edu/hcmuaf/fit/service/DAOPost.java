@@ -4,6 +4,7 @@ import vn.edu.hcmuaf.fit.db.JDBIConnector;
 import vn.edu.hcmuaf.fit.model.Category;
 import vn.edu.hcmuaf.fit.model.Company;
 import vn.edu.hcmuaf.fit.model.Post;
+import vn.edu.hcmuaf.fit.model.PostAplied;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -15,7 +16,7 @@ public class DAOPost {
     private String message = "error!";
    public String getListPost_applied(){
        String query = "select * from post_applied";
-       List<PostApplied>listApplied = null;
+       List<PostAplied>listApplied = null;
        return getListPost_applied();
    }    
 

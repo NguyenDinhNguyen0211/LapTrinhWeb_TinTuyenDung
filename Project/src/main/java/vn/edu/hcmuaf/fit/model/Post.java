@@ -17,13 +17,14 @@ public class Post implements Serializable {
     private String benifit;
     private int is_active;
     private String price;
-
     private Date create_date;
     private Date update_date;
     private Date deadline;
-    public Post(){
+
+    public Post() {
 
     }
+
     public Post(String postID, String categoryID, String user_name, String title,
                 String salary, String type_job, String position, String description,
                 String request, String benifit, int is_active, String price,

@@ -63,7 +63,7 @@
                 </div>
                 <div class="container_swap">
 
-                    <div class="div_left"><p>Bạn chưa có tài khoản? <a class="in" href="busi-dang-ky.jsp"> Đăng ký ngay</a>
+                    <div class="div_left"><p>Bạn chưa có tài khoản? <a class="in" href="dang-ky-busi.jsp"> Đăng ký ngay</a>
                     </p>
                     </div>
 

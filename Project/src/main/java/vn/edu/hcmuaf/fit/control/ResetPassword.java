@@ -25,8 +25,8 @@ public class ResetPassword extends HttpServlet {
         String name = d.getAccount().getName();
         String password = d.getPassword(username,email);
         int role = d.getAccount().getRole();
-        String subject = " Nhận mật khẩu ";
-        String content = "Chào " + name + ",  chúng tôi cung cấp lại mật khẩu của bạn: " + password;
+        String subject = " Reset password ";
+        String content = "Hi " + name + ",  We provide your password again: " + password;
         if (!emailExist) {
             request.setAttribute("message", "Email không tồn tại! Vui lòng nhập lại email!");
             UtilControl.forward("forgot-password.jsp", request, response);

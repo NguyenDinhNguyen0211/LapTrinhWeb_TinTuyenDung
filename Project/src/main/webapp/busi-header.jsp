@@ -62,7 +62,7 @@
             <span class=" d-sm-inline d-none font-weight-bold text-sm"> ${sessionScope.account.name} </span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end  px-2 py-3 me-sm-n4">
-            <li class="mb-2 font-weight-bold" style="text-align: center"><a href="#"> Đăng xuất</a></li>
+            <li class="mb-2 font-weight-bold" style="text-align: center"><a href='<c:url value="/Home?action=logout"/>'> Đăng xuất</a></li>
           </ul>
           <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"
               aria-labelledby="dropdownMenuButton">

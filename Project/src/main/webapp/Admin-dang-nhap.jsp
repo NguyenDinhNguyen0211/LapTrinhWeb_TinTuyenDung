@@ -30,7 +30,7 @@
             </a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
                 <ul class="nav pull-right">
-                    <li><a href="Admin-dang-ky.jsp">
+                    <li><a href="dang-ky-Admin.jsp">
                         Đăng ký
                     </a></li>
                     <li><a href="Admin-quen-mat-khau.jsp">

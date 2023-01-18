@@ -1,3 +1,5 @@
+<%@ page import="vn.edu.hcmuaf.fit.service.DAOPost" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Admin
@@ -6,6 +8,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<% DAOPost dp = new DAOPost(); %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -45,13 +48,13 @@
 <!-- Preloader Start -->
 <jsp:include page="header-candi.jsp"></jsp:include>
 <main>
-
+    <%--    <c:forEach var="p" items="${listPOC}">--%>
     <!-- Breadcrumb Start-->
 
     <div class="ctn-breadcrumb-detail">
-        <a href="Trang chủ.html" class="text-highlight bold">Trang chủ</a> <i class="fa-solid fa-angle-right"></i>
-        <a href="Danh sách việc làm.html" class="text-highlight bold">Việc làm</a> <i class="fa-solid fa-angle-right"></i>
-        <span class="text-dark-blue">Tuyển lập trình viên</span>
+        <a href="/Home" class="text-highlight bold">Trang chủ</a> <i class="fa-solid fa-angle-right"></i>
+        <a href="/Post" class="text-highlight bold">Việc làm</a> <i class="fa-solid fa-angle-right"></i>
+        <span class="text-dark-blue">${postDetails.getTitle()}</span>
     </div>
     <!-- Breadcrumb End -->
     <!-- job post company Start -->
@@ -67,12 +70,12 @@
                                 <a href="#"><img src="assets/img/icon/job-list1.png" alt=""></a>
                             </div>
                             <div class="job-tittle">
-                                <h4>Lập trình viên</h4>
+                                <h4>${postDetails.getTitle()}</h4>
                                 </a>
                                 <ul>
-                                    <li>Cty Công nghệ & Truyền thông</li>
+<%--                                    <li> ${dp.getCompanyByUsername(postDetails.getUser_name()).getName()}</li>--%>
                                     <li><i class="fas fa-map-marker-alt"></i>Q9, HCM</li>
-                                    <li>9 - 11tr VNĐ</li>
+                                    <li>${postDetails.getSalary()} VNĐ</li>
                                 </ul>
                             </div>
                         </div>
@@ -86,7 +89,8 @@
                             <!-- tab start -->
                             <div id="tab-company" class="container">
                                 <ul class="nav nav-pills">
-                                    <li class="active"><a href="#tab-info" data-toggle="tab">Mô tả công việc</a></li>
+                                    <li class="active"><a href="#tab-info" data-toggle="tab">Mô tả công việc</a>
+                                    </li>
                                     <li><a href="#t ">Thông tin công ty</a></li>
                                     <li><a href="#v">Việc làm liên quan</a></li>
                                 </ul>
@@ -99,23 +103,28 @@
                             <div id="t" class="small-section-tittle">
                                 <h4>Mô tả công việc</h4>
                             </div>
-                            <p>– Làm việc theo sự phân công của trưởng nhóm / quản lý dự án, phối hợp giữa các nhóm để
+
+                            <p>– Làm việc theo sự phân công của trưởng nhóm / quản lý dự án, phối hợp giữa các nhóm
+                                để
                                 phát triển sản.</p>
-                            <p>– Tham gia các công đoạn tìm hiểu yêu cầu, phân tích, thiết kế, nghiên cứu công nghệ khi
+                            <p>– Tham gia các công đoạn tìm hiểu yêu cầu, phân tích, thiết kế, nghiên cứu công nghệ
+                                khi
                                 được phân công.</p>
                             <p>– Nghiên cứu công nghệ và phát triển sản phẩm.</p>
                         </div>
-                        <div  class="post-details2  mb-50">
+                        <div class="post-details2  mb-50">
                             <!-- Small Section Tittle -->
                             <div class="small-section-tittle">
                                 <h4>Yêu cầu ứng viên</h4>
                             </div>
                             <ul>
-                                <li> Lập trình các loại ngôn ngữ ( C#,Python, Nodejs, ReactJs......), CSDL MSSQL Server
+                                <li> Lập trình các loại ngôn ngữ ( C#,Python, Nodejs, ReactJs......), CSDL MSSQL
+                                    Server
                                     (2008, 2012).
                                 </li>
                                 <li>Kinh nghiệm tối thiểu 1 năm trở lên.</li>
-                                <li>Ưu tiên người có kinh nghiệm làm việc trên hãng phầm mềm thứ ba: Mycrosoft Visual
+                                <li>Ưu tiên người có kinh nghiệm làm việc trên hãng phầm mềm thứ ba: Mycrosoft
+                                    Visual
                                     Studio.
                                 </li>
                                 <li>Có khả năng phân tích và thiết kế database.</li>
@@ -129,7 +138,8 @@
                             </div>
                             <ul>
                                 <li>Lương: Lương cứng + thưởng dự án.</li>
-                                <li>Làm việc trong môi trường năng động, chuyên nghiệp có nhiều cơ hội thăng tiến.</li>
+                                <li>Làm việc trong môi trường năng động, chuyên nghiệp có nhiều cơ hội thăng tiến.
+                                </li>
                                 <li>Cung cấp trang thiết bị đầy đủ để phục vụ công việc.</li>
                                 <li>Được đóng BHXH, BHYT, BHTN.</li>
                                 <li>Được hưởng các chính sách phúc lợi theo quy định của công ty.</li>
@@ -147,15 +157,15 @@
                             <h4>Tổng quan về công việc</h4>
                         </div>
                         <ul>
-                            <li>Chức vụ : <span>Nhân viên</span></li>
-                            <li>Hình thức làm việc : <span>Toàn thời gian</span></li>
-                            <li>Kinh nghiệm : <span>2 năm</span></li>
+                            <li>Chức vụ : <span>${postDetails.getPosition()}</span></li>
+                            <li>Hình thức làm việc : <span>${postDetails.getType_job()}</span></li>
                             <li>Địa điểm : <span>Hồ Chí Minh</span></li>
-                            <li>Mức lương : <span>15,000,000 VNĐ</span></li>
-                            <li>Hạn nộp hồ sơ : <span>12/01/2023</span></li>
+                            <li>Mức lương : <span>${postDetails.getSalary()} VNĐ</span></li>
+                            <li>Hạn nộp hồ sơ : <span> 03/11/2020 </span></li>
+<%--                            ${postDetails.getDeadline().toString()}--%>
                         </ul>
                         <div class="apply-btn2">
-                            <a href="viec-lam-da-ung-tuyen.html" class="btn">Nộp đơn</a>
+                            <a href="candi-viec-lam-da-ung-tuyen.jsp" class="btn">Nộp đơn</a>
                         </div>
                     </div>
                     <div class="post-details4  mb-50">
@@ -164,9 +174,12 @@
                             <h4><a href="#">Thông tin công ty</a></h4>
                         </div>
                         <span>Công ty TNHH Công nghệ và Truyền thông</span>
-                        <p>Được thành lâp vào tháng 3 năm 2006 với tiền thân là một đội chuyên gia phần mềm và giải pháp
-                            viễn thông có kinh nghiệm từ Hàn Quốc. Chúng tôi đang từng bước đạt được uy tín và niềm tin
-                            từ khách hàng với những sản phẩm công nghệ hiện đại và phù hợp với các doanh nghiệp trong
+                        <p>Được thành lâp vào tháng 3 năm 2006 với tiền thân là một đội chuyên gia phần mềm và giải
+                            pháp
+                            viễn thông có kinh nghiệm từ Hàn Quốc. Chúng tôi đang từng bước đạt được uy tín và niềm
+                            tin
+                            từ khách hàng với những sản phẩm công nghệ hiện đại và phù hợp với các doanh nghiệp
+                            trong
                             nước và các đối tác nước ngoài như Hàn Quốc , Nhật Bản , Trung Quốc</p>
                         <ul>
                             <li>Tên: <span>Công ty TNHH công nghệ và truyền thông </span></li>
@@ -179,7 +192,7 @@
         </div>
     </div>
     <!-- job post company End -->
-
+    <%--    </c:forEach>--%>
 </main>
 <jsp:include page="footter-candi.jsp"></jsp:include>
 </body>

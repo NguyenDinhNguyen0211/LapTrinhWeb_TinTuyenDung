@@ -39,8 +39,8 @@ public class HomeServlet extends HttpServlet {
                     break;
             }
         } else {
+            request.setAttribute("listPAT5", p.getPostAllTop5());
             request.setAttribute("categoryList", p.getCategoryAll());
-//            UtilControl.forward(r, "Admin-dang-nhap.jsp", "dang-nhap-candi.jsp", "busi-dang-nhap.jsp", request, response);
             UtilControl.send(r, "Admin-trang-chu.jsp", "trang-chu-candi.jsp", "busi-trang-chu.jsp", response);
 
         }

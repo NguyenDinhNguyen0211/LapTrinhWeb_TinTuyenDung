@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="vn.edu.hcmuaf.fit.model.Post" %>
 <%@ page import="vn.edu.hcmuaf.fit.service.DAOPost" %><%--
@@ -8,7 +9,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<% DAOPost dp = new DAOPost(); %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -249,43 +250,43 @@
                             <!-- Count of Job list End -->
 
                             <div class="container">
-                                <%
-                                    ArrayList<Post> listPost = (ArrayList<Post>) request.getAttribute("list");
-                                    DAOPost dp = new DAOPost();
-                                    for (Post p : listPost) {
-                                %>
-                                <div class="single-job-items mb-30">
-                                    <div class="job-items">
-                                        <div class="company-img">
-                                            <a href="thong-tin-viec-lam-candi.jsp"><img
-                                                    src="assets/img/icon/job-list1.png" alt=""></a>
-                                        </div>
-                                        <div class="job-tittle job-tittle2">
-                                            <a href="thong-tin-viec-lam-candi.jsp">
-                                                <h4><%=p.getTitle()%>
-                                                </h4>
-                                            </a>
-                                            <ul>
-                                                <li><%=dp.getCompanyNameByUsername(p.getUser_name())%>
-                                                </li>
-                                                <li><i class="fas fa-map-marker-alt"></i>
-                                                    <%=dp.getCompanyNameByUsername(p.getUser_name())%>
-                                                </li>
-                                                <li><%=p.getSalary()%> VNĐ</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="items-link items-link2 f-right">
-                                        <a href="thong-tin-viec-lam-candi.jsp"><%=p.getType_job()%>
-                                        </a>
-                                        <span> <%=dp.dateToCreate(p.getCreate_date())%></span>
-                                    </div>
-                                </div>
 
-                                <% }%>
-                                <!-- single-job-content -->
-                                <!-- single-job-content -->
+                                <c:forEach var="p" items="${listPOC}">
+                                    <div class="single-job-items mb-30">
+                                        <div class="job-items">
+                                            <div class="company-img">
+                                                <a href="/Post_details?id=${p.postID}"><img
+                                                        src="assets/img/icon/job-list1.png" alt=""></a>
+                                            </div>
+                                            <div class="job-tittle job-tittle2">
+                                                <a href="/Post_details?id=${p.postID}">
+                                                    <h4>${p.getTitle()}
+                                                    </h4>
+                                                </a>
+                                                <ul>
+<%--                                                                                                         <li> ${dp.getAddressByCompanyID()}--%>
+<%--                                                                                                         </li>--%>
+                                                    <li>
+<%--                                                        <i class="fas fa-map-marker-alt"></i>--%>
+                                                        ${dp.getCompanyNameByUsername(p.getUser_name())}
+                                                    </li>
+                                                    <li>${p.getSalary()} VNĐ</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="items-link items-link2 f-right">
+                                            <a href="/Post_details?id=${p.postID}">
+                                                    ${p.getType_job()}
+                                            </a>
+                                            <span>
+                                                    ${dp.dateToCreate(p.getCreate_date())}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </c:forEach>
+
                             </div>
+                        </div>
                     </section>
                     <!-- Featured_job_end -->
                 </div>
@@ -293,7 +294,7 @@
         </div>
     </div>
     <!-- Job List Area End -->
-    <!--Pagination Start  -->
+    <!--Pagination Start -->
     <div class="pagination-area pb-115 text-center">
         <div class="container">
             <div class="row">
@@ -313,7 +314,7 @@
             </div>
         </div>
     </div>
-    <!--Pagination End  -->
+    <!--Pagination End -->
 
 </main>
 <jsp:include page="footter-candi.jsp"></jsp:include>

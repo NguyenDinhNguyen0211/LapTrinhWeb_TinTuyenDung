@@ -31,9 +31,9 @@
                                 <nav class="d-none d-lg-block">
                                     <ul id="navigation">
                                         <li><a href="trang-chu-candi.jsp">Trang chủ</a></li>
-                                        <li><a href="danh-sach-viec-lam-candi.jsp">Việc làm </a>
+                                        <li><a href="/Post">Việc làm </a>
                                             <ul class="submenu">
-                                                <li><a href="danh-sach-viec-lam-candi.jsp">Tìm việc làm </a></li>
+                                                <li><a href="/Post">Tìm việc làm </a></li>
                                                 <li><a href="candi-viec-lam-da-ung-tuyen.jsp">Việc làm đã ứng tuyển</a>
                                                 </li>
                                                 <li><a href="candi-viec-lam-da-luu.jsp">Việc làm đã lưu</a></li>
@@ -71,7 +71,7 @@
                                         <ul class="" style="">
                                             <li class="" style="">
                                                 <a class="" href='<c:url value="/Home?action=logout"/>'>
-                                                Đăng xuất</a></li>
+                                                    Đăng xuất</a></li>
                                         </ul>
                                     </c:if>
                                 </li>

@@ -16,7 +16,7 @@ public class RecruitmentServlet extends HttpServlet {
         response.setContentType("text/html");
         DAOPost p = new DAOPost();
 //        request.setAttribute("list", p.getListPost());
-        request.getRequestDispatcher("ung-tuyen-candi.jsp").forward(request, response);
+        request.getRequestDispatcher("candi-ung-tuyen.jsp").forward(request, response);
     }
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<% String message = (String) request.getAttribute("message"); %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -28,6 +29,24 @@
         <div class="form">
             <h2 class="in">Quên mật khẩu </h2>
             <form action="ResetPassword" method="post">
+                <%
+                    if (message != null) {
+                %>
+                <div style="width: 95%;
+                                            height: calc(1.5em + 0.75rem + 2px);
+                                            padding: 0.375rem 0.75rem;
+                                            background: #E05E74; border-radius: 5px;
+                                            border: 2px solid black">
+                    <label style="color: #4d0203;
+                                                  font-size: 1rem;
+                                                  font-weight: 400;
+                                                  line-height: 1.5;">
+                        <b> ERROR! </b> Tài khoản hoặc email không đúng
+                    </label>
+                </div>
+                <%
+                    }
+                %>
                 <div id="modal">
                     <!--Nhập email-->
                     <div id="modal1">
@@ -42,7 +61,7 @@
                                    placeholder="Nhập email của bạn">
                         </div>
                         <div class="input-form">
-                            <input id="btnnhanma" name="btnnhanma-candi" type="submit" value="Nhận mã xác nhận">
+                            <input id="btnnhanma" name="btnnhanma-candi" type="submit" value="Lấy mật khẩu">
                         </div>
                         <div class="input-form">
                             <p>Bằng việc thực hiện đổi mật khẩu, bạn đã đồng ý với <a href="#">Điều khoản dịch vụ</a> và

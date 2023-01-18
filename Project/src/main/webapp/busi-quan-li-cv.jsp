@@ -238,8 +238,8 @@
                                 <tr class="bg-gray">
                                     <td>
                                         <div class="d-flex px-2 py-1">
-                                            <% ArrayList<Post> list = (ArrayList<Post>) request.getAttribute("list");
-                                                for (Post p : list) { %>
+<%--                                            <% ArrayList<Post> list = (ArrayList<Post>) request.getAttribute("list");--%>
+<%--                                                for (Post p : list) { %>--%>
                                             <div>
                                                 <img src="business/assets/img/team-2.jpg" class="avatar avatar-sm me-3"
                                                      alt="user1">

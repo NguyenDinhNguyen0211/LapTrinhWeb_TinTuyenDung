@@ -6,17 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String message = (String) request.getAttribute("message");
-%>
+<% String message = (String) request.getAttribute("message"); %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <%--    <meta name="viewport" content="width=device-width, initial-scale=1">--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Đăng ký</title>
-    <link rel="stylesheet" type="text/css" href="business/assets/css/signin-business.css">
-
+    <%--    <link rel="stylesheet" type="text/css" href="business/assets/css/sigin-business.css">--%>
 </head>
+<style>
+    <%@include file="business/assets/css/sigin-business.css"%>
+</style>
 <body>
 <div id="__nuxt">
     <div id="__layout">
@@ -28,7 +28,7 @@
                             <div data-v-9281c350="" class="back" style="cursor: text">
                                 <a data-v-9281c350="" href="#"
                                    class="text-decoration-none text-white">
-                                    <span class="">Quay lại</span>
+                                    <span>Quay lại</span>
                                 </a>
                             </div>
                         </div>
@@ -79,8 +79,6 @@
                                 <%
                                     }
                                 %>
-
-
                                 <div data-v-9281c350="" class="form-group">
                                     <label data-v-9281c350="" class="col-form-label text-dark">Tên đăng nhập:</label>
                                     <div data-v-9281c350="" class="col-form-input">
@@ -201,7 +199,8 @@
                             <div class="control-group">
                                 <label class="control-label">Thông tin công ty:</label>
                                 <div class="controls">
-                                    <textarea class="span8a" name="description"" style="width: 1000px; border: 1px solid #f1f3f4;"
+                                    <textarea class="span8a" name="description"
+                                              style="width: 1000px; border: 1px solid #f1f3f4;"
                                               rows="5"></textarea>
                                 </div>
                             </div>
@@ -328,7 +327,6 @@
         </div>
     </div>
 </div>
-<%--<script>window.__NUXT__ = {config: {}, staticAssetsBase: void 0}</script>--%>
 <script>
     document.getElementById("btndangky").disabled = true;
 </script>
@@ -362,11 +360,6 @@
     }
 </script>
 
-<%--<div style="position: absolute; bottom: 0px; left: 0px; width: 1px; height: 1px; overflow: hidden; visibility: hidden;">--%>
-<%--    <iframe src="https://lg1.logging.admicro.vn/_tracking1.gif?dg=ef63e0d060c0e7af0677326238e21b9a&amp;fl=-1.-1.&amp;je=0&amp;sr=1366x768&amp;sc=24&amp;hn=tuyendung.topcv.vn&amp;cat=&amp;g=0&amp;i=s%3B1670311544127%3B0%3B0%3B1%3B0%3B0%3B1366x625%3B0%3B0%3Ba5667164881ba03015b10d01720e955b%3Bef63e0d060c0e7af0677326238e21b9a%3BGA1.3.1432301844.1667062627%3B626%3B0%3B0%3B95%3B1%3B9%3B452%3B452&amp;rdm=0.9510369311466611&amp;p=%2Fapp%2Fregister&amp;r=https%3A%2F%2Ftuyendung.topcv.vn%2F%3Futm_source%3Depl-btn%26utm_medium%3Dnav-button%26utm_campaign%3Dclick-tracking&amp;ce=1&amp;lc=5&amp;cr=1645254801&amp;ui=8652548011906387287"--%>
-<%--            name="admIframeTracking" id="admIframeTracking"--%>
-<%--            style="width: 12px; height: 12px; visibility: hidden; position: absolute; left: 0px; bottom: 0px; border: none;"></iframe>--%>
-<%--</div>--%>
 
 </body>
 

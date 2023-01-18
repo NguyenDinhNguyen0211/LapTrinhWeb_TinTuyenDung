@@ -19,7 +19,6 @@
           rel='stylesheet'>
 </head>
 <body>
-<jsp:include page="Admin-header.jsp"></jsp:include>
 <div class="wrapper">
     <div class="container">
         <div class="row">

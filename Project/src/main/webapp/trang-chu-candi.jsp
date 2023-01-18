@@ -208,7 +208,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="browse-btn2 text-center mt-50">
-                        <a href="danh-sach-viec-lam-candi.jsp" class="border-btn2">Xem thêm</a>
+                        <a href="/Post" class="border-btn2">Xem thêm</a>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@
                     <div class="cv-caption text-center">
                         <span><b class="tittle"> NỔI BẬT</b></span>
                         <p class="pera2">Nộp CV để chớp lấy cơ hội việc làm mơ ước</p>
-                        <a href="ung-tuyen-candi.jsp" class="border-btn2 border-btn4">Tải CV của bạn</a>
+                        <a href="candi-ung-tuyen.jsp" class="border-btn2 border-btn4">Tải CV của bạn</a>
                     </div>
                 </div>
             </div>

@@ -33,7 +33,7 @@
                     <li><a href="dang-ky-Admin.jsp">
                         Đăng ký
                     </a></li>
-                    <li><a href="Admin-quen-mat-khau.jsp">
+                    <li><a href="quen-mat-khau-Admin.jsp">
                         Quên mật khẩu?
                     </a></li>
                 </ul>

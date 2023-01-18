@@ -72,7 +72,7 @@
                                     </p>
                                 </div>
                                 <div class="btn-action">
-                                    <a href="https://www.topcv.vn/viec-lam" target="_blank"
+                                    <a href="/Post" target="_blank"
                                        class="btn btn-primary btn-primary-hover">Tìm việc ngay</a>
                                 </div>
                             </div>
@@ -93,150 +93,150 @@
                                 chỉnh cài đặt gợi ý việc làm</a>.</p>
                         </div>
                         <div class="box-group-body">
-                            <% ArrayList<Post> list = (ArrayList<Post>) request.getAttribute("list");
-                                for (Post p : list) { %>
-                            <div class="suggestion-jobs">
-                                <div style="width: 100%" class="item-job job-ta  bg-highlight ">
-                                    <%--  logo --%>
-                                    <div class="company-logo ">
-                                        <img src="" class="w-100" alt="" title="">
-                                    </div>
-                                    <%--  thong tin job--%>
-                                    <div class="company-info">
-                                        <h4 class="title">
-                                            <a href="#" class="font-weight-bold">
-                                                <%=p.getTitle() %>
-                                            </a>
-                                        </h4>
-                                        <h5 class="company-title">
-                                            <a href=""><%=p.getAddress() %>
-                                            </a>
-                                        </h5>
-                                        <div class="box-label">
-                                            <label class=""><%=p.getSalary()%>
-                                            </label>
-                                            </label>
-                                            <label>
-                                                <%= daoPost.getCompanyName(p.getCompanyID()) %>
-                                            </label>
-                                            <%= daoPost.dateToCreate(p.getDateCreate()) %> ngày trước
-                                        </div>
-                                    </div>
-                                    <%--  action --%>
-                                    <div class="action-job">
-                                        <p>
-                                            Còn <strong> <%= daoPost.dateToCreate(p.getDeadline()) %> </strong> ngày để ứng tuyển
-                                        </p>
-                                        <div class="action">
-                                            <%-- icon save --%>
-                                            <div class="save-job">
-                                                <div class="box-save-job box-save-job-hover job-notsave "
-                                                     style="width: 23px">
-                                                    <a href="#" class="btn-save save">
-                                                                                            <span style="display: none;">
-                                                                                                <img src=""
-                                                                                                     style="width: 20px">
-                                                                                            </span>
-                                                        <i class="fa-light fa-heartbeat"></i>
-                                                    </a>
-                                                    <a href="#"
-                                                       class="btn-unsave unsave text-highlight"
-                                                       data-original-title="Bỏ lưu">
-                                                                                            <span style="display: none;">
-                                                                                             <img src=""
-                                                                                                  style="width: 20px">
-                                                                                                </span>
-                                                        <i class="fa-solid fa-heart"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <%-- icon xóa --%>
-                                            <div class="to-trash">
-                                                <button class="btn btn-trash btn-ignore-job-suggest">
-                                                    <i class="fa-light fa-trash"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<%--                            <% ArrayList<Post> list = (ArrayList<Post>) request.getAttribute("list");--%>
+<%--                                for (Post p : list) { %>--%>
+<%--                            <div class="suggestion-jobs">--%>
+<%--                                <div style="width: 100%" class="item-job job-ta  bg-highlight ">--%>
+<%--                                    &lt;%&ndash;  logo &ndash;%&gt;--%>
+<%--                                    <div class="company-logo ">--%>
+<%--                                        <img src="" class="w-100" alt="" title="">--%>
+<%--                                    </div>--%>
+<%--                                    &lt;%&ndash;  thong tin job&ndash;%&gt;--%>
+<%--                                    <div class="company-info">--%>
+<%--                                        <h4 class="title">--%>
+<%--                                            <a href="#" class="font-weight-bold">--%>
+<%--                                                <%=p.getTitle() %>--%>
+<%--                                            </a>--%>
+<%--                                        </h4>--%>
+<%--                                        <h5 class="company-title">--%>
+<%--&lt;%&ndash;                                            <a href=""><%=p.getAddress() %>&ndash;%&gt;--%>
+<%--                                            </a>--%>
+<%--                                        </h5>--%>
+<%--                                        <div class="box-label">--%>
+<%--                                            <label class=""><%=p.getSalary()%>--%>
+<%--                                            </label>--%>
+<%--                                            </label>--%>
+<%--                                            <label>--%>
+<%--&lt;%&ndash;                                                <%= daoPost.getCompanyName(p.getCompanyID()) %>&ndash;%&gt;--%>
+<%--                                            </label>--%>
+<%--&lt;%&ndash;                                            <%= daoPost.dateToCreate(p.getDateCreate()) %> ngày trước&ndash;%&gt;--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    &lt;%&ndash;  action &ndash;%&gt;--%>
+<%--                                    <div class="action-job">--%>
+<%--                                        <p>--%>
+<%--                                            Còn <strong> <%= daoPost.dateToCreate(p.getDeadline()) %> </strong> ngày để ứng tuyển--%>
+<%--                                        </p>--%>
+<%--                                        <div class="action">--%>
+<%--                                            &lt;%&ndash; icon save &ndash;%&gt;--%>
+<%--                                            <div class="save-job">--%>
+<%--                                                <div class="box-save-job box-save-job-hover job-notsave "--%>
+<%--                                                     style="width: 23px">--%>
+<%--                                                    <a href="#" class="btn-save save">--%>
+<%--                                                                                            <span style="display: none;">--%>
+<%--                                                                                                <img src=""--%>
+<%--                                                                                                     style="width: 20px">--%>
+<%--                                                                                            </span>--%>
+<%--                                                        <i class="fa-light fa-heartbeat"></i>--%>
+<%--                                                    </a>--%>
+<%--                                                    <a href="#"--%>
+<%--                                                       class="btn-unsave unsave text-highlight"--%>
+<%--                                                       data-original-title="Bỏ lưu">--%>
+<%--                                                                                            <span style="display: none;">--%>
+<%--                                                                                             <img src=""--%>
+<%--                                                                                                  style="width: 20px">--%>
+<%--                                                                                                </span>--%>
+<%--                                                        <i class="fa-solid fa-heart"></i>--%>
+<%--                                                    </a>--%>
+<%--                                                </div>--%>
+<%--                                            </div>--%>
+<%--                                            &lt;%&ndash; icon xóa &ndash;%&gt;--%>
+<%--                                            <div class="to-trash">--%>
+<%--                                                <button class="btn btn-trash btn-ignore-job-suggest">--%>
+<%--                                                    <i class="fa-light fa-trash"></i>--%>
+<%--                                                </button>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
 
 
-                            <%--                                <c:forEach var="p" items="${list}">--%>
-                            <%--                                                                <div class="suggestion-jobs">--%>
-                            <%--                                                                    <div style="width: 100%" class="item-job job-ta  bg-highlight ">--%>
-                            <%--                                                                        &lt;%&ndash;  logo &ndash;%&gt;--%>
-                            <%--                                                                        <div class="company-logo ">--%>
-                            <%--                                                                            <img src="${p.getImg()}" class="w-100" alt="" title="">--%>
-                            <%--                                                                        </div>--%>
-                            <%--                                                                        &lt;%&ndash;  thong tin job&ndash;%&gt;--%>
-                            <%--                                                                        <div class="company-info">--%>
-                            <%--                                                                            <h4 class="title">--%>
-                            <%--                                                                                <a href="#" class=""--%>
-                            <%--                                                                                   data-original-title="${p.getTitle()}">--%>
-                            <%--                                                                                    ${ p.getTitle()}--%>
-                            <%--                                                                                </a>--%>
-                            <%--                                                                            </h4>--%>
-                            <%--                                                                            <h5 class="company-title">--%>
-                            <%--                                                                                <a href="">${p.getAddress()}--%>
-                            <%--                                                                                </a>--%>
-                            <%--                                                                            </h5>--%>
-                            <%--                                                                            <div class="box-label">--%>
-                            <%--                                                                                <label class="salary">${ p.getSalary()}</label>--%>
-                            <%--                                                                                <label class="address" title="">--%>
-                            <%--                                                                                    <p style='text-align: left'>--%>
-                            <%--                                                                                        ${daoPost.getCompanyName(p.getCompanyID())}--%>
-                            <%--                                                                                    </p>--%>
-                            <%--                                                                                </label>--%>
-                            <%--                                                                                20 ngày trước--%>
-                            <%--                                                                                </label>--%>
-                            <%--                                                                            </div>--%>
-                            <%--                                                                        </div>--%>
-                            <%--                                                                        &lt;%&ndash;  action &ndash;%&gt;--%>
-                            <%--                                                                        <div class="action-job">--%>
-                            <%--                                                                            <p>--%>
-                            <%--                                                                                Còn <strong> 3 </strong> ngày để ứng tuyển--%>
-                            <%--                                                                            </p>--%>
-                            <%--                                                                            <div class="action">--%>
-                            <%--                                                                                &lt;%&ndash; icon save &ndash;%&gt;--%>
-                            <%--                                                                                <div class="save-job">--%>
-                            <%--                                                                                    <div class="box-save-job box-save-job-hover job-notsave "--%>
-                            <%--                                                                                         style="width: 23px">--%>
-                            <%--                                                                                        <a href="#" class="btn-save save">--%>
-                            <%--                                                                                            <span style="display: none;">--%>
-                            <%--                                                                                                <img src="" style="width: 20px">--%>
-                            <%--                                                                                            </span>--%>
-                            <%--                                                                                            <i class="fa-light fa-heartbeat"></i>--%>
-                            <%--                                                                                        </a>--%>
-                            <%--                                                                                        <a href="#"--%>
-                            <%--                                                                                           class="btn-unsave unsave text-highlight"--%>
-                            <%--                                                                                           data-original-title="Bỏ lưu">--%>
-                            <%--                                                                                            <span style="display: none;">--%>
-                            <%--                                                                                             <img src=""--%>
-                            <%--                                                                                                  style="width: 20px">--%>
-                            <%--                                                                                                </span>--%>
-                            <%--                                                                                            <i class="fa-solid fa-heart"></i>--%>
-                            <%--                                                                                        </a>--%>
-                            <%--                                                                                    </div>--%>
-                            <%--                                                                                </div>--%>
-                            <%--                                                                                &lt;%&ndash; icon xóa &ndash;%&gt;--%>
-                            <%--                                                                                <div class="to-trash">--%>
-                            <%--                                                                                    <button class="btn btn-trash btn-ignore-job-suggest">--%>
-                            <%--                                                                                        <i class="fa-light fa-trash"></i>--%>
-                            <%--                                                                                    </button>--%>
-                            <%--                                                                                </div>--%>
-                            <%--                                                                            </div>--%>
-                            <%--                                                                        </div>--%>
-                            <%--                                                                    </div>--%>
-                            <%--                                                                </div>--%>
-                            <%--                                </c:forEach>--%>
+<%--                            &lt;%&ndash;                                <c:forEach var="p" items="${list}">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                <div class="suggestion-jobs">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                    <div style="width: 100%" class="item-job job-ta  bg-highlight ">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        &lt;%&ndash;  logo &ndash;%&gt;&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        <div class="company-logo ">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            <img src="${p.getImg()}" class="w-100" alt="" title="">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        &lt;%&ndash;  thong tin job&ndash;%&gt;&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        <div class="company-info">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            <h4 class="title">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                <a href="#" class=""&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                   data-original-title="${p.getTitle()}">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    ${ p.getTitle()}&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                </a>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            </h4>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            <h5 class="company-title">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                <a href="">${p.getAddress()}&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                </a>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            </h5>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            <div class="box-label">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                <label class="salary">${ p.getSalary()}</label>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                <label class="address" title="">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    <p style='text-align: left'>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                        ${daoPost.getCompanyName(p.getCompanyID())}&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    </p>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                </label>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                20 ngày trước&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                </label>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        &lt;%&ndash;  action &ndash;%&gt;&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        <div class="action-job">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            <p>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                Còn <strong> 3 </strong> ngày để ứng tuyển&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            </p>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            <div class="action">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                &lt;%&ndash; icon save &ndash;%&gt;&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                <div class="save-job">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    <div class="box-save-job box-save-job-hover job-notsave "&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                         style="width: 23px">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                        <a href="#" class="btn-save save">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                            <span style="display: none;">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                                <img src="" style="width: 20px">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                            </span>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                            <i class="fa-light fa-heartbeat"></i>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                        </a>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                        <a href="#"&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                           class="btn-unsave unsave text-highlight"&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                           data-original-title="Bỏ lưu">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                            <span style="display: none;">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                             <img src=""&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                                  style="width: 20px">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                                </span>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                            <i class="fa-solid fa-heart"></i>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                        </a>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                &lt;%&ndash; icon xóa &ndash;%&gt;&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                <div class="to-trash">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    <button class="btn btn-trash btn-ignore-job-suggest">&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                        <i class="fa-light fa-trash"></i>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                    </button>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                                </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                            </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                        </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                    </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                                                </div>&ndash;%&gt;--%>
+<%--                            &lt;%&ndash;                                </c:forEach>&ndash;%&gt;--%>
 
-                            <% } %>
+<%--                            <% } %>--%>
 
 
                         </div>
                         <div class="text-center">
-                            <a href=#" target="_blank" class="btn btn-suggestion-more btn-primary-hover">
+                            <a href="/Post" target="_blank" class="btn btn-suggestion-more btn-primary-hover">
                                 Xem tất cả việc làm phù hợp
                             </a>
                         </div>

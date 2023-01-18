@@ -70,7 +70,7 @@
                     </p>
                     </div>
 
-                    <div class="div_right"><a class="in" href="quen-mat-khau-candi.jsp">Quên mật khẩu</a></div>
+                    <div class="div_right"><a class="in" href="quen-mat-khau.jsp">Quên mật khẩu</a></div>
 
                 </div>
             </form>

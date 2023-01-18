@@ -35,7 +35,7 @@
                     <li><a href="Admin-dang-nhap.jsp">
                         Đăng nhập
                     </a></li>
-                    <li><a href="Admin-quen-mat-khau.jsp">
+                    <li><a href="quen-mat-khau-Admin.jsp">
                         Quên mật khẩu?
                     </a></li>
                 </ul>

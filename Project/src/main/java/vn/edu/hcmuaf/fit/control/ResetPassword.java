@@ -21,16 +21,16 @@ public class ResetPassword extends HttpServlet {
         DAOAccount d = new DAOAccount();
         String username = request.getParameter("username");
         String email = request.getParameter("email");
-        boolean emailExist = d.checkEmail(username,email);
-        String name = d.getAccount().getName();
-        String password = d.getPassword(username,email);
-        int role = d.getAccount().getRole();
-        String subject = " Reset password ";
-        String content = "Hi " + name + ",  We provide your password again: " + password;
+        boolean emailExist = d.checkEmail(username, email);
         if (!emailExist) {
             request.setAttribute("message", "Email không tồn tại! Vui lòng nhập lại email!");
-            UtilControl.forward("forgot-password.jsp", request, response);
+            UtilControl.forward("quen-mat-khau.jsp", request, response);
         } else {
+            String name = d.getAccount().getName();
+            String password = d.getPassword(username, email);
+            int role = d.getAccount().getRole();
+            String subject = " Reset password ";
+            String content = "Hi " + name + ",  We provide your password again: " + password;
             MailService.sendMail(email, subject, content);
             UtilControl.send(role, "dang-nhap-Admmin.jsp", "dang-nhap-candi.jsp", "busi-dang-nhap.jsp", response);
         }

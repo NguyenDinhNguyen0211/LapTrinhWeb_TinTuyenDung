@@ -18,7 +18,7 @@ public class UtilControl {
     }
 
     public static void forward(String url, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("url").forward(request, response);
+        request.getRequestDispatcher(url).forward(request, response);
     }
 
     public static void forward(int role, String urlAdmin, String urlCandi, String urlBusi, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
